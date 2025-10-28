@@ -1,5 +1,5 @@
-baseurl: /music-history/
-repository: amaranth-unm/music-history
+baseurl: /class-project-template/
+repository: amaranth-unm/class-project-template
 defaults:
   - scope:
       path: ""
