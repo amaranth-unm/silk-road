@@ -1,7 +1,2 @@
+title: Class Project Template
 baseurl: /class-project-template/
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "base"
