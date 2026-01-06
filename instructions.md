@@ -1,30 +1,27 @@
 ---
-title: Project Instructions
+title: Instructions for Students
 layout: base
-date: 2025-10-21
 ---
 
 # Instructions for Students
 
 Welcome to your website! 
 
-Each group will work together to create a document in the programming language called markdown. Then one group member will paste that markdown file on top of the template for your group's song. 
+Each group will work together to create an essay page. Then one group member will add a file to class website for your group's song. 
 
-## Step 1: Understanding Markdown
 
-Markdown is the name for when you add a set of specific characters to the text in order to generate a different look-and-feel on a published web page. For example on [the markdown file for this page](https://raw.githubusercontent.com/amaranth-unm/music-history/refs/heads/main/instructions.md), the heading used just above, for 'Step 1: Understanding Markdown' has two hashtags in front of it so that on the published website it displays in a different style from the main body text. 
+## Understanding Markdown
+Your group page needs to follow a few rules so it gets turned into a web page.
 
-Using markdown is very easy because knowing only a few of these little characters gives you a lot of power over the look-and-feel of your web page. 
+For instance, 'Step 1: Understanding Markdown' has two hashtags (`##`) in front of it so that on the published website it displays in a different style from the main body text. 
 
-For a handy concise list of common markdown characters, visit the [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/).
-
-The most handy resource for you in this project will be a resource created by the Amaranth team, called [Xanthan](https://amaranth-unm.github.io/xanthan//components/typography).
+Using markdown is very easy because knowing only a few of these little characters gives you a lot of power over the appearance of your web page. How do you know what Markdown to use? Just find an example on one of the example pages and copy it!
 
 Your group will work together to create a document using markdown in order to generate a webpage about your song. Create a shared document on a cloud space, such as Google Drive or One Drive. The person in your group in charge of publishing the markdown document on this website will be able to help you check to see what the page looks like as you work.
 
-## Step 2: Managing Image Files
 
-Save all your images into a shared folder in a cloud location such as Google Drive or One Drive. 
+## Managing Image Files
+All group members should save all your images into a shared folder in a cloud location such as Google Drive or One Drive. 
 
 When you download an image for inclusion on your webpage, please change its name according to the following instructions:
 
