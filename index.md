@@ -1,32 +1,25 @@
 ---
-title: "Southwest Snack Histories"
+title: The Silk Road
 layout: base
-date: 2025-10-21
+date: 2026-01-24
 ---
 
 {% include images/jumbotron.html
-  height="50vh"
-  image-path="/assets/images/1920s-banner-3.png"
+  image-path="/assets/images/ota-gate-khiva2.jpg"
   title=""
 %}
 
-# 🌶️ Welcome to the Great Southwest Snack-Off
+# Welcome to the Silk Road Website
 
 {% include images/figure.html
   class="right"
-  width="33%"
-  caption="Field researchers testing nacho stability (for science)."
-  image-path="/assets/images/duke-ellington-nyc.jpg"
-  source-url="https://commons.wikimedia.org/wiki/File:Xanthan.svg"
+  width="40%"
+  caption="Eastern Han ingot imprints with Greek inscriptions, excavated in Shaanxi, China. 1st-2nd century CE. Source: Joe Cribb, in 'Chinese lead ingots with barbarous Greek inscriptions in Coin Hoards' p.76-78 [Source: Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eastern_Han_ingot_imprints_with_barbarous_Greek_inscriptions.jpg)"
+  alt-text="Color photograph showing some hiking trails in a canyon of the Sandia foothills."
+  image-path="/assets/images/han-coin-greek-inscription.jpg"
+  source-url="https://commons.wikimedia.org/wiki/File:Eastern_Han_ingot_imprints_with_barbarous_Greek_inscriptions.jpg"
 %}
 
-This semester’s class project asked students to **trace the hidden histories of Southwest foods**—and to use every storytelling gadget in the Xanthan toolbox. The result? Three scroll-friendly essays that double as demos for figures, pull quotes, scrolly backgrounds, and carousels.
-
-What you’ll find:
-- Nachos: the 1943 border-café improvisation that became America’s most democratic snack
-- Chiles: how a Mesoamerican plant became the badge of Southwestern identity (heat, pride, and capsaicin chemistry)
-- Tamales: communal labor, ritual calendars, and why wrapped food still feels sacred
-
-**Steal this project for your class:** swap in your own topic, keep the layouts, and let students focus on research, writing, and playful presentation. Everything below is editable; the card grid links directly into the essays.
+The name *Silk Road* evokes the idea of an ancient commercial route spanning the breadth of the known world, featuring caravans of traders bringing fine silk cloth from China to Rome. Yet the term has always been something of a misnomer—both revealing and concealing the diverse histories of exchange it represents. This class is intended as a historical journey that puts those ‘known’ histories in conversation with the ‘hidden’ ones. Building on a range of literary and material sources, we will interrogate the multiple silk roads and their afterlives. The class will take a thematic approach to cultures of exchange among people from diverse geographies, languages, and religions. Students will consider a novel approach to the history of cultural and economic exchange that links the earliest experiments in sericulture to the more contemporary Belt and Road Initiative undertaken by China. In doing so, the course reveals a fascinating history of connections and disjuncture that has shaped the Eurasian landscape and its cultures.
 
 <br style="clear: both">

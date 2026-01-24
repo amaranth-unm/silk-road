@@ -1,8 +1,20 @@
 services:
   jekyll-site:
-    image: jekyll-site
     build: .
-    volumes: [ .:/usr/src/app ]
-    ports: [ 4000:4000 ]
-    user: 1000:1000
-    command: jekyll serve -H 0.0.0.0 -w --force_polling
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    volumes:
+      - .:/srv/jekyll
+      - bundle:/usr/local/bundle
+    working_dir: /srv/jekyll
+    environment:
+      BUNDLE_PATH: /usr/local/bundle
+      BUNDLE_APP_CONFIG: /usr/local/bundle
+    command: >
+      bash -lc "bundle config set path /usr/local/bundle &&
+                bundle install &&
+                bundle exec jekyll serve --host 0.0.0.0 --force_polling --livereload"
+
+volumes:
+  bundle:

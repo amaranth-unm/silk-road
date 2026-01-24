@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const pages = JSON.parse(document.getElementById('page-data').textContent);
 
   // Initialize the map
-  var map = L.map('map').setView([39, -98], 4);
+  var map = L.map('map').setView([42, 68], 4);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 18,

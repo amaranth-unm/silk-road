@@ -4,7 +4,14 @@ layout: base
 header-title: Essays
 ---
 
-{% assign all_pages = site.pages %}
-{% assign cards = all_pages | where_exp: "p", "p.path contains 'essays/'" %}
+# Thematic Essays
 
-{% include nav/card-grid.html cards=cards %}
+{% assign filtered = "" | split: "" %}
+{% for p in site.pages %}
+  {% if p.path contains 'essays/' %}
+    {% unless p.path contains 'objects' %}
+      {% assign filtered = filtered | push: p %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+{% include nav/card-grid.html cards=filtered %}
