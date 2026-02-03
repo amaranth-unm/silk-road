@@ -1,18 +1,19 @@
 ---
-title: Template Instructions for Students
+title: Silk Road Instructions for Students
 layout: base
 ---
 
 # Getting Started with Your Class Project Site
 
-**Welcome!** This page guides you through setting up your own project folder in this class project template. Once you've created your folder and added your first page, **you can delete this file**—it's just here to help you get started.
+**Welcome!** This page guides you through setting up your own project folder in the repository you have copied as a clone of the Silk Road repository made by Amaranth. Once you've created your folder and added your first page, **you can delete this file**—it's just here to help you get started.
 
 ## What You Have
 
-Your instructor has already set up this template with:
+Amaranth has already set up this template with:
 - A **homepage** that introduces class projects (`index.md`)
 - **Sample essay folders** that show what a finished project looks like
-- An **essays folder** structure where you'll add your own project
+- An **essays folder** structure where you'll add your own thematic essay
+- An **objects folder** structure where you'll add information for your four objects
 - All the styling and design already done for you
 
 ## Quick Start: Your First Steps
@@ -28,7 +29,7 @@ The easiest way to edit your site is using GitHub's built-in code editor. **No n
 3. You're now ready to edit!
 
 
-### Step 2: Create Your Project Folder
+### Step 2: Create Your Thematic Essay Folder
 
 Your project needs its own folder. Here's how:
 
@@ -42,7 +43,7 @@ Your project needs its own folder. Here's how:
 **What your folder structure will look like:**
 ```
 essays/
-├── your_project_name/
+├── your_thematic_essay_title/
 │   ├── images/           (create this next)
 │   └── index.md          (create this next)
 ```
@@ -70,7 +71,15 @@ Now you need to create your first essay page. You can copy from one of the sampl
 6. **Paste the sample content** into your new file
 7. Save it (Ctrl+S or Cmd+S)
 
-Now you have a starting point! You can edit this file to add your own title, introduction, and content.
+### Step 5: Repeat the above steps for your four objects
+
+1. Look in the `objects/` folder—you'll see sample folders
+2. Create a new folder for each of your four objects
+3. Inside each of those four folders, create a single folder named `images`
+4. For each of your four object folders, create an `index.md` file inside
+5. Paste in sample content, just like you did for your thematic essay folder
+
+Now you have a starting point! You can edit these `index.md` files to add your own title, introduction, and content.
 
 
 ## Your First Edits
@@ -81,12 +90,27 @@ At the very top of `index.md`, you'll see something like:
 
 ```yaml
 ---
-layout: base
-title: Your Project Title
+author: student name
+title: "Your Title"
+layout: scrollstory
+header-image: images/han-coin-two-sides-mahogany.png
+thumbnail: images/han-coin-mahogany.png
+summary: The image is of the Han coin, not the monastery relic.
+geo: [31.777, 35.224]
+placename: Jerusalem
+tags:
+  - object
 ---
 ```
 
-Change the `title` to match your actual project. That's it!
+1. Change the `author` to to your name. 
+2. Change the `title` to match your actual project.
+3. Do not change the `layout`.
+4. Once you have images, you can change `header-image` and `thumbnail`.
+5. For `summary` write a short sentence that will appear in the little card for the file.
+6. For each object file, go to Google Maps and right-click on a location to get its coordinates. Then replace the numbers in `geo`.
+7. For each object file, replace the `placename`.
+8. Add at least three keywords for your `tags` by replacing the word `object` and adding to the list by typing a hyphen to the left of each new keyword.
 
 
 ### Add Your Content
@@ -98,26 +122,24 @@ Below the `---` lines, replace the sample content with your own writing, analysi
 
 1. In VS Code, right-click on your `images/` folder
 2. Select **"Upload..."** and choose image files from your computer
-3. Once uploaded, you can reference them in your `index.md` file with:
-   ```markdown
-   ![description]({{ site.baseurl }}/essays/your_project_name/images/image-name.jpg)
-   ```
+3. Once uploaded, you can reference them in your `index.md` file by copy-pasting code such as in the following example:
+
+```
+{%raw%}
+{% include images/figure.html
+  class="right"
+  width="40%"
+  caption="What a nice view"
+  alt-text="Color photograph showing some hiking trails in a canyon of the Sandia foothills."
+  image-path="/assets/images/backgrounds/hike-1.jpg"
+%}
+{%endraw%}
+```
 
 **Image naming tips:**
 - Use **lowercase only** (no capitals)
 - Use **hyphens** between words, not spaces (e.g., `band-photo.jpg` not `band photo.jpg`)
 - Make names **descriptive** (e.g., `stage-setup.jpg` instead of `photo1.jpg`)
-
-
-## Understanding the Layout
-
-When you look at a sample project, you'll see different "layout" options at the top:
-
-- **`layout: base`** — Simple, clean page with navigation and footer
-- **`layout: scrollstory`** — Fancy scrolling effects with background images (more advanced!)
-- **`layout: map`** — If your project involves a map or spatial elements
-
-Start with `layout: base` unless your instructor specifies otherwise.
 
 
 ## Editing Your Files
@@ -159,7 +181,7 @@ You don't need to know HTML! Just use simple **markdown** formatting:
 ### Ask Your Instructor
 
 If something breaks or doesn't work:
-- Let your instructor know
+- Email the helpful staff at [Amaranth](mailto:amaranth@unm.edu)
 - Tell them what you were trying to do
 - Share a screenshot if helpful
 
@@ -193,4 +215,4 @@ Once you understand how to edit your site and you're happy with your project:
 ---
 
 {: .text-center .text-muted}
-**Questions?** Ask your instructor or check the [Xanthan documentation](https://xanthan-web.github.io/xanthan/).
+**Questions?** Ask your instructor or check the [Xanthan documentation](https://xanthan-web.github.io/).

@@ -1,4 +1,5 @@
 ---
+author: student name
 title: "Camels on the Silk Road Trade Network"
 layout: scrollstory
 header-image: images/ota-gate-khiva2.jpg
