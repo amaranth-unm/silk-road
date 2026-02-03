@@ -1,12 +1,12 @@
 ---
-title: "Tamales: Ritual, Labor, and Tradition"
+title: "Spices: Ritual, Labor, and Tradition"
 layout: scrollstory
-header-image: images/figure_1.jpg
-thumbnail: images/figure_1.jpg
-summary: The history of tamales—from Aztec battlefield food to family tradition—reveals how a humble wrapped meal carries centuries of meaning.
+header-image: images/ota-gate-khiva2.jpg
+thumbnail: images/ota-gate-demo-green.png
+summary: The history of the spice trade encapsulates almost all the larger patterns of the Silk Road trade network.
 ---
 
-# Tamales: Ritual, Labor, and Tradition
+# Spices: Ritual, Labor, and Tradition
 
 If you ask people when they eat tamales, you'll likely hear the same word repeated: *traditions*. Christmas, family gatherings, early morning with coffee, celebrations—tamales are rarely eaten casually. They're woven into the calendar and the family story in a way that few other foods are.
 

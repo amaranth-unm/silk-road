@@ -122,27 +122,12 @@
   {% for page in site.pages %}
     {% if page.geo %}
       {% unless first %},{% endunless %}
-      {% assign header-image = page.header-image | default: page['header-image'] %}
-      {% assign resolved_image = '' %}
-      {% if header_image %}
-        {% if header_image contains '://' %}
-          {% assign resolved_image = header-image %}
-        {% else %}
-          {% assign first_char = header-image | slice: 0 %}
-          {% if first_char == '/' %}
-            {% assign resolved_image = site.baseurl | append: header-image %}
-          {% else %}
-            {% assign url_parts = page.url | split: '/' %}
-            {% assign dir_parts = url_parts | pop | join: '/' %}
-            {% assign resolved_image = site.baseurl | append: dir_parts | append: '/' | append: header_image | replace: '//', '/' %}
-          {% endif %}
-        {% endif %}
-      {% endif %}
       {
         "title": {{ page.title | jsonify }},
         "baseurl": {{ site.baseurl | jsonify }},
         "url": {{ page.url | jsonify }},
-        "header-image": {{ resolved_image | jsonify }},
+        "dir": {{ page.dir | jsonify }},
+        "headerimage": {{ page["header-image"] | jsonify }},
         "placename": {{ page.placename | jsonify }},
         "summary": {{ page.summary | jsonify }},
         "geo": {{ page.geo | jsonify }}
@@ -156,12 +141,14 @@
 <!-- Initialize the map -->
 <script>
 (function() {
+  // Wait for DOM and Leaflet to be ready
   if (typeof L === 'undefined') {
     console.error('Leaflet library not loaded');
     return;
   }
 
   function initMap() {
+    // Get the JSON data
     const dataElement = document.getElementById('{{ map_id }}-data');
     if (!dataElement) {
       console.error('Map data element not found');
@@ -169,6 +156,8 @@
     }
 
     const pages = JSON.parse(dataElement.textContent);
+
+    // Initialize the map
     const mapElement = document.getElementById('{{ map_id }}');
     if (!mapElement) {
       console.error('Map container element not found');
@@ -177,32 +166,47 @@
 
     const map = L.map('{{ map_id }}').setView({{ map_coords }}, {{ map_zoom }});
 
+    // Add OpenStreetMap tile layer
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 18,
       attribution: '© OpenStreetMap contributors'
     }).addTo(map);
 
+    // Add markers for each page with geo coordinates
     pages.forEach(p => {
       if (!p.geo) return;
 
       const marker = L.marker(p.geo).addTo(map);
-      const imgHtml = p['header-image'] ? `<img src="${p['header-image']}" alt="${p.title}" style="max-width: 200px; height: auto;">` : "";
+
+      // Build popup HTML
+      const baseUrl = p.baseurl || "";
+      const imagePath = p.headerimage ? `${baseUrl}${p.dir}/${p.headerimage}` : "";
+      const imgHtml = imagePath
+        ? `<img src="${imagePath}" alt="${p.title}">`
+        : "";
 
       const html = `
         <div class="popup-wrapper">
           ${imgHtml}
           <div class="popup-text">
-            <p class="popup-title"><a href="${p.baseurl}${p.url}">${p.title}</a></p>
-            <p class="popup-placename">${p.placename}</p>
-            <p class="popup-summary">${p.summary}</p>
+            <div class="popup-title"><a href="${p.baseurl}${p.url}">${p.title}</a></div>
+            <p class="popup-placename">${p.placename || ""}</p>
+            <p class="popup-summary">${p.summary || ""}</p>
           </div>
-        </div>
-      `;
+        </div>`;
 
-      marker.bindPopup(html);
+      const popup = L.popup({
+        maxWidth: 500,
+        maxHeight: 200,
+        autoPan: true,
+        autoPanPadding: [50, 50]
+      }).setContent(html);
+      
+      marker.bindPopup(popup);
     });
   }
 
+  // Initialize when DOM is ready
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initMap);
   } else {

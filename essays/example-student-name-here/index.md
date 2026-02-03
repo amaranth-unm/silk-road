@@ -1,12 +1,12 @@
 ---
-title: "Chiles: The Heat That Built the Southwest"
+title: "Camels on the Silk Road Trade Network"
 layout: scrollstory
-header-image: images/figure_1.jpg
-thumbnail: images/figure_1.jpg
-summary: How a Mesoamerican crop became the defining flavor of the American Southwest—and why one plant changed everything.
+header-image: images/ota-gate-khiva2.jpg
+thumbnail: images/ota-gate-demo-gray.png
+summary: In the modern era, camels were key to the functioning of the Silk Road Trade Network.
 ---
 
-# Chiles: The Heat That Built the Southwest
+# Camels: The Heat That Built the Southwest
 
 Before the Spanish arrived, before the United States existed, before the concept of the Southwest was even imagined, there were chiles. Not the long red ristras you see hanging on gallery walls, not the hot sauces in grocery stores, not even the dried red chile sauce that defines New Mexican cooking. But *chiles*—wild, small, incredibly pungent plants that grew in what is now Mexico and Central America.
 

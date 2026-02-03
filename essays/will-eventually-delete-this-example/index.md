@@ -1,12 +1,12 @@
 ---
-title: "Nachos: The Invented Tradition"
+title: "Multilingualism: The Invented Tradition"
 layout: scrollstory
-header-image: images/figure_1.jpg
-thumbnail: images/figure_1.jpg
-summary: From border cafe to game-day essential—the brief, contested history of America's most democratic snack.
+header-image: images/ota-gate-khiva2.jpg
+thumbnail: images/ota-gate-demo-brown.png
+summary: All along the Silk Road trade network multi-lingual contexts shaped the customs of exchange and travel.
 ---
 
-# Nachos: The Invented Tradition
+# Multi-Lingualism: The Invented Tradition
 
 Every food has a story. Most have a thousand years of evolution. Nachos? Born in 1943 at a single moment of improvisation in a small café near the Texas-Mexico border. What makes this story fascinating is not how old nachos are, but how *young* they are—and yet how deeply they've embedded themselves in American culture.
 
