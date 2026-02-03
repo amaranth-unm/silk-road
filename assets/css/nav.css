@@ -13,7 +13,7 @@ TOPNAV
   padding: 0.15rem var(--spacing-sm);  /* Compact modern height ~48-50px */
 
   /* Typography */
-  font-family: var(--font-body);
+  font-family: var(--font-heading);
   font-size: 0.9rem;
   color: var(--text-on-dark) !important;
 

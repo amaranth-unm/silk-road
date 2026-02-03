@@ -1,4 +1,5 @@
 ---
+author: student name
 title: "Spices: Ritual, Labor, and Tradition"
 layout: scrollstory
 header-image: images/ota-gate-khiva2.jpg

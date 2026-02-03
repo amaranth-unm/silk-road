@@ -1,4 +1,5 @@
 ---
+author: student name
 title: "Multilingualism: The Invented Tradition"
 layout: scrollstory
 header-image: images/ota-gate-khiva2.jpg

@@ -3,7 +3,7 @@ title: "Camels on the Silk Road Trade Network"
 layout: scrollstory
 header-image: images/ota-gate-khiva2.jpg
 thumbnail: images/ota-gate-demo-gray.png
-summary: In the modern era, camels were key to the functioning of the Silk Road Trade Network.
+summary: In the premodern era, camels were key to the functioning of the Silk Road Trade Network.
 ---
 
 # Camels: The Heat That Built the Southwest
