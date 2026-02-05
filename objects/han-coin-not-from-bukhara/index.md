@@ -1,7 +1,7 @@
 ---
 author: student name
 title: "Han Coin with Greek Inscription"
-layout: scrollstory
+layout: base
 header-image: images/han-coin-two-sides-blushwood.png
 thumbnail: images/han-coin-blushwood.png
 summary: One or two sentences about the coin but this one is not from Bukhara.
@@ -34,7 +34,7 @@ Notice the caption below the image includes a clickable source link. This is how
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium, nibh vel posuere pretium, neque ipsum maximus libero, ac maximus quam ante sit amet dolor. Integer pharetra semper sem sed sagittis. Curabitur mauris tortor, elementum non felis id, hendrerit efficitur metus.
 
-Sed efficitur leo in magna pretium, euismod malesuada risus interdum. Proin sed libero et enim pulvinar convallis non eget est. Sed ultrices dui vitae enim semper accumsan. Duis quis aliquam nulla.[^anotherrandomthing]
+Sed efficitur leo in magna pretium, euismod malesuada risus interdum. Proin sed libero et enim pulvinar convallis non eget est. Sed ultrices dui vitae enim semper accumsan.[^anotherrandomthing]
 
 [^anotherrandomthing]:Put your next footnote source information here.
 

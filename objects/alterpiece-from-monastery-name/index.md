@@ -1,7 +1,7 @@
 ---
 author: student name
 title: "Altarpiece from a Monastery"
-layout: scrollstory
+layout: base
 header-image: images/han-coin-two-sides-violet.png
 thumbnail: images/han-coin-violet.png
 summary: This image is of the Han coin, not an altarpiece from a monastery.
@@ -34,7 +34,7 @@ Notice the caption below the image includes a clickable source link. This is how
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium, nibh vel posuere pretium, neque ipsum maximus libero, ac maximus quam ante sit amet dolor. Integer pharetra semper sem sed sagittis. Curabitur mauris tortor, elementum non felis id, hendrerit efficitur metus.
 
-Sed efficitur leo in magna pretium, euismod malesuada risus interdum. Proin sed libero et enim pulvinar convallis non eget est. Sed ultrices dui vitae enim semper accumsan. Duis quis aliquam nulla.[^anotherrandomthing]
+Sed efficitur leo in magna pretium, euismod malesuada risus interdum. Proin sed libero et enim pulvinar convallis non eget est. Sed ultrices dui vitae enim semper accumsan.[^anotherrandomthing]
 
 [^anotherrandomthing]:Put your next footnote source information here.
 
