@@ -9,7 +9,7 @@ summary: In the premodern era, camels were key to the functioning of the Silk Ro
 
 # Example Thematic Essay
 
-This essay demonstrates the **simplest approach**. It uses only basic components: section headings, images with captions, pull quotes, and footnotes. No background switching, no side-scrolling—just straightforward digital storytelling that's more visually engaging than a standard web page. In the Amaranth documentation for website building, this type of essay is called a **seedling.**
+This essay demonstrates the **simplest approach**. It uses only basic components: section headings, images with captions, pull quotes, and footnotes. No background switching, no side-scrolling—just straightforward digital storytelling that's more visually engaging than a standard web page. In the Amaranth documentation for website building, this type of essay is called a **Seedling.**
 
 The text below is mostly filler to show how an essay flows, but we'll call out key features as you encounter them.
 
