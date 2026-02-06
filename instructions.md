@@ -12,8 +12,8 @@ layout: base
 Amaranth has already set up this template with:
 - A **homepage** that introduces class projects (`index.md`)
 - **Sample essay folders** that show what a finished project looks like
-- An **essays folder** structure where you'll add your own thematic essay
-- An **objects folder** structure where you'll add information for your four objects
+- An **essays folder** where you'll add your own thematic essay
+- An **objects folder** where you'll add information for your four objects
 - All the styling and design already done for you
 
 ## Quick Start: Your First Steps
@@ -24,7 +24,7 @@ The easiest way to edit your site is using GitHub's built-in code editor. **No n
 
 1. Go to your repository on GitHub
 2. Press the **`.` (period) key** on your keyboard
-   - This opens VS Code in your browser
+   - This opens the code editor in your browser
    - You'll see all your files on the left side
 3. You're now ready to edit!
 
@@ -33,12 +33,13 @@ The easiest way to edit your site is using GitHub's built-in code editor. **No n
 
 Your project needs its own folder. Here's how:
 
-1. In the VS Code sidebar, find the `essays/` folder
-2. Right-click on `essays/` and select **"New Folder"**
-3. Name your folder using **snake_case** (lowercase with underscores, no spaces)
-   - ✅ Good examples: `great_fermentation_debate`, `pigeon_conspiracy`, `hot_dog_sandwich`
-   - ❌ Bad examples: `Great Fermentation Debate` (spaces), `GreatFermentationDebate` (no underscores)
-4. Press Enter to create the folder
+1. In the sidebar of the Code Editor, click on the `essays/` folder
+2. Right-click to open the menu and select **Copy**
+3. Right-click again on the `essays/` folder and select **Paste**
+4. Rename that folder using **kebab-case** (lowercase with hypens, no spaces)
+   - ✅ Good examples: `great-fermentation-debate`, `pigeon-conspiracy`, `hot-dog-sandwich`
+   - ❌ Bad examples: `Great Fermentation Debate` (spaces), `GreatFermentationDebate` (not uncapitalized, no hyphens)
+
 
 **What your folder structure will look like:**
 ```
@@ -53,7 +54,7 @@ essays/
 
 Inside your new project folder, you need a folder for images:
 
-1. Right-click on your new folder (e.g., `your_project_name/`)
+1. Right-click on your new folder (e.g., `your-project-name/`)
 2. Select **"New Folder"**
 3. Name it `images`
 4. Press Enter
@@ -74,7 +75,7 @@ Now you need to create your first essay page. You can copy from one of the sampl
 ### Step 5: Repeat the above steps for your four objects
 
 1. Look in the `objects/` folder—you'll see sample folders
-2. Create a new folder for each of your four objects
+2. Create a new folder for each of your four objects (remember the naming conventions)
 3. Inside each of those four folders, create a single folder named `images`
 4. For each of your four object folders, create an `index.md` file inside
 5. Paste in sample content, just like you did for your thematic essay folder
@@ -120,7 +121,7 @@ Below the `---` lines, replace the sample content with your own writing, analysi
 
 ### Add Your Images
 
-1. In VS Code, right-click on your `images/` folder
+1. In the code editor, right-click on your `images/` folder
 2. Select **"Upload..."** and choose image files from your computer
 3. Once uploaded, you can reference them in your `index.md` file by copy-pasting code such as in the following example:
 
@@ -146,7 +147,7 @@ Below the `---` lines, replace the sample content with your own writing, analysi
 
 ### How to Make Changes
 
-1. Open VS Code in your browser (press `.` key)
+1. Open the code editor in your browser (press `.` key)
 2. Click the file you want to edit in the left sidebar
 3. Type to make changes
 4. Press **Ctrl+S** (or **Cmd+S** on Mac) to save
@@ -207,7 +208,7 @@ For more advanced features:
 Once you understand how to edit your site and you're happy with your project:
 
 1. **Delete this file** (`instructions.md`)
-   - Right-click it in VS Code and select "Delete"
+   - Right-click it in the code editor and select "Delete"
 2. **Remove it from navigation** (if your instructor set that up)
 3. Keep your project folder and start adding your real content!
 

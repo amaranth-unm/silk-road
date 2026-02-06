@@ -1,7 +1,7 @@
 ---
 author: student name
 title: "Multilingualism: The Invented Tradition"
-layout: scrollstory
+layout: base
 header-image: images/ota-gate-khiva2.jpg
 thumbnail: images/ota-gate-demo-brown.png
 summary: All along the Silk Road trade network multi-lingual contexts shaped the customs of exchange and travel.
