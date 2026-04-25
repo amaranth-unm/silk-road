@@ -1,14 +1,14 @@
 ---
-author: student name
-title: "Altarpiece from a Monastery"
+author: Dominik Gutierrez
+title: "Crossbow of Ulrich V of Württemberg (1460)"
 layout: base
-header-image: images/han-coin-two-sides-violet.png
-thumbnail: images/han-coin-violet.png
-summary: This image is of the Han coin, not an altarpiece from a monastery.
-geo: [47.199, 102.834]
-placename: Karakorum
+header-image: silk-road-weapons-technology/images/crossbow-1.jpg
+thumbnail: silk-road-weapons-technology/images/crossbow-1.jpg
+summary: This image is of a crossbow crafter for a German nobleman
+geo: [48.783333, 9.183333]
+placename: Stuggart
 tags:
-  - object
+  - object -crossbow -weapon -bow -Germany -projectile
 ---
 
 # The Altarpiece from a Monastery

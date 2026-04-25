@@ -1,14 +1,14 @@
 ---
-author: student name
-title: "Altarpiece from a Monastery"
+author: Dominik Gutierrez
+title: "Taklamakan duan jian"
 layout: base
-header-image: images/han-coin-two-sides-violet.png
-thumbnail: images/han-coin-violet.png
-summary: This image is of the Han coin, not an altarpiece from a monastery.
-geo: [47.199, 102.834]
-placename: Karakorum
+header-image: silk-road-weapons-technology/images/duan-jian-1.jpg
+thumbnail: silk-road-weapons-technology/images/duan-jian-2.jpg
+summary: These images depict a tuquoise-inlaid steel sword with bronze decoration excavated in the Taklamakan desert.
+geo: [37.277294, 79.728813]
+placename: Khotan
 tags:
-  - object
+  - object -sword -duan jian -turquoise -bronzr -steel -metal -weapon -hilt -blade
 ---
 
 # The Altarpiece from a Monastery

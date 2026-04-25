@@ -1,14 +1,14 @@
 ---
-author: student name
-title: "Altarpiece from a Monastery"
+author: Dominik Gutierrez
+title: "Vajra-Hilted Ken"
 layout: base
-header-image: images/han-coin-two-sides-violet.png
-thumbnail: images/han-coin-violet.png
-summary: This image is of the Han coin, not an altarpiece from a monastery.
-geo: [47.199, 102.834]
-placename: Karakorum
+header-image: silk-road-weapons-technology/images/vajra-ken-1.jpg
+thumbnail: silk-road-weapons-technology/images/vajra-ken-1.jpg
+summary: This image is An 11th century Ken blade, mounted upon a 14th century vajra-hilt.
+geo: [33.7432, 133.6375]
+placename: Shikoku
 tags:
-  - object
+  - object -Buddhism -sword -dagger -ritual -ken -vedic -blade -shingon -hilt
 ---
 
 # The Altarpiece from a Monastery
@@ -22,8 +22,7 @@ The text below is mostly filler to show how an essay flows, but we'll call out k
 {% include images/figure.html
 class="right"
 width="48%"
-caption="This is a right-aligned image that takes up roughly half the page width. Notice how text wraps around it naturally. [Source](https://en.wikipedia.org/wiki/File:Eastern_Han_ingot_imprints_with_barbarous_Greek_inscriptions.jpg)"
-image-path="images/han-coin-violet.png"
+caption="This is a right-aligned image that takes up roughly half the page width. Notice how text wraps around it naturally. [Source](https://en.wikipedia.org/wiki/File:Eastern_Han_ingot_imprints_with_barbarous_Greek_inscriptions.jpg)" silk-road-weapons-technology/images/vajra-ken-2.jpg"
 %}
 
 This paragraph sits next to a **right-aligned image**. The ScrollStory layout gives images breathing room—you'll never see cramped text squished against a photo. The spacing and typography are designed to feel more like a magazine than a typical web page.

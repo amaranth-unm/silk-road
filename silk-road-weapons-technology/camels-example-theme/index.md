@@ -2,8 +2,8 @@
 author: Dominik Gutierrez
 title: "Weapons technology on the Silk Road"
 layout: base
-header-image: images/crossbow-1.jpg
-thumbnail: images/ota-gate-demo-gray.png
+header-image: silk-road-weapons-technology/images/crossbow-1.jpg
+thumbnail: silk-road-weapons-technology/images/crossbow-1.jpg
 summary: Through conflict and collaboration, weapons technology integrates in many forms across Eurasia through millennia.
 ---
 

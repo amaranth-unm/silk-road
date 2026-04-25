@@ -1,14 +1,14 @@
 ---
-author: student name
-title: "Altarpiece from a Monastery"
+author: Dominik Gutierrez
+title: "Danzig Handgun"
 layout: base
-header-image: images/han-coin-two-sides-violet.png
-thumbnail: images/han-coin-violet.png
-summary: This image is of the Han coin, not an altarpiece from a monastery.
-geo: [47.199, 102.834]
-placename: Karakorum
+header-image: silk-road-weapons-technology/images/danzig-handgun-1.jpg
+thumbnail: silk-road-weapons-technology/images/danzig-handgun-1.jpg
+summary: This is a photograph of the Danzig Handgun
+geo: [54.372158, 18.638306]
+placename: Danzig
 tags:
-  - object
+  - object -weapon -art -firearm -gun -gunpowder -gothic -poland -projectile
 ---
 
 # The Altarpiece from a Monastery
