@@ -2,8 +2,8 @@
 author: Jackson Andress
 title: "Eastern Inspirations for Murano Glass"
 layout: base
-header-image: venice-glass-jug3.jpg
-thumbnail: venice-glass-jug.jpg
+header-image: images/venice-glass-jug3.jpg
+thumbnail: images/venice-glass-jug.jpg
 summary: The world-renowned glassmakers of Venice drew inspiration from Mamluk Syria and Egypt
 geo: [44.44, 12.316]
 placename: Venice
@@ -21,7 +21,7 @@ There is no commodity more associated with Venice than glass. The glass produced
 class="right"
 width="48%"
 caption="Unknown. Glass jug. c. 1475-1525. Blown glass with enamelled and gilt decoration, 19 cm. x 18.5 cm. Victoria and Albert Museum, London."
-image-path="venice-glass-jug.jpg"
+image-path="images/venice-glass-jug.jpg"
 %}
 
 This glass jug made in Murano is quite large at 19 cm. tall and 18.5 cm. wide. It was produced sometime between 1475-1525 and is today kept in the Victoria & Albert Museum. The jug features enamel artwork of a lion rampant on a grass field within a roundel outlined in red and white as well as some gilding that depicts the sun and its rays. The top and bottom of the jug are decorated with blue, red, and white dots and the jug also features an ornate handle for pouring. The jug appears to be very sturdy and stable due to its flared base and conically indented bottom, allowing it sit flat atop a table without much risk of tipping over.
