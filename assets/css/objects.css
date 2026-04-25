@@ -1,0 +1,18 @@
+/* Page-specific width and grid overrides for objects.md */
+.objects-grid-bleed {
+  width: 90vw;
+  margin-left: calc(50% - 45vw);
+  margin-right: calc(50% - 45vw);
+}
+
+.objects-grid-bleed .card-grid {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+@media (max-width: 768px) {
+  .objects-grid-bleed {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
