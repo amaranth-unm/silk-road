@@ -5,7 +5,7 @@ layout: base
 header-image: images/image.png
 thumbnail:  images/image.png
 summary: These colossal Buddhas are very cultural impactful
-geo: [29 N, 61 E]
+geo: [34.419, 66.710]
 placename: Afghanistan
 tags:
   - object

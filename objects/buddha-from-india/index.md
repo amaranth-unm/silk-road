@@ -5,7 +5,7 @@ layout: base
 header-image: images/buddha-from-india-2.jpg
 thumbnail:  images/buddha-india.jpg
 summary: This liestone dome slab took years to be completed as it was a product of many donars. 
-geo: [56'14 N, 46'46.3764 E]
+geo: [20.914, 77.735]
 placename: Amaravati, India
 tags:
   - object

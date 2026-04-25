@@ -5,7 +5,7 @@ layout: base
 header-image: images/9.jpg
 thumbnail:  images/9.jpg
 summary: This object is a gilded bronze statue of Śākyamuni and Prabhutāratna.
-geo: [34 N, 73 E]
+geo: [38.429, 111.714]
 placename: China
 tags:
   - object

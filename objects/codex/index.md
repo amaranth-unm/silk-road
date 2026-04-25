@@ -5,8 +5,8 @@ layout: base
 header-image: images/manicodex.jpg
 thumbnail: images/manicodex.jpg
 summary: One of the smallest medieval codices.
-geo: [47.199, 102.834]
-placename: Karakorum
+geo: [30.054, 31.231]
+placename: Cairo
 tags:
   - object
 ---

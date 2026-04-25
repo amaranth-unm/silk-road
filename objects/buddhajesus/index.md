@@ -5,8 +5,8 @@ layout: base
 header-image: images/buddhajesus.jpg
 thumbnail: images/buddhajesus.jpg
 summary: A silk painting of a familiar prophet.
-geo: [47.199, 102.834]
-placename: Karakorum
+geo: [34.250, 108.853]
+placename: 
 tags:
   - object
 ---
