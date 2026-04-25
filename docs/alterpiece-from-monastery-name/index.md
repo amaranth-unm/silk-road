@@ -5,8 +5,6 @@ layout: base
 header-image: images/han-coin-two-sides-violet.png
 thumbnail: images/han-coin-violet.png
 summary: This image is of the Han coin, not an altarpiece from a monastery.
-geo: [47.199, 102.834]
-placename: Karakorum
 tags:
   - object
 ---
