@@ -11,64 +11,27 @@ tags:
   - object -weapon -art -firearm -gun -gunpowder -gothic -poland -projectile
 ---
 
-# The Altarpiece from a Monastery
+# Technology propelled by war
 
-This essay demonstrates the **simplest approach**. It uses only basic components: section headings, images with captions, pull quotes, and footnotes. No background switching, no side-scrolling—just straightforward digital storytelling that's more visually engaging than a standard web page.
-
-The text below is mostly filler to show how an essay flows, but we'll call out key features as you encounter them.
+This early example of a European firearm is colloquially named ‘The Danzig Hangdug’ due to being uncovered on the Oder river near Danzig in the 1920s. Notable for its decoration along the barrel opening and breech, this pistol is not only quite intact for a firearm of this age, but also beautifully constructed. Dated by comparison with a similar firearm, it is estimated to be constructed from 1350 to 1430 AD. Gunpowder technology is largely thought to have originated in China around the 9th century AD, being used by dynastic powers during the Middle Ages and being transferred west along the Silk Road through the Middle East. The primary vectors of movement for this new form of weaponry may be the westward growth of the Mongol Empire in the 13th century and the European crusades in the Middle East beginning in the 11th century. These zones of conflict were fertile ground for opposing powers to acquire weapons technology from one another, and in the case of the firearm, would go on to be further refined in Europe. 
 
 
-## Your First Section Heading
-{% include images/figure.html
-class="right"
-width="48%"
-caption="This is a right-aligned image that takes up roughly half the page width. Notice how text wraps around it naturally. [Source](https://en.wikipedia.org/wiki/File:Eastern_Han_ingot_imprints_with_barbarous_Greek_inscriptions.jpg)"
-image-path="images/han-coin-violet.png"
-%}
+## Material construction
 
-This paragraph sits next to a **right-aligned image**. The ScrollStory layout gives images breathing room—you'll never see cramped text squished against a photo. The spacing and typography are designed to feel more like a magazine than a typical web page.
-
-Notice the caption below the image includes a clickable source link. This is how you maintain scholarly rigor while keeping the visual design clean.[^randomthing]
-
-[^randomthing]:Put your source information here.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium, nibh vel posuere pretium, neque ipsum maximus libero, ac maximus quam ante sit amet dolor. Integer pharetra semper sem sed sagittis. Curabitur mauris tortor, elementum non felis id, hendrerit efficitur metus.
-
-Sed efficitur leo in magna pretium, euismod malesuada risus interdum. Proin sed libero et enim pulvinar convallis non eget est. Sed ultrices dui vitae enim semper accumsan.[^anotherrandomthing]
+In a complete state, this handgun would be constructed of two pieces. One would be this extant metallic barrel, and the other would be a wooden haft upon which the barrel would be nailed through three nail holes at the barrel’s flared base. The barrel itself is a bronze alloy primarily made of copper, along with traces of zinc and lead. Measuring 7.3 inches in length, it also retains a caliber bore of 12mm and a hexagonal profile. At the end of the barrel are three identical bearded male heads facing outward. Though the exact stylistic influence on this gun is debated, similar instances of anthropomorphic gun art of this time are known, such as the Morko gun. The single ignition breech along the lower side of the gun similarly takes the form of a clean-shaven man with an open mouth. [^anotherrandomthing]
 
 [^anotherrandomthing]:Put your next footnote source information here.
 
 
-## Section Headings Create Visual Breaks
-Each section heading (marked with `##` in Markdown) creates a clear visual break in your essay. This helps readers navigate long-form content and gives you natural places to shift topics or introduce new ideas.
+## Technohistorical significance
 
-**Why this matters:** Breaking essays into clear sections makes writing more manageable. Write one section at a time, preview it, then move to the next. No need to tackle the entire essay at once.
-
-Praesent sed vehicula velit, vel hendrerit neque. Vivamus scelerisque sed nunc nec congue. Curabitur sapien risus, finibus id tincidunt iaculis, porta et ipsum. Cras eu mollis sapien. Sed a mauris finibus orci molestie mollis.
-
-
-## Pull Quotes Add Emphasis
-Pellentesque viverra hendrerit sapien eu consequat. Curabitur leo ante, vestibulum a tincidunt eget, placerat eu nunc. Donec ut sem mi. Vivamus commodo nec sem eget pretium. Nulla ullamcorper volutpat venenatis.
-
-{% include typography/aside.html class="right" text="
-This is a pull quote—a design element that highlights important text or quotations. It appears as a semi-transparent box to the right of your main text. Use these sparingly for maximum impact." %}
-
-The pull quote you just saw is created with a simple `include` command in Markdown. It's one of many reusable components in Xanthan. You can put important quotes, key statistics, or memorable phrases in these boxes to create visual interest and emphasize crucial points.
-
-Duis eros odio, fringilla et pulvinar vitae, eleifend quis elit. Sed eleifend lectus in bibendum elementum. Vivamus ut velit dignissim, cursus libero nec, commodo orci. Morbi lacus metus, posuere ut pretium ac, malesuada id ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat, lacus id blandit ornare, mi nisi rutrum ante, vitae dignissim mauris nisl mattis nisl.
-
-## Images Can Be Different Widths
-{% include images/figure.html class="right" width="60%" caption="This image is set to 60% width instead of 48%, giving it more prominence. You can adjust image widths to suit your content. [Source](https://en.wikipedia.org/wiki/File:Eastern_Han_ingot_imprints_with_barbarous_Greek_inscriptions.jpg)" image-path="images/han-coin-two-sides-violet.png" %}
-
-The image to the right is **wider than the previous one** (60% instead of 48%). You control this with the `width` parameter in the image code. Want a small image? Use 30%. Want something that dominates? Try 70%.
-
-Images can also be left-aligned (use `class="left"`) or centered full-width (we'll show that in more advanced essays). For Seedling level, right-aligned images at 48-60% width work well for most purposes.
-
-Duis vehicula erat et diam pharetra iaculis. Etiam rutrum scelerisque nunc, ut interdum justo pellentesque sit amet. Vivamus cursus massa mauris, a finibus felis laoreet quis. Integer vel molestie neque.
+The artistic flourishes present on this firearm are reminiscent of wider architectural trends within Central and Western Europe of this time and thus have been labeled as ‘Gothic’. Historically, it was thought gunpowder technology likely originated somewhere in Europe and the Near East, with it not being present in China until its introduction by Europeans. This notion has since been dispelled, and though accounts of non-metallic gunpowder weapons earlier than this dated object exist, no archaeological remains have been preserved or yet to be discovered. The history of this technology may have been obfuscated by time and colonialism, but with renewed context, it booms as an example of technological movement westward along the Silk Road, further propelled by its evident usefulness to imperial powers across Eurasia in technologically-advancing warfare. Firearm technology significantly reduced the amount of training or proficiency needed by a soldier to effectively wield a weapon, and notably one that could incapacitate better-trained and equipped opponents. 
 
 ---
 
 ## Bibliography
 
-- Lastname, Firstname. “Title of the Article.” *Title of the Journal* 9, no. 9 (1999): 999–999.
-- Lastname, Firstname. *Title of the Book*. Publisher Press, 1999.
+- Ferguson, J. “The Danzig Gun: A Rare Decorated Bronze Handgun of the 15th Century.” Arms & Armour 12. No. 2 (2015) 97-102.
+- Haw, S. G. “The Mongol Empire – the First ‘Gunpowder Empire’?” Journal of the Royal Asiatic Society 23, no. 3 (2013): 441–69. https://doi.org/10.1017/S1356186313000369.
+- Oğuz A.Y. “An Enquiry into Gunpowder Weapons Used by Hülegü in the Middle East Campaign,” Golden Horde Review 4.vol.11 (2023) 728–741. https://doi.org/10.22378/2313-6197.2023-11-4.728-741 
+- Schlegel, G. “On the Invention and Use of Fire-Arms and Gunpowder in China, Prior to the Arrival of Europeans.” T’oung Pao 3, no. 1 (1902): 1–11. http://www.jstor.org/stable/4525582. 

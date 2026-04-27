@@ -1,20 +1,19 @@
 ---
 author: Dominik Gutierrez
-title: "Weapons technology on the Silk Road"
+title: "Silk Road Weapons Technology"
 layout: base
 header-image: silk-road-weapons-technology/images/crossbow-1.jpg
-thumbnail: silk-road-weapons-technology/images/crossbow-1.jpg
+thumbnail: silk-road-weapons-technology/images/danzig-handgun-1.jpg
 summary: Through conflict and collaboration, weapons technology integrates in many forms across Eurasia through millennia.
 ---
 
-# Example Thematic Essay
+# Silk Road Weapons Technology
 
-This essay demonstrates the **simplest approach**. It uses only basic components: section headings, images with captions, pull quotes, and footnotes. No background switching, no side-scrolling—just straightforward digital storytelling that's more visually engaging than a standard web page. In the Amaranth documentation for website building, this type of essay is called a **Seedling.**
+The Silk Road was an invaluably influential means of transporting both physical goods and technological information with its associated platforms. Not stopping at paper or stirrups, this extended to weapons and their means of production. This aspect of the route’s rich history extended from the early advent of the sword on the steppe, cutting its way toward Ancient China, where they would be combined with advanced metallurgy to be elevated as status symbols. Additionally, gunpowder’s path westward accompanied the Mongol conquests and the Christian crusades during the High Middle Ages. Free trade would certainly be a vector for these movements, the role of imperialism and warfare must be recognized when discussing the spead of arms and advancing weapons technology throughout Eurasia. 
+**Seedling.**
 
-The text below is mostly filler to show how an essay flows, but we'll call out key features as you encounter them.
 
-
-## Your First Section Heading
+## Weapons and their matieral cost in state-level civilizations on the Silk Road
 {% include images/figure.html
 class="right"
 width="48%"
@@ -35,16 +34,12 @@ Sed efficitur leo in magna pretium, euismod malesuada risus interdum. Proin sed 
 [^anotherrandomthing]:Put your next footnote source information here.
 
 
-## Section Headings Create Visual Breaks
+## Empire and the tools of conquest
 Each section heading (marked with `##` in Markdown) creates a clear visual break in your essay. This helps readers navigate long-form content and gives you natural places to shift topics or introduce new ideas.
 
 **Why this matters:** Breaking essays into clear sections makes writing more manageable. Write one section at a time, preview it, then move to the next. No need to tackle the entire essay at once.
 
 Praesent sed vehicula velit, vel hendrerit neque. Vivamus scelerisque sed nunc nec congue. Curabitur sapien risus, finibus id tincidunt iaculis, porta et ipsum. Cras eu mollis sapien. Sed a mauris finibus orci molestie mollis.
-
-
-## Pull Quotes Add Emphasis
-Pellentesque viverra hendrerit sapien eu consequat. Curabitur leo ante, vestibulum a tincidunt eget, placerat eu nunc. Donec ut sem mi. Vivamus commodo nec sem eget pretium. Nulla ullamcorper volutpat venenatis.
 
 {% include typography/aside.html class="right" text="
 This is a pull quote—a design element that highlights important text or quotations. It appears as a semi-transparent box to the right of your main text. Use these sparingly for maximum impact." %}
@@ -53,7 +48,7 @@ The pull quote you just saw is created with a simple `include` command in Markdo
 
 Duis eros odio, fringilla et pulvinar vitae, eleifend quis elit. Sed eleifend lectus in bibendum elementum. Vivamus ut velit dignissim, cursus libero nec, commodo orci. Morbi lacus metus, posuere ut pretium ac, malesuada id ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat, lacus id blandit ornare, mi nisi rutrum ante, vitae dignissim mauris nisl mattis nisl.
 
-## Images Can Be Different Widths
+## Ritual and Liberty
 {% include images/figure.html class="right" width="60%" caption="This image is set to 60% width instead of 48%, giving it more prominence. You can adjust image widths to suit your content.  [Source](https://commons.wikimedia.org/wiki/File:Khiva_town_of_The_Silk_Road_(%D0%9A%D0%B0%D1%80%D0%B0%D0%B2%D0%B0%D0%BD,_%D0%98%D1%87%D0%B0%D0%BD_%D0%9A%D0%B0%D0%BB%D0%B0,_%D0%A5%D0%B8%D0%B2%D0%B0).jpg)"
 image-path="images/ota-gate-khiva.jpg" %}
 
@@ -64,7 +59,7 @@ Images can also be left-aligned (use `class="left"`) or centered full-width (we'
 Duis vehicula erat et diam pharetra iaculis. Etiam rutrum scelerisque nunc, ut interdum justo pellentesque sit amet. Vivamus cursus massa mauris, a finibus felis laoreet quis. Integer vel molestie neque.
 
 
-## The Rhythm of an Essay on a Webpage
+## Conclusion: The flow of war 
 By now you've scrolled through several sections and noticed the **rhythm** of a ScrollStory: heading, text, image, text, pull quote, text. This creates a visual cadence that keeps readers engaged without overwhelming them.
 
 **For your own essay:** Think about pacing. Where do readers need a visual break? Where should an image reinforce your argument? When does a pull quote emphasize a key point? These decisions make the difference between a wall of text and an engaging narrative.
@@ -73,13 +68,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium, nibh v
 
 Nunc congue ultrices lacus, a efficitur massa pulvinar at. Sed luctus orci sed sem commodo, in rhoncus orci sagittis. Duis in sagittis arcu. Donec dictum aliquam congue. Nulla varius ipsum vitae nibh dapibus, et tincidunt turpis gravida.
 
-
-## Block Quotes for Extended Quotations
-Sed efficitur leo in magna pretium, euismod malesuada risus interdum. Proin sed libero et enim pulvinar convallis non eget est. Sed ultrices dui vitae enim semper accumsan. Duis quis aliquam nulla. Aenean scelerisque lacus vel pretium viverra.
-
-> This is a block quote, created by putting a `>` symbol before your text. Use these for extended quotations from primary sources, scholarly works, or historical documents. They're visually distinct from pull quotes—block quotes span the full text width, while pull quotes float to the side.
-
-Block quotes work well when you want to quote an entire paragraph or passage, while pull quotes are better for short, punchy excerpts you want to highlight visually.
 
 
 ## What You've Learned So Far
@@ -99,5 +87,34 @@ Duis eros odio, fringilla et pulvinar vitae, eleifend quis elit. Sed eleifend le
 
 ## Bibliography
 
-- Lastname, Firstname. “Title of the Article.” *Title of the Journal* 9, no. 9 (1999): 999–999.
-- Lastname, Firstname. *Title of the Book*. Publisher Press, 1999.
+- Badamo, Heather. "Mobile Meanings: A Global Approach to a Dagger from Greater Syria." The Medieval Globe 3, no. 2 (2017): 149-176. https://muse.jhu.edu/article/758479. 
+
+- Breiding, Dirk H. "The Crossbow of Count Ulrich V of Württemberg." Metropolitan Museum Journal 44. (2009): 61-87 https://resources.metmuseum.org/resources/metpublications/pdf/the_crossbow_of_count_ulrich_v_of_wurttemberg_the_metropolitan_museum_journal_v_44_2009.pdf 
+
+- Breiding, Dirk H., and New York, N.Y.), publisher. Metropolitan Museum of Art. A Deadly Art : European Crossbows, 1250-1850 / Dirk H. Breiding. The Metropolitan Museum of Art, 2013. 
+
+- Dong, J., Shi, K., Zhang, Y., Tenigeer, and Yao, Y. “Mechanism analysis of ancient Chinese crossbows,” Mechanical Sciences 11. (2020): 437–445. https://doi.org/10.5194/ms-11-437-2020 
+
+- Faroqhi, S. “Making Things to Serve Sultans, Viziers and Army Commanders (1450-1800),” The Medieval History Journal 21. No.1 (2018):69-99.  https://doi.org/10.1177/0971945817750509 
+
+- Ferguson, J. “The Danzig Gun: A Rare Decorated Bronze Handgun of the 15th Century.” Arms & Armour 12. No. 2 (2015) 97-102.
+
+- Haw, S. G. “The Mongol Empire – the First ‘Gunpowder Empire’?” Journal of the Royal Asiatic Society 23, no. 3 (2013): 441–69. https://doi.org/10.1017/S1356186313000369.
+
+- Kindersley, D. Weapon. A visual history of arms & armour. Dorling Kindersley Ltd, 2006. 74-5. https://archive.org/details/weapon-a-visual-history-of-arms-and-armor_202404 
+
+- La Rocca, Donald J. The Gods of War: Sacred Imagery and the Decoration of Arms and Armor. The Metropolitan Museum of Art, 1996. pp. 43
+
+- Li, Bingjie, Xudong Jiang, Yin Tu, Jianguo Lv, Qiang Fu, Bei Wei, Tao Hu, and Chunxu Pan. “Study on Manufacturing Process of Ancient Chinese Bi-Metallic Bronze Ge.” Archaeological and Anthropological Sciences 12, no. 2 (2020). https://doi.org/10.1007/s12520-020-01021-5.
+
+- Lin, Jian-Liang. Li-Chun Lin. and Kuo-Hung Hsiao. 2023. "Ancient Chinese Repeating Crossbow: Basic Research to Science Education in Museums," Engineering Proceedings 55, no. 1: 48. https://doi.org/10.3390/engproc2023055048 
+
+- Meredith, Georgette. “The ‘Phurbu’: The Use and Symbolism of the Tibetan Magic Dagger.” History of Religions 6, no. 3 (1967): 236–53. 
+
+- Oğuz A.Y. “An Enquiry into Gunpowder Weapons Used by Hülegü in the Middle East Campaign,” Golden Horde Review 4.vol.11 (2023) 728–741. https://doi.org/10.22378/2313-6197.2023-11-4.728-741 
+
+- Pyhrr, Stuart W., Donald J. La Rocca, and Morihiro Ogawa. Arms and Armor: Notable Acquisitions, 1991–2002. The Metropolitan Museum of Art, 2002. 43–44. https://books.google.com/books?id=tu3rasl0_fMC&lpg=PP1&pg=PA40#v=onepage&q&f=false 
+
+- Schlegel, G. “On the Invention and Use of Fire-Arms and Gunpowder in China, Prior to the Arrival of Europeans.” T’oung Pao 3, no. 1 (1902): 1–11. http://www.jstor.org/stable/4525582. 
+
+

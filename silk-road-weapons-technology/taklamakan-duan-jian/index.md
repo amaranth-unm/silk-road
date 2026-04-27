@@ -11,64 +11,39 @@ tags:
   - object -sword -duan jian -turquoise -bronzr -steel -metal -weapon -hilt -blade
 ---
 
-# The Altarpiece from a Monastery
+# A sword of the steppes
 
-This essay demonstrates the **simplest approach**. It uses only basic components: section headings, images with captions, pull quotes, and footnotes. No background switching, no side-scrolling—just straightforward digital storytelling that's more visually engaging than a standard web page.
-
-The text below is mostly filler to show how an essay flows, but we'll call out key features as you encounter them.
+This sword was excavated in the Taklamakan Desert of Central Asia; however, its style matches those of the same period produced in Southwest China. Dated between the 4th and 1st centuries BC, it highlights the beginnings of advanced weapon metalworking in Central and Eastern Asia. Its excavated location, relative to where it was likely manufactured, indicates the cultural movement of Chinese warfare styles in addition to the physical movement of weapons trade across China and Central Asia via the Gansu corridor. Duan Jian is a Chinese-style sword, meaning ‘double-edged’. This clearly marks the object as having traveled from the east, as opposed to some styles of sword further west at this time. In addition to the sword’s style, the materials and manufacturing processes used in its creation are notable. 
 
 
-## Your First Section Heading
-{% include images/figure.html
+
+## Material construction
+{% include silk-road-weapons-technology/images/duan-jian-2.jpg
 class="right"
 width="48%"
 caption="This is a right-aligned image that takes up roughly half the page width. Notice how text wraps around it naturally. [Source](https://en.wikipedia.org/wiki/File:Eastern_Han_ingot_imprints_with_barbarous_Greek_inscriptions.jpg)"
 image-path="images/han-coin-violet.png"
 %}
 
-This paragraph sits next to a **right-aligned image**. The ScrollStory layout gives images breathing room—you'll never see cramped text squished against a photo. The spacing and typography are designed to feel more like a magazine than a typical web page.
+The slender blade of this sword is composed of an unspecified steel alloy, inlaid with gold foil along the bottom portion in decorative sockets. The hilt is composed of bronze, with decorative features. The total length of this sword is measured at 26.75 inches. The multiple metals used in this weapon, and the advanced techniques used to construct it, are indicative of an advanced metallurgy industry that was present in China at this time.  However, the precious nature of the metals used, specifically the gold, further indicates the material wealth of the society from which this object originates, that is, outside of its archaeological context. 
+[^randomthing]
 
-Notice the caption below the image includes a clickable source link. This is how you maintain scholarly rigor while keeping the visual design clean.[^randomthing]
-
-[^randomthing]:Put your source information here.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium, nibh vel posuere pretium, neque ipsum maximus libero, ac maximus quam ante sit amet dolor. Integer pharetra semper sem sed sagittis. Curabitur mauris tortor, elementum non felis id, hendrerit efficitur metus.
-
-Sed efficitur leo in magna pretium, euismod malesuada risus interdum. Proin sed libero et enim pulvinar convallis non eget est. Sed ultrices dui vitae enim semper accumsan.[^anotherrandomthing]
-
-[^anotherrandomthing]:Put your next footnote source information here.
+[^randomthing]:Pyhrr, Stuart W., Donald J. La Rocca, and Morihiro Ogawa. Arms and Armor: Notable Acquisitions, 1991–2002. The Metropolitan Museum of Art, 2002. 43–44. https://books.google.com/books?id=tu3rasl0_fMC&lpg=PP1&pg=PA40#v=onepage&q&f=false 
 
 
-## Section Headings Create Visual Breaks
-Each section heading (marked with `##` in Markdown) creates a clear visual break in your essay. This helps readers navigate long-form content and gives you natural places to shift topics or introduce new ideas.
-
-**Why this matters:** Breaking essays into clear sections makes writing more manageable. Write one section at a time, preview it, then move to the next. No need to tackle the entire essay at once.
-
-Praesent sed vehicula velit, vel hendrerit neque. Vivamus scelerisque sed nunc nec congue. Curabitur sapien risus, finibus id tincidunt iaculis, porta et ipsum. Cras eu mollis sapien. Sed a mauris finibus orci molestie mollis.
-
-
-## Pull Quotes Add Emphasis
-Pellentesque viverra hendrerit sapien eu consequat. Curabitur leo ante, vestibulum a tincidunt eget, placerat eu nunc. Donec ut sem mi. Vivamus commodo nec sem eget pretium. Nulla ullamcorper volutpat venenatis.
-
-{% include typography/aside.html class="right" text="
-This is a pull quote—a design element that highlights important text or quotations. It appears as a semi-transparent box to the right of your main text. Use these sparingly for maximum impact." %}
-
-The pull quote you just saw is created with a simple `include` command in Markdown. It's one of many reusable components in Xanthan. You can put important quotes, key statistics, or memorable phrases in these boxes to create visual interest and emphasize crucial points.
-
-Duis eros odio, fringilla et pulvinar vitae, eleifend quis elit. Sed eleifend lectus in bibendum elementum. Vivamus ut velit dignissim, cursus libero nec, commodo orci. Morbi lacus metus, posuere ut pretium ac, malesuada id ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat, lacus id blandit ornare, mi nisi rutrum ante, vitae dignissim mauris nisl mattis nisl.
-
-## Images Can Be Different Widths
+## Technohistorical Significance
 {% include images/figure.html class="right" width="60%" caption="This image is set to 60% width instead of 48%, giving it more prominence. You can adjust image widths to suit your content. [Source](https://en.wikipedia.org/wiki/File:Eastern_Han_ingot_imprints_with_barbarous_Greek_inscriptions.jpg)" image-path="images/han-coin-two-sides-violet.png" %}
 
-The image to the right is **wider than the previous one** (60% instead of 48%). You control this with the `width` parameter in the image code. Want a small image? Use 30%. Want something that dominates? Try 70%.
+Sword technology, as noted by the object catalog, can be traced to the Eurasian steppe as far back as the third millennium BC. These weapons doubled as symbols of status and power. The gold decorations here are eye-catching by design, which indicates the duan jian was a status symbol for someone of means. Additionally, the foreign construction of this sword indicates trade ties between Ancient (possibly Qin Dynasty) China and the ruling powers of Khotan stretching over geographic barriers like the mountains of the Tibetan plateau, as well as the Gobi and Taklamakan deserts. The importation of this weapon furthermore signifies a preference for a Chinese style of warfare, or at the very least an awareness of their martial practices and objects. 
+The physical transportation of the sword, as well as the technological movement of duan jian warfare from China to Central Asia show two parallel forms of Silk Roads driven westward motion during the first millennium BC. The interaction among these cultures extends to transmission through conflict and martial prowess, not just bilateral trade relations. This style of sword would go on to be used in China as long as melee weapons have, with an object such as this marking an important nexus in function and fashion for bladed, resource-intensive weapons like swords. 
+[^anotherrandomthing]
 
-Images can also be left-aligned (use `class="left"`) or centered full-width (we'll show that in more advanced essays). For Seedling level, right-aligned images at 48-60% width work well for most purposes.
-
-Duis vehicula erat et diam pharetra iaculis. Etiam rutrum scelerisque nunc, ut interdum justo pellentesque sit amet. Vivamus cursus massa mauris, a finibus felis laoreet quis. Integer vel molestie neque.
+[^anotherrandomthing]:Put your next footnote source information here.
 
 ---
 
 ## Bibliography
 
-- Lastname, Firstname. “Title of the Article.” *Title of the Journal* 9, no. 9 (1999): 999–999.
-- Lastname, Firstname. *Title of the Book*. Publisher Press, 1999.
+- Pyhrr, Stuart W., Donald J. La Rocca, and Morihiro Ogawa. Arms and Armor: Notable Acquisitions, 1991–2002. The Metropolitan Museum of Art, 2002. 43–44. https://books.google.com/books?id=tu3rasl0_fMC&lpg=PP1&pg=PA40#v=onepage&q&f=false 
+- Li, Bingjie, Xudong Jiang, Yin Tu, Jianguo Lv, Qiang Fu, Bei Wei, Tao Hu, and Chunxu Pan. “Study on Manufacturing Process of Ancient Chinese Bi-Metallic Bronze Ge.” Archaeological and Anthropological Sciences 12, no. 2 (2020). https://doi.org/10.1007/s12520-020-01021-5.
+

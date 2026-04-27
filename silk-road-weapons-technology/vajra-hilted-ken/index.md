@@ -11,63 +11,32 @@ tags:
   - object -Buddhism -sword -dagger -ritual -ken -vedic -blade -shingon -hilt
 ---
 
-# The Altarpiece from a Monastery
+# A blade between faiths
 
-This essay demonstrates the **simplest approach**. It uses only basic components: section headings, images with captions, pull quotes, and footnotes. No background switching, no side-scrolling—just straightforward digital storytelling that's more visually engaging than a standard web page.
-
-The text below is mostly filler to show how an essay flows, but we'll call out key features as you encounter them.
+A Ken is a Buddhist ritual sword, particularly prevalent within the Shingon school of Buddhism in Japan. The blade of this particular ken, composed of 12th century japanese steel, was then remounted on a Vedic symbolic object known as a vajra or ‘thunderbolt’ originating from the Indian subcontinent and whose gods were integrated into the shingon pantheon around the 9th century. This specific vajra, which is used as the hilt, dates to the 14th century. A vajra-hilted ken may be called an e-ken, a syncretic rendering of the sword-of-wisdom that is connected to the Vedic-Buddhist king of light Fudō Myō-ō. As a composite item of two different periods and places, this Ken demonstrates not only the physical movement of the Silk Roads, but the enduring nature of the Silk Roads, that they can move objects over several centuries that likewise have religious associations geographically distant from one another. The materials used in the construction and decoration of these objects reveal the wealth of the societies they come from, as evidenced by the presence of metals such as copper, gold, and steel.
 
 
-## Your First Section Heading
+## Material Construction
 {% include images/figure.html
 class="right"
 width="48%"
 caption="This is a right-aligned image that takes up roughly half the page width. Notice how text wraps around it naturally. [Source](https://en.wikipedia.org/wiki/File:Eastern_Han_ingot_imprints_with_barbarous_Greek_inscriptions.jpg)" silk-road-weapons-technology/images/vajra-ken-2.jpg"
 %}
 
-This paragraph sits next to a **right-aligned image**. The ScrollStory layout gives images breathing room—you'll never see cramped text squished against a photo. The spacing and typography are designed to feel more like a magazine than a typical web page.
-
-Notice the caption below the image includes a clickable source link. This is how you maintain scholarly rigor while keeping the visual design clean.[^randomthing]
+This steel blade measures 12.0625 inches and features two rivet holes along the tang, dating to either the late Heian period or the Early Kamakura period in Japan (late 12th century to early 13th century).  The ken functions as a Buddhist ritual sword that symbolizes enlightenment and triumph over evil. Its quality demonstrates advanced metalworking by this period, even for ritual weapons, though the exact techniques used are unclear. The vajra itself dates to the mid 14th century in Japan during the Nambokuchō period. It is constructed primarily of copper with gilded decoration, which is most prevalent in a frontal bead and the habaki, the piece that secures the blade to the hilt. Three prongs protrude on the pomel, two prongs protrude from the blade side, with the middle prong being the slot for the blade itself. 
+[^randomthing]
 
 [^randomthing]:Put your source information here.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium, nibh vel posuere pretium, neque ipsum maximus libero, ac maximus quam ante sit amet dolor. Integer pharetra semper sem sed sagittis. Curabitur mauris tortor, elementum non felis id, hendrerit efficitur metus.
 
-Sed efficitur leo in magna pretium, euismod malesuada risus interdum. Proin sed libero et enim pulvinar convallis non eget est. Sed ultrices dui vitae enim semper accumsan.[^anotherrandomthing]
+## Technohistorical significance
+The sword components here have been rendered into ritual symbols, at least in the case of the hilt. While this had been depicted in art, the physical recreation as a bladed weapon ties together the planes of religious and martial acculturation. This can be compared to other instances along the Silk Road of religious iconography being rendered as a weapon used for ritual purposes rather than battlefield struggle.  Mixed metallurgy utilizing a precious metal like gold implies the components were made in a wealthy societal context. 
 
-[^anotherrandomthing]:Put your next footnote source information here.
-
-
-## Section Headings Create Visual Breaks
-Each section heading (marked with `##` in Markdown) creates a clear visual break in your essay. This helps readers navigate long-form content and gives you natural places to shift topics or introduce new ideas.
-
-**Why this matters:** Breaking essays into clear sections makes writing more manageable. Write one section at a time, preview it, then move to the next. No need to tackle the entire essay at once.
-
-Praesent sed vehicula velit, vel hendrerit neque. Vivamus scelerisque sed nunc nec congue. Curabitur sapien risus, finibus id tincidunt iaculis, porta et ipsum. Cras eu mollis sapien. Sed a mauris finibus orci molestie mollis.
-
-
-## Pull Quotes Add Emphasis
-Pellentesque viverra hendrerit sapien eu consequat. Curabitur leo ante, vestibulum a tincidunt eget, placerat eu nunc. Donec ut sem mi. Vivamus commodo nec sem eget pretium. Nulla ullamcorper volutpat venenatis.
-
-{% include typography/aside.html class="right" text="
-This is a pull quote—a design element that highlights important text or quotations. It appears as a semi-transparent box to the right of your main text. Use these sparingly for maximum impact." %}
-
-The pull quote you just saw is created with a simple `include` command in Markdown. It's one of many reusable components in Xanthan. You can put important quotes, key statistics, or memorable phrases in these boxes to create visual interest and emphasize crucial points.
-
-Duis eros odio, fringilla et pulvinar vitae, eleifend quis elit. Sed eleifend lectus in bibendum elementum. Vivamus ut velit dignissim, cursus libero nec, commodo orci. Morbi lacus metus, posuere ut pretium ac, malesuada id ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat, lacus id blandit ornare, mi nisi rutrum ante, vitae dignissim mauris nisl mattis nisl.
-
-## Images Can Be Different Widths
-{% include images/figure.html class="right" width="60%" caption="This image is set to 60% width instead of 48%, giving it more prominence. You can adjust image widths to suit your content. [Source](https://en.wikipedia.org/wiki/File:Eastern_Han_ingot_imprints_with_barbarous_Greek_inscriptions.jpg)" image-path="images/han-coin-two-sides-violet.png" %}
-
-The image to the right is **wider than the previous one** (60% instead of 48%). You control this with the `width` parameter in the image code. Want a small image? Use 30%. Want something that dominates? Try 70%.
-
-Images can also be left-aligned (use `class="left"`) or centered full-width (we'll show that in more advanced essays). For Seedling level, right-aligned images at 48-60% width work well for most purposes.
-
-Duis vehicula erat et diam pharetra iaculis. Etiam rutrum scelerisque nunc, ut interdum justo pellentesque sit amet. Vivamus cursus massa mauris, a finibus felis laoreet quis. Integer vel molestie neque.
 
 ---
 
 ## Bibliography
 
-- Lastname, Firstname. “Title of the Article.” *Title of the Journal* 9, no. 9 (1999): 999–999.
-- Lastname, Firstname. *Title of the Book*. Publisher Press, 1999.
+- Badamo, Heather. "Mobile Meanings: A Global Approach to a Dagger from Greater Syria." The Medieval Globe 3, no. 2 (2017): 149-176. https://muse.jhu.edu/article/758479. 
+- La Rocca, Donald J. The Gods of War: Sacred Imagery and the Decoration of Arms and Armor. The Metropolitan Museum of Art, 1996. pp. 43
+- Meredith, Georgette. “The ‘Phurbu’: The Use and Symbolism of the Tibetan Magic Dagger.” History of Religions 6, no. 3 (1967): 236–53. 

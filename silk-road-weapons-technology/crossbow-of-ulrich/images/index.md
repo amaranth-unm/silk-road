@@ -11,64 +11,29 @@ tags:
   - object -crossbow -weapon -bow -Germany -projectile
 ---
 
-# The Altarpiece from a Monastery
+# Fit for a count
 
-This essay demonstrates the **simplest approach**. It uses only basic components: section headings, images with captions, pull quotes, and footnotes. No background switching, no side-scrolling—just straightforward digital storytelling that's more visually engaging than a standard web page.
-
-The text below is mostly filler to show how an essay flows, but we'll call out key features as you encounter them.
+A well-decorated piece, this is a crossbow belonging to Ulrich the 5th, the Count of Wurttemburg in Germany, which dates it between 1413 and 1480. Constructed from various materials, including iron, birch, and staghorn, and featuring intensive artistic work on several parts, this weapon demonstrates its dual purpose as both a tool of war and a status symbol for a noble who had the means to commission a highly decorated piece for himself. The artist behind the crossbow is attributed to Heinrich Heid von Winterthur, a Swiss artisan. On the body are staghorn panels which bear Hebrew inscriptions that translate to a German benediction roughly reading "Hold God dear, high-hearted one!". Though large bows and artillery such as Greek Ballistae trace their history in Europe as far back as antiquity which operated on torsion force, hand-held crossbows utilizing would first appear in China around the 5th century BC utlizing a cam mechanism. It is not until the 11th century that mechanical crossbows would reach Europe, possibly with the aid of the crusades as a force of technological innovation and movement in the field of weaponry. 
 
 
-## Your First Section Heading
-{% include images/figure.html
-class="right"
-width="48%"
-caption="This is a right-aligned image that takes up roughly half the page width. Notice how text wraps around it naturally. [Source](https://en.wikipedia.org/wiki/File:Eastern_Han_ingot_imprints_with_barbarous_Greek_inscriptions.jpg)"
-image-path="images/han-coin-violet.png"
-%}
+## Material construction
 
-This paragraph sits next to a **right-aligned image**. The ScrollStory layout gives images breathing room—you'll never see cramped text squished against a photo. The spacing and typography are designed to feel more like a magazine than a typical web page.
-
-Notice the caption below the image includes a clickable source link. This is how you maintain scholarly rigor while keeping the visual design clean.[^randomthing]
-
-[^randomthing]:Put your source information here.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium, nibh vel posuere pretium, neque ipsum maximus libero, ac maximus quam ante sit amet dolor. Integer pharetra semper sem sed sagittis. Curabitur mauris tortor, elementum non felis id, hendrerit efficitur metus.
-
-Sed efficitur leo in magna pretium, euismod malesuada risus interdum. Proin sed libero et enim pulvinar convallis non eget est. Sed ultrices dui vitae enim semper accumsan.[^anotherrandomthing]
+TThe central frame of the crossbow is made of birchwood. This is accented by decorated white staghorn and ivory carved panels recessed along each of its profiles. The trigger, spanning mechanisms, and draw rivets are made of iron and copper alloy. The bow arm is composed of horn, reminiscent of composite bow technology found further east. The remaining ties on the weapon, which secure the bow arm to the frame, are tendons.  The object measures 71.8 centimeters in length from the handle to the face, and 65.4 centimeters across the span of the bow.  The horn and ivory panels depict several religious themes, including an aforementioned prayer rendered into a script separate from the vernacular, as well as a depiction of the archangel Michael on the underside of the frame. The wooden tiller (body) portion of the crossbow is also decorated with intricate engravings.[^anotherrandomthing]
 
 [^anotherrandomthing]:Put your next footnote source information here.
 
 
-## Section Headings Create Visual Breaks
-Each section heading (marked with `##` in Markdown) creates a clear visual break in your essay. This helps readers navigate long-form content and gives you natural places to shift topics or introduce new ideas.
 
-**Why this matters:** Breaking essays into clear sections makes writing more manageable. Write one section at a time, preview it, then move to the next. No need to tackle the entire essay at once.
+##  Technohistorical significance
 
-Praesent sed vehicula velit, vel hendrerit neque. Vivamus scelerisque sed nunc nec congue. Curabitur sapien risus, finibus id tincidunt iaculis, porta et ipsum. Cras eu mollis sapien. Sed a mauris finibus orci molestie mollis.
+In the greater scheme of technological movement across cultures and space, the mechanical crossbow is a case that spans an arguably greater span of time to be introduced among feudal or state-level cultures. The mechanical crossbow, according to the archeological record, originated in Eastern Zhou China around the 4th century BC, with repeating models even being recorded. Crosbows would be more prevalent among the ancient dynasties and, like gunpowder, would eventually migrate for martial use by other powers, partially due to their application by the Chinese. However, this form of technology certainly has a longer history than gunpowder by several centuries wth a wider spread. By its use and length of transference among cultures, it has a large footprint in the historical record. By the High Middle Ages in Europe, plate armor was the cutting edge of personal defense, and these implements would wreak massive casualties among these armies after their introduction until gunpowder would be adapted in the West to punch through armor and structures more effectively than crossbow bolts could. 
 
-
-## Pull Quotes Add Emphasis
-Pellentesque viverra hendrerit sapien eu consequat. Curabitur leo ante, vestibulum a tincidunt eget, placerat eu nunc. Donec ut sem mi. Vivamus commodo nec sem eget pretium. Nulla ullamcorper volutpat venenatis.
-
-{% include typography/aside.html class="right" text="
-This is a pull quote—a design element that highlights important text or quotations. It appears as a semi-transparent box to the right of your main text. Use these sparingly for maximum impact." %}
-
-The pull quote you just saw is created with a simple `include` command in Markdown. It's one of many reusable components in Xanthan. You can put important quotes, key statistics, or memorable phrases in these boxes to create visual interest and emphasize crucial points.
-
-Duis eros odio, fringilla et pulvinar vitae, eleifend quis elit. Sed eleifend lectus in bibendum elementum. Vivamus ut velit dignissim, cursus libero nec, commodo orci. Morbi lacus metus, posuere ut pretium ac, malesuada id ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat, lacus id blandit ornare, mi nisi rutrum ante, vitae dignissim mauris nisl mattis nisl.
-
-## Images Can Be Different Widths
-{% include images/figure.html class="right" width="60%" caption="This image is set to 60% width instead of 48%, giving it more prominence. You can adjust image widths to suit your content. [Source](https://en.wikipedia.org/wiki/File:Eastern_Han_ingot_imprints_with_barbarous_Greek_inscriptions.jpg)" image-path="images/han-coin-two-sides-violet.png" %}
-
-The image to the right is **wider than the previous one** (60% instead of 48%). You control this with the `width` parameter in the image code. Want a small image? Use 30%. Want something that dominates? Try 70%.
-
-Images can also be left-aligned (use `class="left"`) or centered full-width (we'll show that in more advanced essays). For Seedling level, right-aligned images at 48-60% width work well for most purposes.
-
-Duis vehicula erat et diam pharetra iaculis. Etiam rutrum scelerisque nunc, ut interdum justo pellentesque sit amet. Vivamus cursus massa mauris, a finibus felis laoreet quis. Integer vel molestie neque.
 
 ---
 
 ## Bibliography
 
-- Lastname, Firstname. “Title of the Article.” *Title of the Journal* 9, no. 9 (1999): 999–999.
-- Lastname, Firstname. *Title of the Book*. Publisher Press, 1999.
+- Breiding, Dirk H. "The Crossbow of Count Ulrich V of Württemberg." Metropolitan Museum Journal 44. (2009): 61-87 https://resources.metmuseum.org/resources/metpublications/pdf/the_crossbow_of_count_ulrich_v_of_wurttemberg_the_metropolitan_museum_journal_v_44_2009.pdf 
+- Breiding, Dirk H., and New York, N.Y.), publisher. Metropolitan Museum of Art. A Deadly Art : European Crossbows, 1250-1850 / Dirk H. Breiding. The Metropolitan Museum of Art, 2013. 
+- Dong, J., Shi, K., Zhang, Y., Tenigeer, and Yao, Y. “Mechanism analysis of ancient Chinese crossbows,” Mechanical Sciences 11. (2020): 437–445. https://doi.org/10.5194/ms-11-437-2020 
+- Lin, Jian-Liang. Li-Chun Lin. and Kuo-Hung Hsiao. 2023. "Ancient Chinese Repeating Crossbow: Basic Research to Science Education in Museums," Engineering Proceedings 55, no. 1: 48. https://doi.org/10.3390/engproc2023055048 
