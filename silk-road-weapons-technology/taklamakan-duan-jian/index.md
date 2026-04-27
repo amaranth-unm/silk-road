@@ -3,7 +3,7 @@ author: Dominik Gutierrez
 title: "Taklamakan duan jian"
 layout: base
 header-image: silk-road-weapons-technology/images/duan-jian-1.jpg
-thumbnail: silk-road-weapons-technology/images/duan-jian-2.jpg
+thumbnail: silk-road-weapons-technology/images/duan-jian-1.jpg
 summary: These images depict a tuquoise-inlaid steel sword with bronze decoration excavated in the Taklamakan desert.
 geo: [37.277294, 79.728813]
 placename: Khotan
