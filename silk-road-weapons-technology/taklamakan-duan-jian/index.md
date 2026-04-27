@@ -19,11 +19,8 @@ This sword was excavated in the Taklamakan Desert of Central Asia; however, its 
 
 ## Material construction
 {% include silk-road-weapons-technology/images/duan-jian-2.jpg
-class="right"
-width="48%"
-caption="This is a right-aligned image that takes up roughly half the page width. Notice how text wraps around it naturally. [Source](https://en.wikipedia.org/wiki/File:Eastern_Han_ingot_imprints_with_barbarous_Greek_inscriptions.jpg)"
-image-path="images/han-coin-violet.png"
-%}
+class="center"
+width="55%"%}
 
 The slender blade of this sword is composed of an unspecified steel alloy, inlaid with gold foil along the bottom portion in decorative sockets. The hilt is composed of bronze, with decorative features. The total length of this sword is measured at 26.75 inches. The multiple metals used in this weapon, and the advanced techniques used to construct it, are indicative of an advanced metallurgy industry that was present in China at this time.  However, the precious nature of the metals used, specifically the gold, further indicates the material wealth of the society from which this object originates, that is, outside of its archaeological context. 
 [^randomthing]
