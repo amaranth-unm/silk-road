@@ -2,8 +2,8 @@
 author: Dominik Gutierrez
 title: "Danzig Handgun"
 layout: base
-header-image: silk-road-weapons-technology/images/danzig-handgun-1.jpg
-thumbnail: silk-road-weapons-technology/images/danzig-handgun-1.jpg
+header-image: images/danzig-handgun-1.jpg
+thumbnail: images/danzig-handgun-1.jpg
 summary: This is a photograph of the Danzig Handgun
 geo: [54.372158, 18.638306]
 placename: Danzig

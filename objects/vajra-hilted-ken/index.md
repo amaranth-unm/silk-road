@@ -2,8 +2,8 @@
 author: Dominik Gutierrez
 title: "Vajra-Hilted Ken"
 layout: base
-header-image: silk-road-weapons-technology/images/vajra-ken-1.jpg
-thumbnail: silk-road-weapons-technology/images/vajra-ken-1.jpg
+header-image: images/vajra-ken-1.jpg
+thumbnail: images/vajra-ken-1.jpg
 summary: This image is An 11th century Ken blade, mounted upon a 14th century vajra-hilt.
 geo: [33.7432, 133.6375]
 placename: Shikoku

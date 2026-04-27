@@ -2,8 +2,8 @@
 author: Dominik Gutierrez
 title: "Silk Road Weapons Technology"
 layout: base
-header-image: silk-road-weapons-technology/images/crossbow-1.jpg
-thumbnail: silk-road-weapons-technology/images/danzig-handgun-1.jpg
+header-image: images/crossbow-1.jpg
+thumbnail: images/danzig-handgun-1.jpg
 summary: Through conflict and collaboration, weapons technology integrates in many forms across Eurasia through millennia.
 ---
 
@@ -14,12 +14,6 @@ The Silk Road was an invaluably influential means of transporting both physical 
 
 
 ## Weapons and their matieral cost in state-level civilizations on the Silk Road
-{% include images/figure.html
-class="right"
-width="48%"
-caption="This is a right-aligned image that takes up roughly half the page width. Notice how text wraps around it naturally. [Source](https://commons.wikimedia.org/wiki/File:Khiva_town_of_The_Silk_Road_(%D0%9A%D0%B0%D1%80%D0%B0%D0%B2%D0%B0%D0%BD,_%D0%98%D1%87%D0%B0%D0%BD_%D0%9A%D0%B0%D0%BB%D0%B0,_%D0%A5%D0%B8%D0%B2%D0%B0).jpg)"
-image-path="images/ota-gate-khiva.jpg"
-%}
 
 This paragraph sits next to a **right-aligned image**. The ScrollStory layout gives images breathing room—you'll never see cramped text squished against a photo. The spacing and typography are designed to feel more like a magazine than a typical web page.
 
@@ -49,8 +43,6 @@ The pull quote you just saw is created with a simple `include` command in Markdo
 Duis eros odio, fringilla et pulvinar vitae, eleifend quis elit. Sed eleifend lectus in bibendum elementum. Vivamus ut velit dignissim, cursus libero nec, commodo orci. Morbi lacus metus, posuere ut pretium ac, malesuada id ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat, lacus id blandit ornare, mi nisi rutrum ante, vitae dignissim mauris nisl mattis nisl.
 
 ## Ritual and Liberty
-{% include images/figure.html class="right" width="60%" caption="This image is set to 60% width instead of 48%, giving it more prominence. You can adjust image widths to suit your content.  [Source](https://commons.wikimedia.org/wiki/File:Khiva_town_of_The_Silk_Road_(%D0%9A%D0%B0%D1%80%D0%B0%D0%B2%D0%B0%D0%BD,_%D0%98%D1%87%D0%B0%D0%BD_%D0%9A%D0%B0%D0%BB%D0%B0,_%D0%A5%D0%B8%D0%B2%D0%B0).jpg)"
-image-path="images/ota-gate-khiva.jpg" %}
 
 The image to the right is **wider than the previous one** (60% instead of 48%). You control this with the `width` parameter in the image code. Want a small image? Use 30%. Want something that dominates? Try 70%.
 
