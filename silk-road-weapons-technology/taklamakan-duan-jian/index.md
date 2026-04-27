@@ -2,7 +2,7 @@
 author: Dominik Gutierrez
 title: "Taklamakan duan jian"
 layout: base
-header-image: silk-road-weapons-technology/images/duan-jian-1.jpg
+header-image: silk-road-weapons-technology/images/duan-jian-2.jpg
 thumbnail: silk-road-weapons-technology/images/duan-jian-1.jpg
 summary: These images depict a tuquoise-inlaid steel sword with bronze decoration excavated in the Taklamakan desert.
 geo: [37.277294, 79.728813]
@@ -18,9 +18,7 @@ This sword was excavated in the Taklamakan Desert of Central Asia; however, its 
 
 
 ## Material construction
-{% include silk-road-weapons-technology/images/duan-jian-2.jpg
-class="center"
-width="55%"%}
+
 
 The slender blade of this sword is composed of an unspecified steel alloy, inlaid with gold foil along the bottom portion in decorative sockets. The hilt is composed of bronze, with decorative features. The total length of this sword is measured at 26.75 inches. The multiple metals used in this weapon, and the advanced techniques used to construct it, are indicative of an advanced metallurgy industry that was present in China at this time.  However, the precious nature of the metals used, specifically the gold, further indicates the material wealth of the society from which this object originates, that is, outside of its archaeological context. 
 [^randomthing]
