@@ -60,7 +60,7 @@ class="right"
 width="40%"
 caption="Detail of Dunhuang apsaras showing flowing lines and directional movement guiding the viewer’s eye across the composition. [Source](https://www.metmuseum.org/art/collection/)"
 alt-text="Close-up of Dunhuang apsaras showing flowing ribbons and directional movement"
-image-path="images/dunhuang-detail.jpng"
+image-path="images/dunhuang-detail.jpeg"
 %}
 
 
