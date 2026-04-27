@@ -17,11 +17,6 @@ A Ken is a Buddhist ritual sword, particularly prevalent within the Shingon scho
 
 
 ## Material Construction
-{% include images/figure.html
-class="right"
-width="48%"
-caption="This is a right-aligned image that takes up roughly half the page width. Notice how text wraps around it naturally. [Source](https://en.wikipedia.org/wiki/File:Eastern_Han_ingot_imprints_with_barbarous_Greek_inscriptions.jpg)" silk-road-weapons-technology/images/vajra-ken-2.jpg"
-%}
 
 This steel blade measures 12.0625 inches and features two rivet holes along the tang, dating to either the late Heian period or the Early Kamakura period in Japan (late 12th century to early 13th century).  The ken functions as a Buddhist ritual sword that symbolizes enlightenment and triumph over evil. Its quality demonstrates advanced metalworking by this period, even for ritual weapons, though the exact techniques used are unclear. The vajra itself dates to the mid 14th century in Japan during the Nambokuchō period. It is constructed primarily of copper with gilded decoration, which is most prevalent in a frontal bead and the habaki, the piece that secures the blade to the hilt. Three prongs protrude on the pomel, two prongs protrude from the blade side, with the middle prong being the slot for the blade itself. 
 [^randomthing]
