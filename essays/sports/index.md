@@ -2,8 +2,8 @@
 author: Caden Williams
 title: "Sports on the Silk Road"
 layout: base
-header-image: images-copy/Chui wan painting 2.jpg
-thumbnail: images-copy/thematic-essay-thumbnail.png
+header-image: images/Chui wan painting 2.jpg
+thumbnail: images/thematic-essay-thumbnail.png
 summary: This essay connects four sports objects from the Silk Road to show how activities like chui wan, falconry, wrestling, and polo were about more than simple entertainment.
 ---
 # Sports on the Silk Road
@@ -17,7 +17,7 @@ Looking across these four objects together, what stands out most is how consiste
 class="right"
 width="40%"
 caption="Both sides of the wrestler’s weight, with Herakles and the Nemean Lion on one side and a wrestling scene with handgrips on the reverse. [Source](https://www.metmuseum.org/art/collection/search/38635)"
-image-path="images-copy/weight-combination.png" %}
+image-path="images/weight-combination.png" %}
 One of the clearest patterns across these objects is that sports were structured activities, even when they might look simple at first. Chui wan is probably the clearest example because the game had specific rules, equipment, and expectations for how it should be played. Players used different clubs, followed an order of play, and aimed toward holes, which shows that the game had already developed beyond casual recreation.[^1] The wrestler’s weight shows the same idea from a different angle. Instead of showing a game in progress, it points to the training that happened before competition. Di Castro explains that the handles identify these objects as wrestler’s weights because they were designed for gripping and lifting.[^2] When these objects are placed together, they show that sports along the Silk Road were not only about the final match or performance. They also involved practice, equipment, rules, and preparation. 
 
 [^1]: Gui Yan, Zhang Tianju, and Han Liebao, “The Study of Chui Wan, a Golf-like Game in the Song, Yuan, and Ming Dynasties of Ancient China,” *Journal of Sport History* 39, no. 2 (2012): 292–293.
@@ -26,7 +26,7 @@ One of the clearest patterns across these objects is that sports were structured
 
 ## Sport, Status, and Elite Settings
 {% include images/figure.html class="right" width="40%" caption="A falconry fan painting showing nomadic horsemen hunting with falcons across an open landscape.  [Source](https://www.metmuseum.org/art/collection/search/40094)"
-image-path="images-copy/DP153514.jpg" %}
+image-path="images/DP153514.jpg" %}
 Another important connection is the relationship between sports and status. Many of these activities required time, resources, and specialized knowledge, which connected them to elite or courtly settings. The chui wan painting, for example, shows women playing in a palace-like setting with attendants nearby holding clubs, which points to wealth and social position.[^3] Falconry works similarly, even though it takes place in a very different environment. Hunting with trained birds required patience, knowledge, and access to birds of prey, so it was not something everyone could easily do. Otsuka describes falconry as a cooperative hunting method between the human and the bird, which helps show why it should be understood as a skilled activity rather than ordinary hunting.[^4] Polo also fits this pattern because it required horses, equipment, and an audience where performance could matter.
 
 [^3]: Yan, Zhang, and Han, “The Study of Chui Wan,” 288.
@@ -41,7 +41,7 @@ The Silk Road connection becomes clearer when looking at how these activities mo
 
 ## Action, Worth, and the *Shahnama*
 {% include images/figure.html class="right" width="40%" caption="Siyavush Plays Polo before Afrasiyab from the *Shahnama*, showing mounted players competing in an organized polo match.  [Source](https://www.metmuseum.org/art/collection/search/452135)"
-image-path="images-copy/Polo.jpg" %}
+image-path="images/Polo.jpg" %}
 
 This connection also appears when comparing my polo object to another *Shahnama* folio from the class, Isfandiyar’s Third Course: He Slays a Dragon. At first, a polo match and a dragon-slaying scene seem very different, but both images use physical action as a way to show worth and status. In my object, Siyavush’s polo match becomes a test of skill, control, and serious competition. In the Isfandiyar folio, the hero’s defeat of the dragon works in a similar way because the challenge helps prove his ability and future legitimacy. The object page explains that Isfandiyar’s trials were connected to his future ascension, and that defeating the dragon reaffirms his legitimacy as a heroic figure.[^7] Looking at the two folios together helps show that the *Shahnama* used action scenes to represent ideals like discipline, strength, strategy, and authority. For my project, that connection matters because it shows that sport could belong in the same kind of visual world as heroic combat, where physical performance carried meaning beyond the action itself.
 
