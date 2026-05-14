@@ -17,12 +17,6 @@ While discussing the importance of Buddhism along the Silk Road, there has been 
 
 
 ## The Influences of Buddha
-{% include images/figure.html
-class="right"
-width="48%"
-caption="Right-aligned images still work exactly like Seedling. You already know this pattern. [Source](https://commons.wikimedia.org/wiki/File:Khiva_town_of_The_Silk_Road_(%D0%9A%D0%B0%D1%80%D0%B0%D0%B2%D0%B0%D0%BD,_%D0%98%D1%87%D0%B0%D0%BD_%D0%9A%D0%B0%D0%BB%D0%B0,_%D0%A5%D0%B8%D0%B2%D0%B0).jpg)"
-image-path="images/ota-gate-khiva2.jpg"
-%}
 
 Both of these figures have come up within the four different objects chosen from four different regions across the Silk Road and that is significant in regard to the spread of Buddhism across different regions. 
 
@@ -80,8 +74,7 @@ images=images
 
  The opportunity of getting to research four different and unique representations of Buddha across different regions along the Silk Road offers the chance to see the deeply rooted connections specially within religion along the Silk Road.
 
-## Larger Images
-{% include images/figure.html class="right" width="60%" caption="This image is 60% width instead of 48%, giving it more visual weight. Adjust widths based on what the image needs. [Source](https://commons.wikimedia.org/wiki/File:Khiva_town_of_The_Silk_Road_(%D0%9A%D0%B0%D1%80%D0%B0%D0%B2%D0%B0%D0%BD,_%D0%98%D1%87%D0%B0%D0%BD_%D0%9A%D0%B0%D0%BB%D0%B0,_%D0%A5%D0%B8%D0%B2%D0%B0).jpg)" image-path="images/ota-gate-khiva2.jpg" %}
+
 
 Buddhism as a religious belief system is a very interesting topic in and of itself, the impact it had not only along the Silk Road but globally is very fascinating.
 

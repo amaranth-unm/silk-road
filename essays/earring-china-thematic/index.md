@@ -4,7 +4,8 @@ title: "Tang Dynasty Earrings and Silk Road Exchange"
 layout: base
 header-image: images/chinaheading.png
 thumbnail: images/china.jpg
-summary: Tang Dynasty jewelry reflects the cultural exchange and global connect.
+position: 4
+summary: Tang Dynasty jewelry reflects the cultural exchange and global connection.
 ---
 
 # Embellishing and Exchange on the Silk Road
