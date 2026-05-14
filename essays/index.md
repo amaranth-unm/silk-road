@@ -14,4 +14,4 @@ header-title: Essays
     {% endunless %}
   {% endif %}
 {% endfor %}
-{% include nav/card-toc.html cards=filtered %}
+{% include nav/card-stack.html cards=filtered %}
