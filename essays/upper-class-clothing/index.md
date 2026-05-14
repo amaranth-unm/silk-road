@@ -61,7 +61,7 @@ In terms of women of high status, Moti goes on to describe the robes women wore 
 class="left"
 width="48%"
 caption="This mirror handle depicts a woman leisurly playing an instrument. There is defined details on her clothing."
-image-path="images/mirror-handle-from-india"
+image-path="images/mirror-handle-from-india.jpg"
 %}
 
 From the small information we have on women in the Gupta empire, we can tell much about their costume. First, we know that if a woman was high class, due to divine women being described wearing such things, she likely would have a very intricately decorated sari. We can also glean that silk was the most common textile to wear for women, second being cotton due to its lightweight and breathability in the hot weather. Women also typically had the clothing decorated with natural designs, such as flowers and birds. This is supported by the depiction described in Moti’s book, and the intricate designs can be seen on items such as the mirror handle pictured here. While this mirror handle is small, we can observe there is a focus on detailing around her garments and there is a high level of care taken to present these details.
