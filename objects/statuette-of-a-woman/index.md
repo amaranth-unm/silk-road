@@ -34,4 +34,4 @@ Regardless, we cannot tell from the statuette alone what her outfit would be mad
 ## Bibliography
 
 - Ball, Jennifer. Byzantine Dress: A Guide. Taylor & Francis, 2024.
-- Lastname, Firstname. *Title of the Book*. Publisher Press, 1999.
+- Statuette of a Woman, 5th-6th Century AD, Copper Alloy, The Met Fifth Avenue, Gallery 301, https://www.metmuseum.org/art/collection/search/468309
