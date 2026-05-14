@@ -2,76 +2,80 @@
 author: Sam Rundell
 title: Fragment of a Indo-Corinthian capital, depicting meditating Buddha
 layout: base
-header-image: images/indo-corinthian-capital.jpg
+header-image: images/types-capitals.jpg
 thumbnail: images/indo-corinthian-capital.jpg
 summary: This Indo-Corinthian capital was an architectural feature, likely part of a building of significance depicts the Buddha sitting among acanthus leaves
 geo: [34.3655, 70.4762]
 placename: Hadda, Nangarhar (Afganistan)
 tags:
-  -Architecture 
-  -Column 
-  -Buddha
-  
+  -Architecture -Column -Buddha
 ---
 
-# The Altarpiece from a Monastery
+# The Indo-Corinthian Capital with the Buddha
 
-This essay demonstrates the **simplest approach**. It uses only basic components: section headings, images with captions, pull quotes, and footnotes. No background switching, no side-scrolling—just straightforward digital storytelling that's more visually engaging than a standard web page.
+This interesting piece of architecture is a very unique find and is a perfect example of how Greek and Buddhist cultures influenced one another, with the base of the architectural influence being Greek/Roman and the design and figure depicted come from Buddhism. This object demonstrates the importance of Architecture and construction within the theme of cultural exchange as well as the continued presence of the Buddha being depicted as a figure in art. 
 
-The text below is mostly filler to show how an essay flows, but we'll call out key features as you encounter them.
-
-
-## Your First Section Heading
+## History and Architecture
 {% include images/figure.html
 class="right"
 width="48%"
-caption="This is a right-aligned image that takes up roughly half the page width. Notice how text wraps around it naturally. [Source](https://en.wikipedia.org/wiki/File:Eastern_Han_ingot_imprints_with_barbarous_Greek_inscriptions.jpg)"
+caption="Image of the capital, found in Afganistan. [Source](https://digital.library.ucla.edu/catalog/ark:/21198/z1sj7r1r)"
 image-path="images/indo-corinthian-capital.jpg"
 %}
 
-This paragraph sits next to a **right-aligned image**. The ScrollStory layout gives images breathing room—you'll never see cramped text squished against a photo. The spacing and typography are designed to feel more like a magazine than a typical web page.
+An important aspect of this object is its use as an architectural element, this demonstartes how the art form of Greco-Buddhism was wide reaching and the influence of Greek architecture was clearly significant enough for the art form to be incorporated into the desgin of buildings. 
 
-Notice the caption below the image includes a clickable source link. This is how you maintain scholarly rigor while keeping the visual design clean.[^randomthing]
+An important part of understanding this influence however, is how the main themes of the artwork remains centrally Buddhist, with the important part of this piece being the Buddha at the top resting amongst the leaves. This argument of the core of the art remaining Buddhist is corroborated by Nishad. [^1]
 
-[^randomthing]:Put your source information here.
+[^1]: Nishad 2026, 16.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium, nibh vel posuere pretium, neque ipsum maximus libero, ac maximus quam ante sit amet dolor. Integer pharetra semper sem sed sagittis. Curabitur mauris tortor, elementum non felis id, hendrerit efficitur metus.
+The significance of the Buddhas placement in the frame of the acanthus leaves which have been noted and described to have a 'protective element'[^2], leaving the Buddha procted from the outside world to be able to meditate in peace. 
 
-Sed efficitur leo in magna pretium, euismod malesuada risus interdum. Proin sed libero et enim pulvinar convallis non eget est. Sed ultrices dui vitae enim semper accumsan.[^anotherrandomthing]
+[^2]: Gilani 2020, 24
 
-[^anotherrandomthing]:Put your next footnote source information here.
+The central positioning of the Buddha in this piece and his protection demonstrated by the leaves continues the previosuly discussed emelement of importance that Buddhism has with the adoption of Greek architectural influences
+
+## The Buddha and Nature 
+{% include images/figure.html
+class="left"
+width="48%"
+caption="Another, similar capital depicting the Buddha. [Source](https://en.wikipedia.org/wiki/Indo-Corinthian_capital)"
+image-path="images/buddha-acanthus-capitol.jpg"
+%}
+
+The Buddha is represented as one with nature, which could not be seen more clearly in the piece, many of the common associations with the Buddha remain through the portrayals of him in Greco-Buddhist art illustrating how the essence of this important figure remains unaltered by influences from other cultures. 
+
+The Greek context from the acanthus leaves links closely to the often associated plant life with the Buddha such as lilies and lotus flowers, this demonstrates how the important images of plant life transferred its meaning into a new context with the Buddha. 
 
 
-## Section Headings Create Visual Breaks
-Each section heading (marked with `##` in Markdown) creates a clear visual break in your essay. This helps readers navigate long-form content and gives you natural places to shift topics or introduce new ideas.
+## Roman, Greek, Buddhist and Byzantine
 
-**Why this matters:** Breaking essays into clear sections makes writing more manageable. Write one section at a time, preview it, then move to the next. No need to tackle the entire essay at once.
+The history of these columns is long and dates back to the fourth century BC in Greece before it spread around the Roman Empire with examples found in Tunisia, Italy and Spain all built or influenced by Roman constructions. While the techniques spread west from the Romans so too did they spread east with Greek artisans moving with the Alexandrian conquests. 
 
-Praesent sed vehicula velit, vel hendrerit neque. Vivamus scelerisque sed nunc nec congue. Curabitur sapien risus, finibus id tincidunt iaculis, porta et ipsum. Cras eu mollis sapien. Sed a mauris finibus orci molestie mollis.
+These architectural techniques would see their zenith under the Byzantine Empire with significant monuments such as the Hagia Sofia containing these columns. [^3]
 
-
-## Pull Quotes Add Emphasis
-Pellentesque viverra hendrerit sapien eu consequat. Curabitur leo ante, vestibulum a tincidunt eget, placerat eu nunc. Donec ut sem mi. Vivamus commodo nec sem eget pretium. Nulla ullamcorper volutpat venenatis.
+[^3]: Britanica
 
 {% include typography/aside.html class="right" text="
-This is a pull quote—a design element that highlights important text or quotations. It appears as a semi-transparent box to the right of your main text. Use these sparingly for maximum impact." %}
+The Buddha's central positioning in this object demonstrates how central the Buddha is within the art form of Greco-Buddhism, reinforcing the argument against Greek exceptionalism in this form." %}
 
-The pull quote you just saw is created with a simple `include` command in Markdown. It's one of many reusable components in Xanthan. You can put important quotes, key statistics, or memorable phrases in these boxes to create visual interest and emphasize crucial points.
+These wide architectural influences provide us with an understanding of how adaptive this world was with the influence of this single form of constrcucting columns extending from modern day Spain to Afganistan, Pakistan and India. 
 
-Duis eros odio, fringilla et pulvinar vitae, eleifend quis elit. Sed eleifend lectus in bibendum elementum. Vivamus ut velit dignissim, cursus libero nec, commodo orci. Morbi lacus metus, posuere ut pretium ac, malesuada id ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat, lacus id blandit ornare, mi nisi rutrum ante, vitae dignissim mauris nisl mattis nisl.
 
-## Images Can Be Different Widths
-{% include images/figure.html class="right" width="60%" caption="This image is set to 60% width instead of 48%, giving it more prominence. You can adjust image widths to suit your content. [Source](https://en.wikipedia.org/wiki/File:Eastern_Han_ingot_imprints_with_barbarous_Greek_inscriptions.jpg)" image-path="images/han-coin-two-sides-violet.png" %}
+## Adaptation and the Unique Aspects of Gandhara Columns
 
-The image to the right is **wider than the previous one** (60% instead of 48%). You control this with the `width` parameter in the image code. Want a small image? Use 30%. Want something that dominates? Try 70%.
+While these columns are widespread the interest here resides in the unique implementation of the Buddha into these creations demonstrating an important religious link to the architecture. No other examples of the columns are as unique in a religious sense and the use of nature surrounding the Buddha in this piece demonstarte a concrete understanding of the Buddhist faith. 
 
-Images can also be left-aligned (use `class="left"`) or centered full-width (we'll show that in more advanced essays). For Seedling level, right-aligned images at 48-60% width work well for most purposes.
-
-Duis vehicula erat et diam pharetra iaculis. Etiam rutrum scelerisque nunc, ut interdum justo pellentesque sit amet. Vivamus cursus massa mauris, a finibus felis laoreet quis. Integer vel molestie neque.
+Architecture and constuction can be important indicators of cultural exchange as much as any of the other forms and provides insight into how cultures of this time saw as intersting and worth implementing into construction in their own societies. This capital is an important example of this exchange with its Greek and Buddhist themes. 
 
 ---
 
 ## Bibliography
 
-- Lastname, Firstname. “Title of the Article.” *Title of the Journal* 9, no. 9 (1999): 999–999.
-- Lastname, Firstname. *Title of the Book*. Publisher Press, 1999.
+- Britanica, "Aeolic capital" [Britanica](https://www.britannica.com/technology/Aeolic-capital)
+- Britanica, "Byzantine architecture" [Britanica](https://www.britannica.com/topic/Hagia-Sophia)
+- 'Fragment of a Indo-Corinthian capital'. [UCLA Library Digital Collections](https://digital.library.ucla.edu/catalog/ark:/21198/z1sj7r1r) 
+- Gilani, Syeda Munazza. 2020. "Acanthus Leaves in Gandhara Art: a Symbol or a Decorative Pattern" Taxila Institute of Asian Civilizations. 
+- 'Indo-Corinthian capital' [Wikipedia](https://en.wikipedia.org/wiki/Indo-Corinthian_capital)
+- Nishad, Ganga Sagar. 2026. "Greco-Buddhist Art: The Symbol of Cultural Syncretism in Indian
+Perspective" GAS Journal of Arts Humanities and Social Sciences. 

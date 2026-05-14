@@ -59,5 +59,7 @@ These outdated views are often attributed to Alfred Foucher who was the one to c
 
 ## Bibliography
 
+- 'Buddha Wallpaper Royalty Free Images' [Shutterstock](https://www.shutterstock.com/search/buddha-wallpaper?dd_referrer=https%3A%2F%2Fwww.google.com%2F)
+- 'Head of Buddha' [metropolitan musuem of art](https://www.metmuseum.org/art/collection/search/38777).
 - Huntington, S. L. 1990. “Early Buddhist Art and the Theory of Aniconism.” Ntu.edu.tw. 1990. https://buddhism.lib.ntu.edu.tw/FULLTEXT/JR-ADM/huntin.htm.
 - M. Lythgoe, Albert . 1913. “Greco-Buddhist Sculpture.” The Metropolitan Museum of Art Bulletin 8 (6): 133. https://doi.org/10.2307/3252930.
