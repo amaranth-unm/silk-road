@@ -2,12 +2,11 @@
 author: Jackson Andress
 title: "Venice: A Silk Roads City"
 layout: base
-header-image: 
-thumbnail: 
-summary: 
+header-image: images/venetian-silk2.jpg
+thumbnail: images/venetian-silk2.jpg
+summary: Wealth and trade goods that came to Venice from places eastward such as China, Central Asia, Syria, and Egypt, but entire industries that came to Venice and in turn came to define the Venetian economy.
 tags: 
 - silk-road
-
 ---
 
 # Venice: A Silk Roads City 

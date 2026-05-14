@@ -5,8 +5,6 @@ layout: base
 header-image: images/cropped-theme-essay-header.jpg
 thumbnail: images/cropped-theme-essay-header.jpg
 summary: Dragon iconography along the Silk Road is one of the most pervasive artistic motifs, serving as a flexible epistemological tool, adaptable to any individual's narrative, ranging from a cosmological force to a symbol of legitimacy and intellectual inquiry through a shared visual language.
-geo: [35.73366251155713, 51.331845630353534]
-placename: Tehran, Iran
 tags: 
 - silk-road
 - dragon-iconography
