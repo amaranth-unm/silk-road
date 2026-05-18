@@ -11,5 +11,5 @@ css: objects.css
 {% assign cards = all_pages | where_exp: "p", "p.path contains 'objects/'" %}
 
 <div class="objects-grid-bleed">
-	{% include nav/card-grid.html cards=cards %}
+  {% include gallery-view.html cards=cards %}
 </div>
