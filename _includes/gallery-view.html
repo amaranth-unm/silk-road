@@ -1,9 +1,9 @@
 <div class="gallery-grid">
     {% for card in cards %}
       <div class="gallery-item">
-        <img src="{{ card.thumbnail }}" alt="{{ card.title }}">
+        <img src="{{ card.thumbnail | relative_url }}" alt="{{ card.title }}">
         <div class="gallery-popup">
-          <a href="{{ card.url }}">{{ card.title }}</a>
+          <a href="{{ card.url | relative_url }}">{{ card.title }}</a>
           <p>{{ card.summary }}</p>
         </div>
       </div>
