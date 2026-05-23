@@ -1,0 +1,22 @@
+{% assign essay = include.essay %}
+{% assign number = include.number %}
+
+{% if essay and essay.title and essay.thumbnail %}
+<article class="essay-entry">
+  <a class="essay-entry__image" href="{{ essay.url | relative_url }}" aria-label="Read {{ essay.title }}">
+    <img src="{{ essay.dir | append: essay.thumbnail | relative_url }}" alt="{{ essay.title }}">
+  </a>
+  <div class="essay-entry__body">
+    <div class="essay-entry__meta">
+      <span>{{ number | prepend: '00' | slice: -2, 2 }}</span>
+      {% if essay.author %}
+        <span>{{ essay.author }}</span>
+      {% else %}
+        <span>Thematic Essay</span>
+      {% endif %}
+    </div>
+    <h3><a href="{{ essay.url | relative_url }}">{{ essay.title }}</a></h3>
+    <p>{{ essay.summary | default: essay.description }}</p>
+  </div>
+</article>
+{% endif %}

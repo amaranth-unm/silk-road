@@ -1,0 +1,23 @@
+{% assign folder = include.folder | default: page.featured_essay %}
+{% assign label = include.label | default: "Featured Essay" %}
+{% assign cta = include.cta | default: "Read the essay" %}
+{% assign class_name = include.class | default: "" %}
+{% assign feature_path = "essays/" | append: folder | append: "/index.md" %}
+{% assign feature = site.pages | where: "path", feature_path | first %}
+
+{% if feature %}
+<section class="feature-block {{ class_name }}">
+  <a class="feature-block__image" href="{{ feature.url | relative_url }}" aria-label="Read {{ feature.title }}">
+    <img src="{{ feature.dir | append: feature.thumbnail | relative_url }}" alt="{{ feature.title }}">
+  </a>
+  <div class="feature-block__text">
+    <p class="feature-block__kicker">{{ label }}</p>
+    <h2><a href="{{ feature.url | relative_url }}">{{ feature.title }}</a></h2>
+    <p>{{ feature.summary }}</p>
+    {% if feature.author %}
+      <p class="feature-block__byline">By {{ feature.author }}</p>
+    {% endif %}
+    <a class="feature-block__cta" href="{{ feature.url | relative_url }}">{{ cta }}</a>
+  </div>
+</section>
+{% endif %}

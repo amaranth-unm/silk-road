@@ -5,6 +5,11 @@ layout: base
 header-image: images/thematic-essay-thumbnail.png
 thumbnail: images/one-bracelet.png
 summary: Frequently found in association with each other, coral and carnelian are eye-catching materials of adornment.
+objects:
+  - carnelian-necklaces
+  - coral-hoard
+  - bracelet-with-coral-and-carnelian
+  - two-bracelets-with-coral
 ---
 
 # Ilibalyk, Kazakhstan

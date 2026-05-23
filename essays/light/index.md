@@ -5,6 +5,11 @@ layout: base
 header-image: images/buddhajesus.jpg
 thumbnail: images/buddhajesus.jpg
 summary: How a dead religion is still remembered, more for its art than for its ideas.
+objects:
+  - buddhajesus
+  - maniseal
+  - codex
+  - sogdianletter
 ---
 
 # Introduction

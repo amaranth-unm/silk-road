@@ -1,0 +1,20 @@
+{% assign links = include.links %}
+
+{% if links %}
+<section class="home-index">
+  <div>
+    {% if include.kicker %}
+      <p class="home-section-label">{{ include.kicker }}</p>
+    {% endif %}
+    <h2>{{ include.title }}</h2>
+  </div>
+  <div class="home-index__links">
+    {% for link in links %}
+      <a href="{{ link.url | relative_url }}">
+        <strong>{{ link.label }}</strong>
+        <span>{{ link.text }}</span>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

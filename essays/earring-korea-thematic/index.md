@@ -5,6 +5,8 @@ layout: base
 header-image: images/koreaheading.png
 thumbnail: images/Korean.jpg
 summary: The Silla Kingdom was key to gold moving along the Silk Road.
+objects:
+  - earring-korea
 ---
 
 # Silla as the land of Gold

@@ -5,6 +5,11 @@ layout: base
 header-image: images/terra-cotta-thumbnail-5.jpg
 thumbnail: images/terra-cotta-thumbnail-5.jpg
 summary: The Terracotta Army is a vast army of life-size clay soldiers buried over 2,000 plus years ago to stand guard near the tomb of China’s first emperor, Qin Shi Huang, in the afterlife. 
+objects:
+  - standing-archer
+  - kneeling-archer
+  - terracotta-chariot
+  - armored-officer
 ---
 
 # The Terracotta Army and the Foundations of Silk Road Exchange

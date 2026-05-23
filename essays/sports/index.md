@@ -5,6 +5,11 @@ layout: base
 header-image: images/Chui wan painting 2.jpg
 thumbnail: images/thematic-essay-thumbnail.png
 summary: This essay connects four sports objects from the Silk Road to show how activities like chui wan, falconry, wrestling, and polo were about more than simple entertainment.
+objects:
+  - chui-wan-painting
+  - falconry-object
+  - wrestlers-weight
+  - polo-object
 ---
 # Sports on the Silk Road
 ## Sports as More Than Leisure

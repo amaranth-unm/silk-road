@@ -1,0 +1,11 @@
+{% assign pick = include.essay %}
+{% assign number = include.number | default: 1 %}
+
+{% if pick %}
+<a class="home-pick{% if number == 1 %} home-pick--large{% endif %}" href="{{ pick.url | relative_url }}">
+  <img src="{{ pick.dir | append: pick.thumbnail | relative_url }}" alt="{{ pick.title }}">
+  <span>{{ pick.category | default: "Editor's Pick" }}</span>
+  <h3>{{ pick.title }}</h3>
+  <p>{{ pick.summary }}</p>
+</a>
+{% endif %}

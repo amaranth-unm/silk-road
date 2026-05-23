@@ -13,6 +13,11 @@ tags:
 - ceramic
 - manuscript
 - bronzework
+objects:
+  - isfandiyars-third-course
+  - bowl-with-dragons
+  - mortar
+  - al-tannin
 ---
 
 # Dragons on the Silk Road: Legitimacy, Myth, and Material Culture in Four Objects

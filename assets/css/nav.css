@@ -8,26 +8,60 @@ NAVIGATION
 TOPNAV
 *****************************************************/
 
+.institution-strip {
+  padding: 0.38rem 0;
+  color: rgba(245, 243, 240, 0.58);
+  background: #120509;
+  border-bottom: 1px solid rgba(245, 243, 240, 0.18);
+  font-family: var(--font-body);
+  font-size: 0.66rem;
+  font-weight: 400;
+  letter-spacing: 0.14em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.institution-strip__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  padding: 0 clamp(0.75rem, 3vw, 2rem);
+}
+
+.institution-strip a {
+  color: rgba(245, 243, 240, 0.66);
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+.institution-strip a:hover {
+  color: var(--amaranth-accent);
+}
+
 .navbar {
   /* Box Model */
-  padding: 0.15rem var(--spacing-sm);  /* Compact modern height ~48-50px */
+  padding: 0.45rem clamp(0.75rem, 3vw, 2rem);
 
   /* Typography */
-  font-family: var(--font-heading);
-  font-size: 0.9rem;
+  font-family: var(--font-body);
+  font-size: 0.82rem;
   color: var(--text-on-dark) !important;
 
   /* Visual */
-  background-color: var(--bg-nav) !important;
-  border-bottom: 1px solid var(--accent-border);
+  background-color: #050505 !important;
+  border-bottom: 1px solid rgba(245, 243, 240, 0.22);
 }
 
 .navbar-brand {
   /* Typography */
-  font-size: 1.1rem;
-  font-weight: 600 !important;
-  color: var(--text-on-dark) !important;  /* Explicit color for template users */
+  font-family: var(--font-serif);
+  font-size: clamp(1.45rem, 3vw, 2.35rem);
+  font-weight: 700 !important;
+  line-height: 1;
+  color: var(--warm-white) !important;
   text-decoration: none;
+  letter-spacing: 0;
 
   /* Visual */
   border-bottom: none;
@@ -40,7 +74,8 @@ TOPNAV
 
 .navbar-toggler {
   /* Visual */
-  border-color: var(--text-on-dark);
+  border-color: rgba(245, 243, 240, 0.55);
+  border-radius: var(--radius-sm);
 }
 
 .navbar-toggler:focus {
@@ -57,35 +92,47 @@ TOPNAV
   /* Display */
   display: flex;
   list-style: none;
-  gap: var(--spacing-sm);
+  gap: clamp(0.35rem, 1.5vw, 1rem);
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
 }
 
 /* Use Bootstrap's .nav-link class for consistency */
 .nav-link {
   /* Box Model */
   display: inline-block;
-  padding: 0.3rem var(--spacing-sm);
+  padding: 0.35rem 0.25rem;
 
   /* Typography */
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
   text-decoration: none;
-  color: var(--text-on-dark) !important;
+  color: rgba(245, 243, 240, 0.84) !important;
 
   /* Visual */
-  border-radius: var(--radius-sm);
+  border-bottom: 1px solid transparent;
+  border-radius: 0;
 
   /* Interactivity */
-  transition: background-color var(--transition-fast), color var(--transition-fast);
+  transition: border-color var(--transition-fast), color var(--transition-fast);
 }
 
 .nav-link:visited {
   /* Typography */
-  color: var(--text-on-dark) !important;
+  color: rgba(245, 243, 240, 0.84) !important;
 }
 
 .nav-link:hover,
 .nav-link:focus {
   /* Typography */
-  color: var(--interactive-hover) !important;
+  color: var(--warm-white) !important;
+  border-bottom-color: var(--amber);
 }
 
 
@@ -206,6 +253,69 @@ BREADCRUMB NAVIGATION
   color: var(--bs-navbar-color);
 }
 
+/*****************************************************
+FOOTER
+Site chrome paired with the top navigation.
+*****************************************************/
+
+footer.site-footer {
+  margin-top: auto;
+  padding: clamp(1.5rem, 4vw, 2.4rem) clamp(1rem, 3vw, 2rem);
+  color: var(--warm-white);
+  background: #050505;
+  border-top: 1px solid rgba(245, 243, 240, 0.22);
+}
+
+.site-footer__inner {
+  display: grid;
+  grid-template-columns: minmax(12rem, 0.35fr) minmax(18rem, 0.65fr);
+  gap: clamp(1rem, 4vw, 3rem);
+  align-items: start;
+  max-width: 82rem;
+  margin: 0 auto;
+}
+
+.site-footer__brand {
+  color: var(--warm-white);
+  font-family: var(--font-serif);
+  font-size: clamp(1.6rem, 3vw, 2.5rem);
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+.site-footer__brand:hover {
+  color: var(--warm-white);
+}
+
+.site-footer__credit {
+  max-width: 52rem;
+  margin: 0;
+  color: rgba(245, 243, 240, 0.72);
+  font-size: clamp(0.88rem, 1.3vw, 1.06rem);
+  line-height: 1.55;
+  text-align: left;
+}
+
+.site-footer__credit a {
+  color: var(--warm-white);
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(245, 243, 240, 0.34);
+  transition: color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.site-footer__credit a:hover {
+  color: var(--amaranth-accent, #e52b50);
+  border-bottom-color: var(--amaranth-accent, #e52b50);
+}
+
+.site-footer__credit .site-footer__amaranth {
+  color: var(--amaranth-accent, #e52b50);
+  border-bottom-color: rgba(229, 43, 80, 0.55);
+}
+
 
 /*****************************************************************************/
 /*
@@ -214,8 +324,18 @@ BREADCRUMB NAVIGATION
 /*****************************************************************************/
 
 @media (max-width: 768px) {
+  .institution-strip {
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 0.58rem;
+  }
+
   .navbar-workshop-toggle {
     padding: 0.5rem 1rem;
     border-top: 1px solid var(--border-light);
+  }
+
+  .site-footer__inner {
+    grid-template-columns: 1fr;
   }
 }

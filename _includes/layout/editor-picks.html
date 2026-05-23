@@ -1,0 +1,19 @@
+{% assign picks = include.picks %}
+{% assign kicker = include.kicker | default: "Editor's Picks" %}
+{% assign title = include.title | default: "Start with the strange, vivid stories." %}
+
+{% if picks %}
+<section class="home-editors">
+  <div class="home-section-heading">
+    <p class="home-section-label">{{ kicker }}</p>
+    <h2>{{ title }}</h2>
+  </div>
+  <div class="home-picks">
+    {% for pick_slug in picks %}
+      {% assign pick_path = "essays/" | append: pick_slug | append: "/index.md" %}
+      {% assign editor_pick = site.pages | where: "path", pick_path | first %}
+      {% include layout/home-editor-pick.html essay=editor_pick number=forloop.index %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

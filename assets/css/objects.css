@@ -1,18 +1,62 @@
-/* Page-specific width and grid overrides for objects.md */
+/* Full-width object gallery page */
+.full-width-main {
+  width: 100%;
+}
+
+.full-width-main > h1 {
+  max-width: 76rem;
+  margin: 0 auto;
+  padding: clamp(2rem, 5vw, 4rem) clamp(1rem, 3vw, 2rem) 0;
+}
+
 .objects-grid-bleed {
-  width: 90vw;
-  margin-left: calc(50% - 45vw);
-  margin-right: calc(50% - 45vw);
+  width: 100vw;
+  margin-top: clamp(1rem, 3vw, 2rem);
 }
 
-.objects-grid-bleed .card-grid {
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+.objects-grid-bleed .gallery-grid {
+  width: 100%;
+  display: block;
+  columns: 220px;
+  column-gap: 12px;
+  padding: clamp(10px, 1.5vw, 18px);
 }
 
-@media (max-width: 768px) {
-  .objects-grid-bleed {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+.objects-grid-bleed .gallery-item {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 12px;
+  break-inside: avoid;
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+}
+
+.objects-grid-bleed .gallery-item img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (min-width: 1200px) {
+  .objects-grid-bleed .gallery-grid {
+    columns: 260px;
+    column-gap: 14px;
+  }
+}
+
+@media (max-width: 640px) {
+  .objects-grid-bleed .gallery-grid {
+    columns: 155px;
+    padding: 8px;
+  }
+
+  .objects-grid-bleed .gallery-item {
+    margin-bottom: 8px;
+  }
+
+  .objects-grid-bleed .gallery-item img {
+    max-height: 260px;
   }
 }

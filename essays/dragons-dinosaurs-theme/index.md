@@ -5,6 +5,11 @@ layout: base
 header-image: images/st-michael.jpg
 thumbnail: images/stegosaurus.jpg
 summary: The Silk Roads formed a vast network of interconnected trade and cultural exchange linking East Asia, the Middle East, and Europe, facilitating not only the movement of goods but also the transmission of stories, symbols, and artistic motifs. Among the most enduring of these shared images is the dragon, a creature that appears in strikingly similar yet culturally distinct forms across regions connected by these routes. 
+objects:
+  - archangel-michael
+  - st-george-painting
+  - stegosaurus
+  - bahram-gur
 ---
 
 # Dragons and Dinosaurs of the Silk Road

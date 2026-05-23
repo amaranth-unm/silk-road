@@ -7,6 +7,11 @@ thumbnail: images/venetian-silk2.jpg
 summary: Wealth and trade goods that came to Venice from places eastward such as China, Central Asia, Syria, and Egypt, but entire industries that came to Venice and in turn came to define the Venetian economy.
 tags: 
 - silk-road
+objects:
+  - venice-object-one
+  - venice-object-two
+  - venice-object-three
+  - venetian-paper
 ---
 
 # Venice: A Silk Roads City 

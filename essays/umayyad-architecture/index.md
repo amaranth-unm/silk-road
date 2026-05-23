@@ -5,6 +5,11 @@ layout: base
 header-image: images/arches.png
 thumbnail: images/mshatta-arches.webp
 summary: Umayyad architecture is a relfection of their early ruling methods.
+objects:
+  - mshatta-facade
+  - qasr-mosaic
+  - khirbat-faces
+  - five-kings
 ---
 
 # Umayyad Architecture: an Evolution of Past Traditions

@@ -5,6 +5,8 @@ layout: base
 header-image: images/parthianheading.png
 thumbnail: images/Persia.png
 summary: In the premodern era, Persia was an important part of the Silk Road Trade Network.
+objects:
+  - earring-persian
 ---
 
 # Parthian Jewelry: Trade, Identity, and Cultural Influence

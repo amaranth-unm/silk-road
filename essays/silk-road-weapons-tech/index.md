@@ -5,6 +5,11 @@ layout: base
 header-image: images/crossbow-1.jpg
 thumbnail: images/danzig-handgun-1.jpg
 summary: Through conflict and collaboration, weapons technology integrates in many forms across Eurasia through millennia.
+objects:
+  - danzig-handgun
+  - crossbow-of-ulrich
+  - taklamakan-duan-jian
+  - vajra-hilted-ken
 ---
 
 # Silk Road Weapons Technology
@@ -67,4 +72,4 @@ As avenues to express not only status but ideology, weapons have several other c
 
 - Pyhrr, Stuart W., Donald J. La Rocca, and Morihiro Ogawa. Arms and Armor: Notable Acquisitions, 1991–2002. The Metropolitan Museum of Art, 2002. 43–44. https://books.google.com/books?id=tu3rasl0_fMC&lpg=PP1&pg=PA40#v=onepage&q&f=false 
 
-- Schlegel, G. “On the Invention and Use of Fire-Arms and Gunpowder in China, Prior to the Arrival of Europeans.” T’oung Pao 3, no. 1 (1902): 1–11. http://www.jstor.org/stable/4525582. 
+- Schlegel, G. “On the Invention and Use of Fire-Arms and Gunpowder in China, Prior to the Arrival of Europeans.” T’oung Pao 3, no. 1 (1902): 1–11. http://www.jstor.org/stable/4525582.

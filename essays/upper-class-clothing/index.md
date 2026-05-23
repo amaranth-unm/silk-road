@@ -5,6 +5,11 @@ layout: base
 header-image: images/tang-dynasty-women.jpg
 thumbnail: images/byz-dress.png
 summary: The Silk Road offered an influence over Upper Class women's dress and style.
+objects:
+  - glass-bowl-base
+  - mirror-handle-from-india
+  - seated-court-lady
+  - statuette-of-a-woman
 ---
 
 # Elite Women, Their Clothing, and Fashion on the Silk Road

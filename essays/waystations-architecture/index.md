@@ -17,6 +17,11 @@ tags:
   - islamic-architecture
   - hostelry
   - finished
+objects:
+  - ribat-i-sharaf
+  - khan-al-umdan
+  - funduq-al-najjarin
+  - wikala-al-ghuri
 ---
 
 ## Introduction

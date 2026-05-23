@@ -1,0 +1,29 @@
+{% assign items = include.items %}
+{% assign collection = include.collection | default: "essays" %}
+
+{% if items %}
+<section class="home-themes">
+  <div class="home-section-heading">
+    {% if include.kicker %}
+      <p class="home-section-label">{{ include.kicker }}</p>
+    {% endif %}
+    <h2>{{ include.title }}</h2>
+  </div>
+  <div class="home-theme-grid">
+    {% for item in items %}
+      {% assign item_path = collection | append: "/" | append: item.slug | append: "/index.md" %}
+      {% assign item_page = site.pages | where: "path", item_path | first %}
+      {% if item_page %}
+        {% assign item_image = item.image | default: item_page.thumbnail %}
+        <a href="{{ item_page.url | relative_url }}">
+          <img src="{{ item_page.dir | append: item_image | relative_url }}" alt="{{ item.alt | default: item_page.title }}">
+          <div>
+            <span>{{ item.label | default: item_page.title }}</span>
+            <p>{{ item.text | default: item_page.summary }}</p>
+          </div>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

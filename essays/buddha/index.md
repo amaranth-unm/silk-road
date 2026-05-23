@@ -5,6 +5,11 @@ layout: base
 header-image: images/buddha-from-gandhara.jpg
 thumbnail: images/buddha-from-gandhara.jpg
 summary: Buddhism has been spread across many different regions along the Silk Road.
+objects:
+  - buddha-from-india
+  - gilded-bronze
+  - colossal-buddha-afghanistan
+  - buddha-from-gandhara
 ---
 
 # Rrepresentations of Buddha

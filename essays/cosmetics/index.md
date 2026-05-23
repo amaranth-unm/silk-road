@@ -5,6 +5,11 @@ layout: base
 header-image: images/cosmetics-silk-1.jpeg
 thumbnail: images/cosmetics-thumb.jpeg
 summary: All along the Silk Road, we can see how cosmetics start to appear and being traded among different cultures.
+objects:
+  - glass-flask
+  - cosmetic-jar
+  - girl-holding-mirror
+  - suransundari-applying-eye-makeup
 ---
 
 # Cosmetics on the Silk Road

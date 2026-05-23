@@ -168,6 +168,49 @@ a:hover {
   color: var(--text-body);
 }
 
+/*****************************************************
+CAPTIONS
+*****************************************************/
+
+figcaption {
+  display: block;
+  clear: both;
+  margin: 0.4rem 0 1rem 0;
+  padding: 0;
+  color: var(--text-body);
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+  text-align: justify;
+}
+
+figcaption p {
+  margin: 0;
+  padding: 0;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+figcaption a {
+  font-weight: normal;
+  opacity: 0.5;
+}
+
+p.carousel-caption {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  margin: 0.5rem 0 0 var(--spacing-lg);
+  padding: 0;
+  color: var(--text-muted);
+  font-family: var(--font-body);
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  text-align: left;
+  text-shadow: none;
+  border: 0;
+}
+
 .container li {
   /* Box Model */
   margin: 0 0 var(--spacing-xs) 0;

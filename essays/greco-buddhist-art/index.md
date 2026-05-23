@@ -5,6 +5,11 @@ layout: base
 header-image: images/buddha-image.jpg
 thumbnail: images/main-image.jpg
 summary: Greco-Buddhist art is an important representation of cultural mixing on the silk road, Greek influence in the South Asian area come from the conquests of Alexander the Great and his successors.
+objects:
+  - apollo-daphne-dish
+  - buddha-head
+  - dionysian-imagery-camel
+  - indo-corinthian-capital-fragment
 ---
 
 # Greco-Buddhist Art 

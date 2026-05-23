@@ -30,14 +30,25 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 
-  <!-- Base CSS -->
+  <!-- Silk Road brand and core framework CSS -->
   <link href="{{site.baseurl}}/assets/css/base.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/assets/css/cards.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/assets/css/backgrounds.css" rel="stylesheet">
   <link href="{{site.baseurl}}/assets/css/typography.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/assets/css/components.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/assets/css/backgrounds.css" rel="stylesheet">
   <link href="{{site.baseurl}}/assets/css/nav.css" rel="stylesheet">
+
+  <!-- Documentation/demo components load only where they are used. -->
+  {% if page.path contains 'docs/' %}
+  <link href="{{site.baseurl}}/assets/css/cards.css" rel="stylesheet">
+  {% endif %}
+
+  {% if page.layout == 'nav-left' %}
   <link href="{{site.baseurl}}/assets/css/nav-left.css" rel="stylesheet">
+  {% endif %}
+
+  {% if page.layout == 'nav-profile' %}
   <link href="{{site.baseurl}}/assets/css/nav-profile.css" rel="stylesheet">
+  {% endif %}
   
   <!--  
     Alternate theme CSS that overrides bases above. 

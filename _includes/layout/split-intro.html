@@ -1,0 +1,17 @@
+{% assign intro = include.intro %}
+
+{% if intro %}
+<section class="home-intro">
+  {% if intro.kicker %}
+    <p class="home-section-label">{{ intro.kicker }}</p>
+  {% endif %}
+  <div class="home-intro__grid">
+    <h2>{{ intro.title }}</h2>
+    <div>
+      {% for paragraph in intro.text %}
+        <p>{{ paragraph }}</p>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}

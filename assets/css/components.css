@@ -1,0 +1,528 @@
+/*****************************************************
+SILK ROAD COMPONENTS
+
+Reusable display components used across pages. Keep this file for
+component classes only; page-level composition belongs in page CSS.
+*****************************************************/
+
+/*****************************************************
+BUTTONS
+*****************************************************/
+
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  font-family: var(--font-body);
+  color: var(--white) !important;
+  text-decoration: none !important;
+  background: var(--accent-primary);
+  border: none !important;
+  border-radius: var(--radius-md);
+  transition: background-color var(--transition-normal), transform var(--transition-fast), box-shadow var(--transition-normal);
+}
+
+.btn-primary {
+  padding: 1em 2em;
+  font-size: 1.2em;
+  box-shadow: var(--shadow-md);
+}
+
+.btn-secondary {
+  padding: 0.6em 1.2em;
+  font-size: 0.95em;
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  color: var(--white) !important;
+  background: var(--interactive-hover);
+}
+
+.btn-primary:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.btn-secondary:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+/*****************************************************
+LEGACY HERO / JUMBOTRON
+Kept for older Xanthan pages and examples.
+*****************************************************/
+
+.hero-section {
+  max-width: 800px;
+  margin: 3rem auto 0;
+  text-align: center;
+}
+
+.hero-tagline {
+  max-width: 700px;
+  margin: 1.5rem auto 2rem;
+  color: var(--text-muted);
+  font-size: 1.25rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.hero-cta {
+  margin: 2rem 0 4rem;
+  text-align: center;
+}
+
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
+.jumbotron p {
+  text-align: center;
+}
+
+.jumbotron-gradient {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-left: var(--spacing-lg);
+  background-blend-mode: normal;
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+.jumbotron-gradient .jumbotron-content {
+  max-width: 45rem;
+  padding: var(--spacing-lg);
+  color: var(--text-body);
+}
+
+.jumbotron-gradient h2 {
+  margin-top: 0;
+  margin-bottom: var(--spacing-md);
+  color: var(--text-heading);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.jumbotron-gradient .jumbotron-text {
+  color: var(--text-body);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.jumbotron-gradient .jumbotron-text p {
+  margin-bottom: var(--spacing-md);
+}
+
+@media (max-width: 768px) {
+  .jumbotron-gradient {
+    height: auto !important;
+    padding: var(--spacing-md);
+  }
+
+  .jumbotron-gradient .jumbotron-content {
+    max-width: 100%;
+    padding: var(--spacing-md);
+  }
+
+  .jumbotron-gradient h2 {
+    font-size: 1.5rem;
+  }
+
+  .jumbotron-gradient .jumbotron-text {
+    font-size: 1rem;
+  }
+}
+
+/*****************************************************
+IMAGE CAROUSEL
+*****************************************************/
+
+.carousel {
+  overflow: hidden;
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  background: var(--bg-card);
+  border-radius: var(--radius-lg);
+}
+
+.carousel-item img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-height: 400px;
+  margin: 0 auto;
+  background: var(--bg-card);
+  object-fit: contain;
+}
+
+/*****************************************************
+WORKSHOP HELPERS
+Used by teaching/demo pages.
+*****************************************************/
+
+ul li {
+  margin: 0.2rem 0;
+  padding: var(--spacing-xs);
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-normal);
+}
+
+ul li.highlighted {
+  margin: var(--spacing-xs) 0;
+  padding: var(--spacing-sm) var(--spacing-md);
+  font-size: 1.15em;
+  font-weight: 600;
+  background-color: var(--warning-bg);
+  border: 3px solid var(--warning);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-hover);
+  transform: translateX(12px);
+}
+
+ul li.highlighted::marker {
+  color: var(--warning);
+  font-weight: bold;
+}
+
+.workshop-controls {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  padding: 10px 15px;
+  color: var(--white);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  background: var(--overlay-dark);
+  border-radius: var(--radius-md);
+  opacity: 0;
+  transition: opacity var(--transition-normal);
+}
+
+.workshop-controls.visible {
+  opacity: 1;
+}
+
+.workshop-controls.fade-out {
+  opacity: 0;
+}
+
+/*****************************************************
+FEATURE BLOCK
+Used by the homepage and essays page.
+*****************************************************/
+
+.feature-block {
+  width: min(100%, 76rem);
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(20rem, 0.85fr);
+  align-items: stretch;
+  min-height: 34rem;
+  margin: 0 auto;
+  color: var(--warm-white);
+  background: var(--sage-dark);
+}
+
+.feature-block--full {
+  width: 100%;
+  margin: 0;
+}
+
+.feature-block--spaced {
+  margin-bottom: clamp(3rem, 6vw, 5rem);
+}
+
+.feature-block__image {
+  min-height: 28rem;
+  overflow: hidden;
+  background: var(--bg-card);
+}
+
+.feature-block__image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.feature-block__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(2rem, 4vw, 4rem);
+}
+
+.feature-block__kicker {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--warm-white);
+}
+
+.feature-block h2 {
+  margin: 0 0 1rem;
+  font-family: var(--font-serif);
+  font-size: clamp(2.3rem, 5vw, 5rem);
+  line-height: 1.02;
+  color: var(--warm-white);
+}
+
+.feature-block h2 a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+.feature-block__text > p:not(.feature-block__kicker):not(.feature-block__byline) {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: var(--warm-light);
+}
+
+.feature-block__byline {
+  margin: 1.25rem 0 0;
+  color: var(--amber);
+  font-weight: 700;
+}
+
+.feature-block__cta {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.7rem;
+  margin-top: 1.5rem;
+  padding: 0.7rem 1rem;
+  border: 1px solid currentColor;
+  border-radius: var(--radius-sm);
+  color: var(--warm-white);
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 0;
+  transition: background var(--transition-fast), color var(--transition-fast), transform var(--transition-fast);
+}
+
+.feature-block__cta:hover {
+  color: var(--sage-dark);
+  background: var(--warm-white);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 900px) {
+  .feature-block,
+  .feature-block--full {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-block__image {
+    min-height: 22rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .feature-block__image {
+    min-height: 18rem;
+  }
+
+  .feature-block__text {
+    padding: 1.5rem 1rem 2rem;
+  }
+}
+
+/*****************************************************
+GALLERY VIEW
+Reusable image gallery used by object index pages.
+*****************************************************/
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 8px;
+  padding: 16px;
+}
+
+.gallery-item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-popup {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.75);
+  color: var(--warm-white);
+  padding: 10px;
+  font-size: 0.85rem;
+}
+
+.gallery-title {
+  color: var(--amber);
+  font-weight: 700;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.gallery-popup p {
+  margin: 0;
+}
+
+.gallery-item:hover .gallery-popup {
+  display: block;
+}
+
+/*****************************************************
+LEAFLET MAP EMBED
+Reusable map container and popup card styling.
+*****************************************************/
+
+.map-embed {
+  position: relative;
+  margin: -20px;
+  padding: 20px;
+}
+
+.map-embed__canvas {
+  display: block;
+  height: 100%;
+}
+
+.leaflet-popup {
+  max-width: none !important;
+}
+
+.leaflet-popup-content-wrapper {
+  padding: 0;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+}
+
+.leaflet-popup-content {
+  width: auto !important;
+  max-width: none !important;
+  margin: 0;
+  padding: 0;
+}
+
+.leaflet-popup-content p {
+  margin: 0 !important;
+}
+
+.popup-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+  max-height: 200px;
+  overflow: hidden;
+  font-family: var(--font-body);
+  background: white;
+}
+
+.popup-wrapper img {
+  flex: 0 0 150px;
+  width: 150px;
+  height: 150px;
+  margin-right: 1rem;
+  object-fit: cover;
+  object-position: center;
+  border-radius: var(--radius-sm);
+}
+
+.popup-text {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: 0.55rem;
+  padding: 0.9rem;
+  overflow: auto;
+  line-height: 1.4;
+}
+
+.popup-title {
+  margin: 0;
+  color: var(--text-body);
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.popup-title a {
+  color: var(--text-body);
+  font-family: var(--font-serif);
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+.popup-title a::after {
+  content: " →";
+  color: var(--golden-clay-dark);
+}
+
+.popup-title a:hover {
+  color: var(--golden-clay-dark);
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+.popup-placename {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-style: italic;
+  line-height: 1.2;
+}
+
+.popup-summary {
+  margin: 0;
+  color: var(--text-body);
+  font-size: 0.9rem;
+  line-height: 1.3;
+}
+
+@media (max-width: 768px) {
+  .popup-wrapper {
+    flex-direction: column;
+    width: 280px;
+    max-height: none;
+  }
+
+  .popup-wrapper img {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 180px;
+  }
+}

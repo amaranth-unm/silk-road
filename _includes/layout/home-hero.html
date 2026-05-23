@@ -1,0 +1,25 @@
+{% assign hero = include.hero %}
+
+{% if hero %}
+<section class="home-hero">
+  <div class="home-hero__image" role="img" aria-label="{{ hero.alt | default: hero.title }}" style="background-image: linear-gradient(90deg, rgba(21, 29, 24, 0.9) 0%, rgba(21, 29, 24, 0.62) 38%, rgba(21, 29, 24, 0.18) 100%), url('{{ hero.image | relative_url }}');"></div>
+  <div class="home-hero__content">
+    {% if hero.kicker %}
+      <p class="home-kicker">{{ hero.kicker }}</p>
+    {% endif %}
+    {% if hero.title %}
+      <h1>{{ hero.title }}</h1>
+    {% endif %}
+    {% if hero.text %}
+      <p>{{ hero.text }}</p>
+    {% endif %}
+    {% if hero.buttons %}
+      <div class="home-hero__actions" aria-label="Primary homepage links">
+        {% for button in hero.buttons %}
+          <a href="{{ button.url | relative_url }}">{{ button.label }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}

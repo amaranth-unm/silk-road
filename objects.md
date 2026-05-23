@@ -1,6 +1,6 @@
 ---
 title: Objects
-layout: base
+layout: full-width
 header-title: Objects
 css: objects.css
 ---

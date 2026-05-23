@@ -1,0 +1,29 @@
+{% assign items = include.items %}
+{% assign collection = include.collection | default: "objects" %}
+
+{% if items %}
+<section class="home-objects">
+  <div class="home-section-heading">
+    {% if include.kicker %}
+      <p class="home-section-label">{{ include.kicker }}</p>
+    {% endif %}
+    <h2>{{ include.title }}</h2>
+  </div>
+  <div class="home-object-strip">
+    {% for item in items %}
+      {% assign item_path = collection | append: "/" | append: item.slug | append: "/index.md" %}
+      {% assign item_page = site.pages | where: "path", item_path | first %}
+      {% if item_page %}
+        {% assign item_image = item.image | default: item_page.thumbnail %}
+        <a href="{{ item_page.url | relative_url }}">
+          <img src="{{ item_page.dir | append: item_image | relative_url }}" alt="{{ item.alt | default: item_page.title }}">
+          {% if item.label %}
+            <span>{{ item.label }}</span>
+          {% endif %}
+          <strong>{{ item.title | default: item_page.title }}</strong>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

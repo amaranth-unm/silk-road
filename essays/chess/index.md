@@ -5,6 +5,11 @@ layout: scrollstory
 header-image: images/chess-move-header.jpg
 thumbnail: images/chess-project-header.jpg
 summary: The evolution of chess is somewhat a mystery, but traces of its history can be found across old silk road trade routes.
+objects:
+  - libro-de-los-juegos
+  - brest-king-chess-piece
+  - kuwait-knight-chess-piece
+  - ashmolean-ivory-rook
 ---
 
 # Chess Across the Silk Road

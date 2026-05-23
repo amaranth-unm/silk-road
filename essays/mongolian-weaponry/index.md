@@ -5,6 +5,11 @@ layout: base
 header-image: images/thematic-pic.jpg
 thumbnail: images/thematic-pic.jpg
 summary: The Mongol Empire was instrumental in shaping the Silk Road that we study today.
+objects:
+  - mongolian-stirrups
+  - mongolian-composite-bow
+  - mongolian-sword
+  - mongolian-helmet
 ---
 
 # How Technology and Trade Forged the Mongol Empire

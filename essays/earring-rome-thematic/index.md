@@ -5,6 +5,8 @@ layout: base
 header-image: images/romeheading.png
 thumbnail: images/roman.jpg
 summary: Roman jewelry is a symbol showing wealth and status.
+objects:
+  - earring-roman
 ---
 
 # Cultural Exchange and Artistic Development
