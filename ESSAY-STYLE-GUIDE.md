@@ -11,10 +11,10 @@ All essay content should be written in Markdown or use established Xanthan frame
 ## Allowed Changes
 
 - Fix Markdown formatting.
-- Add paragraph breaks to very long blocks of text.
+- Break up very long paragraphs into shorter units appropriate for online reading, using the student's existing transitions and topic shifts.
 - Normalize heading levels, usually `##` for major sections and `###` for subsections.
 - Normalize bibliography, works cited, references, or further reading headings.
-- Format footnotes and citations consistently when the intended citation is clear.
+- Convert footnotes to the site's Littlefoot-compatible Markdown footnote format when the intended citation is clear.
 - Convert bare URLs into Markdown links when helpful.
 - Fix obvious typos, repeated words, spacing problems, and broken punctuation.
 - Remove duplicate blank lines or inconsistent whitespace.
@@ -28,6 +28,7 @@ All essay content should be written in Markdown or use established Xanthan frame
 - Long bibliography entries should remain one bullet point per source, even if the line wraps visually.
 - Visible URLs in bibliography entries should be folded into the preceding citation text as regular Markdown links when the destination is clear, rather than left as raw URLs.
 - Multiple sources run together in one paragraph should be split into separate bullet points.
+- Long paragraphs should be divided where the student shifts evidence, example, chronology, place, or subtopic. Do not rewrite the prose just to make shorter paragraphs.
 - Section headings should use Markdown heading syntax, not bold text standing in for a heading.
 - Essays should begin with an `##` heading after the page header. If the essay starts directly with body text, add a brief neutral heading drawn from the opening paragraph's topic without inventing a new argument or changing the student's framing.
 - Remove `<br>` tags immediately before headings; use normal Markdown spacing instead.
@@ -37,7 +38,7 @@ All essay content should be written in Markdown or use established Xanthan frame
 - URLs in image captions should be encapsulated as a `[source](URL)` link in the caption.
 - Images should not appear immediately before a heading; move the image to after the heading so the section title introduces the visual material.
 - Pullquotes should not be the first thing after a heading. Keep at least two sentences of body text between a heading and a pullquote so the section has enough typographic breathing room.
-- Footnotes should use Markdown footnote syntax when possible.
+- Footnotes should use the site's Littlefoot-compatible Markdown footnote format, with an inline marker such as `[^1]` and a matching footnote definition such as `[^1]: Source text`.
 - Footnote markers should stay attached to the paragraph or sentence they support, not sit alone on a separate line.
 - Extra blank lines, inconsistent indentation, and trailing spaces should be cleaned up.
 - Object or essay links should use Markdown links or established Xanthan include patterns.
@@ -71,12 +72,13 @@ When in doubt, preserve the original text and leave a note or ask for direction.
 
 - Front matter is intact and valid.
 - Title, author, object links, and metadata are preserved.
-- Paragraphs are readable without changing the student's argument.
+- Paragraphs are sized for online reading without changing the student's argument, sequence, or voice.
 - Heading levels are consistent.
 - The essay begins with an `##` heading after the page header.
 - Images and captions are formatted consistently.
 - Pullquotes are introduced by at least two sentences after a heading.
 - Footnotes, citations, and bibliography sections are readable and consistent.
+- Footnotes use the site's Littlefoot-compatible Markdown footnote format.
 - Footnote markers are attached to their relevant paragraph or sentence, not isolated on separate lines.
 - Bibliography-style sections use one Markdown bullet point per source.
 - Content uses Markdown or established Xanthan framework patterns, not ad hoc HTML.

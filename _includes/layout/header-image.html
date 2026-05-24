@@ -19,6 +19,9 @@
       background-image: url('{{ img_url }}');
       background-position: {{ include.background-position | default: 'center' }};">
     <div class="page-header-image__content">
+      {% if include.author %}
+      <p class="page-header-image__kicker">{{ include.author }}</p>
+      {% endif %}
       {% if include.title %}
       <h1 id="page-title">{{ include.title }}</h1>
       {% endif %}

@@ -83,6 +83,20 @@ Kept for older Xanthan pages and examples.
   padding: clamp(2rem, 6vw, 5rem) clamp(1rem, 5vw, 4rem);
 }
 
+.page-header-image .page-header-image__kicker {
+  max-width: 44rem;
+  margin: 0 0 1.2rem;
+  color: rgba(245, 243, 240, 0.78);
+  font-family: var(--font-body);
+  font-size: clamp(0.88rem, 1.3vw, 1.05rem);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: left;
+  text-shadow: 0 0.12rem 0.9rem rgba(0, 0, 0, 0.4);
+}
+
 .page-header-image h1 {
   max-width: 13ch;
   margin: 0;
