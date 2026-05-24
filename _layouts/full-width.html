@@ -10,7 +10,7 @@
     {% include nav/nav-top.html %}
 
     {% assign headerimage = page.header-image %}
-    {% assign headertitle = page.header-title %}
+    {% assign headertitle = page.header-title | default: page.title %}
     {% assign headerheight = page.header-height %}
     {% assign headerposition = page.header-position %}
 

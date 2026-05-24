@@ -12,8 +12,6 @@ objects:
   - indo-corinthian-capital-fragment
 ---
 
-# Greco-Buddhist Art 
-
 The unique art form of Greco-Buddhism emerged from the cultural exchange between nobles in the Gandhara region and Greek settlers that arrived in the area after the conquests of Alexander the Great, these groups would communicate and learn about each others cultures in which the Gandharans would utilise Greek techniques and labour to construct complex artworks. 
 
 One significant accomplishment of this art form is the human representation of the Buddha, the important historian and 'father of Greco-Buddhism' Foucher was the first to claim this as a key researcher in the history of this cultural exchange. 

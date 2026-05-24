@@ -12,8 +12,6 @@ objects:
   - bahram-gur
 ---
 
-# Dragons and Dinosaurs of the Silk Road
-
 {% include images/figure.html
 class="right"
 width="48%"

@@ -12,8 +12,6 @@ objects:
   - armored-officer
 ---
 
-# The Terracotta Army and the Foundations of Silk Road Exchange
-
 The Terracotta Army of Qin Shi Huang is more than an archaeological marvel; it is a powerful symbol of the political and military systems that made Silk Road exchange possible. Constructed around 210 BCE near modern Xi'an, the army was intended to guard the emperor in the afterlife. Yet its deeper significance lies in what it reveals about the structure of the Qin state.
 
 The army’s disciplined formations—soldiers, horses, chariots, and officers—reflect a world defined by order, hierarchy, and control. These same qualities would later enable the movement of goods, people, and ideas across Eurasia.

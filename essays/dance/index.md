@@ -13,8 +13,6 @@ objects:
   - tang-dynasty-court-lady-draped-silk
 ---
 
-# Women, Dance, and Cultural Exchange Along the Silk Road
-
 The Silk Road is often remembered as a network of trade routes that connected China with Central Asia, India, and the Mediterranean world. However, the Silk Road was more than just a system for exchanging goods. It was also a space where artistic traditions, religions, performance styles, and social ideas traveled between cultures. Through this interaction, different regions influenced one another and created new forms of artistic expression. This project focuses on how women, dance, clothing, and movement became part of that exchange during the Tang Dynasty and along the Silk Road.
 
 The four objects selected for this project reveal how dance became connected to social identity, spirituality, artistic performance, and cultural interaction. Together, these objects show that women played a central role in shaping visual and performance culture during one of the most globally connected periods in Chinese history.
@@ -39,7 +37,7 @@ The second and third objects, the apsaras murals from the Mogao Caves in Dunhuan
 
 Because Dunhuang was located at an important crossroads between China, Central Asia, and India, Buddhist art in this region became shaped by multiple artistic traditions. The murals reveal how dance became connected to spirituality and religious communication.
 
-{% include typography/aside.html class="right" text="
+{% include typography/pullquote.html text="
 The Silk Road was not only a network for trade, but also a network for artistic exchange, movement, and cultural transformation." %}
 {% include images/figure.html
 class="left"

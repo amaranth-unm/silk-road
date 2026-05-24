@@ -12,7 +12,7 @@ objects:
   - sogdianletter
 ---
 
-# Introduction
+## Introduction
 
 “Truth is your branch, joy is your leaves, love is your fruit, the eternal Living Self. Now, my God, I have seen you. I will not die! You are like the eternal light and living tree.”
 - Manichaean-Turkic fragment (SI6621), near Turfan. [^footnote1]

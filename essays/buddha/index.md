@@ -12,8 +12,6 @@ objects:
   - buddha-from-gandhara
 ---
 
-# Rrepresentations of Buddha
-
 The discussion of Buddhism when considering the Silk Road is a very importance topic as well as a very importance piece of the significance of religion and sharing ideas across many different regions. From India to China to Gandhara and lastly to Bakhtria, the spread of ideas, religion, commodities, goods, and even people there will always be the consideration of Buddha.
 
 An important message in accordance with Buddhism is the idea of the circle of life. As one will live their life just as their life will end. Karma also plays an important role within Buddhism as one will reap what they sew. This history of Buddhism is a very interesting one, the connections from one region to another is a very important part of the Silk Road.  

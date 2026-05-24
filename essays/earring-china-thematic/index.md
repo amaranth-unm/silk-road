@@ -10,7 +10,7 @@ objects:
   - earring-china
 ---
 
-# Embellishing and Exchange on the Silk Road
+## Embellishing and Exchange on the Silk Road
 
 The Tang Dynasty **(618-907 CE)** is a period in the history of China characterized by high degrees of culture due to the openness of many other cultures and involvement in the activities of the Silk Road. Jewelry, especially earrings made from gold and other pieces of this kind, can serve as an example to consider in order to examine the intercultural communication process that happened during this period.
 

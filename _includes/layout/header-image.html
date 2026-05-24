@@ -14,10 +14,16 @@
 
 {% assign img_url = img_url | strip %}
 
-<div class="jumbotron" style="      
-      height: {{ include.height | default: '40vh' }}; 
+<div class="page-header-image" style="
+      min-height: {{ include.height | default: '60vh' }};
       background-image: url('{{ img_url }}');
-      background-position: {{ include.background-position }};">
-    <h1 id="page-title">{{ include.title}}</h1>
-    <h2 id="page-subtitle">{{ include.text }}</h2>
+      background-position: {{ include.background-position | default: 'center' }};">
+    <div class="page-header-image__content">
+      {% if include.title %}
+      <h1 id="page-title">{{ include.title }}</h1>
+      {% endif %}
+      {% if include.text %}
+      <p id="page-subtitle">{{ include.text }}</p>
+      {% endif %}
+    </div>
 </div>

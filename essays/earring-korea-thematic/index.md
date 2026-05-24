@@ -9,7 +9,7 @@ objects:
   - earring-korea
 ---
 
-# Silla as the land of Gold
+## Silla as the land of Gold
 
 As evidenced by the history of the Silla kingdom, it can be stated that the cultural interactions played an essential part in the development of early Korean society. Despite some perceptions of Korea being isolated throughout its history, there are arguments that I went through that prove otherwise. This is based on facts from trade, some archaeological discoveries, and often shared symbolism indicating that the Silla kingdom was also part of larger communities around the world. This can be seen through the rich reputation it held as well as its involvement in the long distance trade and cultural symbolism.
 
@@ -55,7 +55,7 @@ This shows that the exchange of cultures had a direct impact on artistic activit
 
 
 ## Shared Symbols and Cultural Meaning
-{% include typography/aside.html class="left" text="the triskele… may refer to the sanctity of the number three and was possibly also associated with the sun." %}
+{% include typography/pullquote.html text="the triskele… may refer to the sanctity of the number three and was possibly also associated with the sun." %}
 
 Material exchanges are not the only types of interactions between cultures that occurred. Cultural exchange can also take place through the sharing of symbols and ideologies.
 

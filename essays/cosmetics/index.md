@@ -12,8 +12,6 @@ objects:
   - suransundari-applying-eye-makeup
 ---
 
-# Cosmetics on the Silk Road
-
 Historically, the Silk Road has been described as a major commercial route used for the transportation of luxury items including silk fabrics, jades, and expensive spices. However, recent discoveries using the disciplines of archaeology, material culture studies, and chemical analysis have revealed that it also served as a dynamic “chemical highway” for the transportation of raw minerals, plant extracts, and cosmetic technologies across the ancient world. [^king20]
 
 [^king20]:[*King, Anya. “Medieval Islamicate Aromatherapy: Medical Perspectives on Aromatics and Perfumes.” The Senses and Society*](https://www.tandfonline.com/doi/full/10.1080/17458927.2021.2020606)

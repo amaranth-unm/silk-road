@@ -12,8 +12,6 @@ objects:
   - vajra-hilted-ken
 ---
 
-# Silk Road Weapons Technology
-
 The Silk Road was an invaluably influential means of transporting both physical goods and technological information with its associated platforms. Not stopping at paper or stirrups, this extended to weapons and their means of production. This aspect of the route’s rich history extended from the early advent of the sword on the steppe, cutting its way toward Ancient China, where they would be combined with advanced metallurgy to be elevated as status symbols. Additionally, gunpowder’s path westward accompanied the Mongol conquests and the Christian crusades during the High Middle Ages. Extended means of trade would certainly be a vector for these movements, the role of imperialism and warfare must be recognized when discussing the spead of arms and advancing weapons technology throughout Eurasia. 
 
 

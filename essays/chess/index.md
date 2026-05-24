@@ -12,8 +12,6 @@ objects:
   - ashmolean-ivory-rook
 ---
 
-# Chess Across the Silk Road
-
 Chess is often thought of today as a single, universal game with fixed pieces, rules, and meanings. However, its history shows something much more complex. Chess developed through trade and human movement. As it traveled across Asia, the Middle East, North Africa, and Europe, the game changed form. Its pieces held different names, the looked different, and were played differently by each sub group. For that reason, chess is a useful way to study the flow of the silk road. The silk road was not only a route for silk, spices, coins, and luxury goods. It was also a network in which ideas, games, symbols, and countless cultures made their way around the worlds venous system. Chess and its origins are forged within these movements. 
 
 ## Origins and Movement
@@ -39,7 +37,7 @@ The four objects in this exhibit show that transformation. A page from the 1282 
 ## Chess in Material Culture
 The Brest king chess piece shows another part of chess’s movement. Found in Brest, Belarus, and dated to the 12th or 13th century, it reveals how chess became visible in medieval European material culture. Archaeologists have sometimes had to reinterpret small carved objects as possible chess pieces, especially when their function is not immediately obvious. Băcueț-Crișan, Stănică, and Keresztes argue that some medieval artifacts deserve a second look as possible chess pieces because comparison with other examples can change how scholars understand them. Their article explains that some objects have “formal characteristics indicative of chess playing,” but that their identification can remain difficult. This reminds us that chess did not always leave behind complete boards or sets. Sometimes its history survives through isolated pieces whose form, date, and comparison to other finds help scholars understand how widely the game spread.
 
-{% include typography/aside.html class="right" text="Sometimes chess history survives through isolated pieces found in unexpected places.
+{% include typography/pullquote.html text="Sometimes chess history survives through isolated pieces found in unexpected places.
 " %}
 
 

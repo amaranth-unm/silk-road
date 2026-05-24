@@ -12,7 +12,7 @@ objects:
   - two-bracelets-with-coral
 ---
 
-# Ilibalyk, Kazakhstan
+## Ilibalyk, Kazakhstan
 
 The medieval city of Ilibalyk in modern day Kazakhstan was occupied from the 10th to 15th centuries, spanning the rise and fall of the Mongol Empire. The necropolis which has been excavated over the course of ten field seasons, appears, thus far, to have a more limited period of use from approximately the 12th to 14th centuries, based on dated coins found within burials. This site is an example of a place of trade and occupation functioning within the Mongolian Empire, and later the Chagatai Khanate [^SEE]
 

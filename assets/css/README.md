@@ -25,7 +25,7 @@ These are not loaded everywhere.
 - `cards.css`: documentation/demo card components. Loaded for pages in `docs/`.
 - `nav-left.css`: sidebar navigation demo layout. Loaded only by `layout: nav-left`.
 - `nav-profile.css`: profile sidebar demo layout. Loaded only by `layout: nav-profile`.
-- `scrollstory.css`: cinematic scrollstory layout. Loaded only by `layout: scrollstory`.
+Scrollybox and cinematic background patterns are part of `backgrounds.css`, so pages using `layout: scrollstory` keep the same core typography as regular essays.
 
 ## Theme Examples
 

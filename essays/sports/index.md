@@ -11,9 +11,8 @@ objects:
   - wrestlers-weight
   - polo-object
 ---
-# Sports on the Silk Road
 ## Sports as More Than Leisure
-{% include typography/aside.html class="right" text="
+{% include typography/pullquote.html text="
 Taken together, these objects suggest that sports along the Silk Road were not just casual pastimes, but structured practices that reflected discipline, reinforced social status, and developed through the movement of people, objects, and ideas across connected regions." %}
 Looking across these four objects together, what stands out most is how consistently sports appear as structured and meaningful activities rather than simple forms of entertainment. At first glance, games like chui wan, polo, falconry, and wrestling might seem like very different types of activities, taking place in different regions and cultural contexts across the Silk Road. However, when they are placed side by side, a clearer pattern begins to emerge. Each object shows that these activities required skill, rules, and organization, and were often closely connected to elite environments such as courts or royal settings. Whether it is the controlled composition of a polo match in the *Shahnama*, the presence of attendants in a chui wan scene, or the physical training implied by a wrestler’s weight, these objects all point to sports functioning as more than just leisure. Instead, they reflect systems of discipline, status, and cultural exchange that were shaped by the movement of people and ideas across the Silk Road. Taken together, these objects suggest that sports along the Silk Road were not just casual pastimes, but structured practices that reflected discipline, reinforced social status, and developed through the movement of people, objects, and ideas across connected regions. 
 

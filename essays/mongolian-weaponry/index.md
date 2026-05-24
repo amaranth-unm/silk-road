@@ -12,8 +12,6 @@ objects:
   - mongolian-helmet
 ---
 
-# How Technology and Trade Forged the Mongol Empire
-
 In large part, the story of the Mongol conquests has been told in terms of the warriors who brought about such vast changes. Theirs was a brutal and often short-lived campaign to conquer the known world. While the ferocity of these warriors and their military skill played large roles in the conquest of such a vast area, the greatest factor in the Mongols’ success in creating and maintaining the largest continuous empire in history was their ability to synthesize technology from across their vast domain. They became the architects of the Steppe, utilizing the Silk Road, a fractured network of previously existing trade routes, and transformed it into a single highly efficient and secure conduit for the trade of goods from all corners of the globe.
 
 [^source1]
@@ -72,7 +70,7 @@ In close combat situations the Mongol horseman would switch from his longbow and
 [^source8]:Wikipedia Contributors, Turko-Mongol Sabre, 1
 
 
-{% include typography/aside.html class="right" text="
+{% include typography/pullquote.html text="
 'Expert horsemen and archers, the Mongols proved unstoppable in Central Asia and beyond, defeating armies in Iran, Russia, Eastern Europe, China, and many other places.'" %}
 
 

@@ -51,26 +51,24 @@ Etc...
 
 
 ## Pull Quotes
-Even relatively short essays benefit from pull quotes. As the name suggests, the idea is to "pull" a quote outside the main flow of the text to highlight it. You can specify if you want it on the left or right side.
+Even relatively short essays benefit from pull quotes. As the name suggests, the idea is to "pull" a phrase out of the main flow and treat it as a designed editorial moment. The default style is wide and dramatic; use left or right variants only when you want text to wrap around the quote.
 
 ```
 {%raw%}{%
-include typography/aside.html
-class="left"
-width="50%"
-text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque."
+include typography/pullquote.html
+label="Close Reading"
+text="Objects move through cultures, but their meanings never travel unchanged."
 %}{%endraw%}
 ```
 
 
 {%
-include typography/aside.html
-class="left"
-width="50%"
-text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque."
+include typography/pullquote.html
+label="Close Reading"
+text="Objects move through cultures, but their meanings never travel unchanged."
 %}
 
-Here is text that's part of the main body of the essay (or whatever). It naturally flows around the pull quote. Below is some dummy text just to take up space. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque.
+For a smaller floated pull quote, add `class="pullquote--left"` or `class="pullquote--right"`.
 
 
 ### Block quotes

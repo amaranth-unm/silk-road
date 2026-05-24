@@ -270,12 +270,13 @@ footer.site-footer {
   display: grid;
   grid-template-columns: minmax(12rem, 0.35fr) minmax(18rem, 0.65fr);
   gap: clamp(1rem, 4vw, 3rem);
-  align-items: start;
+  align-items: center;
   max-width: 82rem;
   margin: 0 auto;
 }
 
 .site-footer__brand {
+  display: block;
   color: var(--warm-white);
   font-family: var(--font-serif);
   font-size: clamp(1.6rem, 3vw, 2.5rem);
@@ -285,6 +286,7 @@ footer.site-footer {
   border-bottom: 0;
 }
 
+.site-footer__brand:visited,
 .site-footer__brand:hover {
   color: var(--warm-white);
 }

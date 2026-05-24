@@ -1,4 +1,5 @@
-<aside class="pullquote {{ include.class | default: 'pullquote--right' }}"{% if include.width %} style="width: {{ include.width }}"{% endif %}>
+{% assign pullquote_class = include.class | default: "pullquote--wide" %}
+<aside class="pullquote {{ pullquote_class }}">
   {% if include.label %}
   <div class="pullquote__label">{{ include.label }}</div>
   {% endif %}

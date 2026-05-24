@@ -20,8 +20,6 @@ objects:
   - al-tannin
 ---
 
-# Dragons on the Silk Road: Legitimacy, Myth, and Material Culture in Four Objects
-
 ## Introduction
 
 From adorning bowls and pestles to occupying the folios of illuminated manuscripts, dragon iconography along the Silk Road is one of the most pervasive artistic motifs. The Silk Road was not just a route for luxury goods and the silk for which it is named, but also mythology, knowledge formation, and cultural exchange. Each culture that uses the iconography applies it to its own place in time and space. The dragon then served as a flexible epistemological tool, adaptable to any individual's narrative, ranging from a cosmological force to a symbol of legitimacy and intellectual inquiry through a shared visual language. 
@@ -46,7 +44,7 @@ One of the strongest common motifs in the dragon's symbolism is that its defeat 
 ## Dragons as Cosmology
 Beyond destruction or legitimacy, dragon iconography could also represent a larger cosmological system as a symbol of rulership. The object that perhaps best represents this is titled “Bowl with Dragons,” dated 607 AH/1210 CE, likely produced in Iran. The objects coiling serpents whose heads meet concentrically around the bowl have been cited as a depiction of al-Jawzahr, a pseudo-planetary dragon entity believed to both cause and reverse eclipses by swallowing the moon and sun.[^4] First noticed by historian Willy Hartner in his 1932 article “The Pseudoplanetary Nodes of the Moon's Orbit in Hindu and Islamic Iconographies,” it was believed to serve as an eighth planet, a cosmological entity that was also believed to cause eclipses.[^5] Though modern scholarship on the entity is undergoing a turn, with modern Islamic art historians like Sheila R. Canby arguing that astronomers in the Seljuq era knew that the eclipse dragon was not an actual planet, yet it was still viewed that the dragon itself may have served an iconographic function as a symbol of ruling itself.[^6] Either way, as Oya Pancaroǧlu notes in “Socializing Medicine: Illustrations of the Kitāb al-diryāq,” imagery of al-Jawzahr can,  “[...]in many cases, be read as images of the triumph of light over darkness or good over evil, as the two ‘planets’ are always seen to emerge unscathed from their temporary eclipse by the ‘dragon’.”[^7] As many of the historical interpretations of this imagery conclude, this object represents how mythological traditions could be portrayed in art to convey not only protection, but also strength, astrological knowledge, and the legitimacy of a ruler.
 
-{% include typography/aside.html class="right" text="Imagery of al-Jawzahr can, [...] in many cases be read as images of the triumph of light over darkness or good over evil." %}
+{% include typography/pullquote.html text="Imagery of al-Jawzahr can, [...] in many cases be read as images of the triumph of light over darkness or good over evil." %}
 
 
 [^4]: “Bowl with Dragons,”ca. 607 AH/1210 CE, Stonepaste; glazed in opaque white, luster-painted, part of the inscription scratched in luster. New York, Metropolitan Museum of Art, acc. No.61.40, accessed April 9th, 2026. https://www.metmuseum.org/art/collection/search/451636. 

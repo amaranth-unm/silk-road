@@ -54,6 +54,57 @@ LEGACY HERO / JUMBOTRON
 Kept for older Xanthan pages and examples.
 *****************************************************/
 
+.page-header-image {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  min-height: 60vh;
+  overflow: hidden;
+  background-color: var(--sage-dark);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-header-image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0.18) 58%, rgba(0, 0, 0, 0.48) 100%),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.22) 34%, rgba(0, 0, 0, 0) 78%);
+  pointer-events: none;
+}
+
+.page-header-image__content {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 82rem);
+  margin: 0 auto;
+  padding: clamp(2rem, 6vw, 5rem) clamp(1rem, 5vw, 4rem);
+}
+
+.page-header-image h1 {
+  max-width: 13ch;
+  margin: 0;
+  color: var(--warm-white);
+  font-family: var(--font-serif);
+  font-size: clamp(1.9rem, 5vw, 4.3rem);
+  font-weight: 700;
+  line-height: 0.95;
+  letter-spacing: 0;
+  text-shadow: 0 0.16rem 1.2rem rgba(0, 0, 0, 0.38);
+}
+
+.page-header-image p {
+  max-width: 44rem;
+  margin: 1rem 0 0;
+  color: rgba(245, 243, 240, 0.9);
+  font-size: clamp(1rem, 1.8vw, 1.35rem);
+  line-height: 1.4;
+  text-align: left;
+  text-shadow: 0 0.12rem 0.9rem rgba(0, 0, 0, 0.4);
+}
+
 .hero-section {
   max-width: 800px;
   margin: 3rem auto 0;
@@ -127,6 +178,21 @@ Kept for older Xanthan pages and examples.
 }
 
 @media (max-width: 768px) {
+  .page-header-image {
+    min-height: 52vh;
+  }
+
+  .page-header-image::before {
+    background:
+      linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(0, 0, 0, 0.22) 50%, rgba(0, 0, 0, 0.58) 100%),
+      linear-gradient(90deg, rgba(0, 0, 0, 0.28) 0%, rgba(0, 0, 0, 0) 85%);
+  }
+
+  .page-header-image h1 {
+    max-width: 12ch;
+    font-size: clamp(1.75rem, 8.8vw, 3.2rem);
+  }
+
   .jumbotron-gradient {
     height: auto !important;
     padding: var(--spacing-md);

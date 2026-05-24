@@ -9,7 +9,7 @@ objects:
   - earring-persian
 ---
 
-# Parthian Jewelry: Trade, Identity, and Cultural Influence
+## Parthian Jewelry: Trade, Identity, and Cultural Influence
 
 Through researching many pieces of jewelry on the Silk Road we see how they show more than just embellishments. They are used as a symbol of wealth and culture. These ancient artifacts like jewelry and earrings were found in Palmyra. This was a trading center for many in the Near East during the Parthian era, showing how they combined multiple styles from other locations and periods on the Silk Road. There have been many pieces of jewelry that have been preserved to this day that can teach us about the past through their sculptures and burials. 
 
@@ -44,7 +44,7 @@ Some statues also show women wearing many goods like earrings and necklaces toge
 
 This civilization was situated perfectly at a strategic location on the route linking all the way from Rome to Asia. This was important because it was responsible for involving many different cultures into the traditions of jewelry wearing. The materials and designs how all their influence from these various cultures. 
 
-{% include typography/aside.html class="right" text="important evidence of the wide-flung commercial relations of that city." %}
+{% include typography/pullquote.html text="important evidence of the wide-flung commercial relations of that city." %}
 
 This quote you see implies that jewelry of this civilization used many elements from places like Persia, Rome, and other civilization we studied throughout the semester.There were a variety of names in inscription, ranging from Greek, Roman, Persian, among others, is an indication of the influence of various cultures. I assume that jewelry styles moved along with commercial merchandise, which accounts for the influence of all the cultures they ran across throughout the years. 
 

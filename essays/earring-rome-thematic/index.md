@@ -9,7 +9,7 @@ objects:
   - earring-roman
 ---
 
-# Cultural Exchange and Artistic Development
+## Cultural Exchange and Artistic Development
 
 My analysis of jewelry found among the antiquities has much significance in understanding cultural context, exchange, and artistry in the past. The Nabataean or Roman earrings, referred to in general terms because of their non traditional origin, serve as an excellent example in this regard. One very important find of such earrings at Mampsis, in Nabataean cemetery, reveals the significance of these findings for archaeologists who wish to gain a better understanding of them. A closer look at composition shows that the earrings embody a blend of many cultures that were part of the Silk Road.
 
@@ -33,7 +33,7 @@ The earrings fall into the category of lunates based on their form. These earrin
 The wire on the end or bottom of the earrings serve as a decoration element. Although all those decorations sound specific it should be kept in mind that these features show up in Asian, as well as Graeco Roman jewelry.
 
 
-{% include typography/aside.html class="right" text="
+{% include typography/pullquote.html text="
 any one of these features by itself is commonly found in Asian, as well as Graeco-Roman, jewelry." %}
 
 

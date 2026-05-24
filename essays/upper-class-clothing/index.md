@@ -12,8 +12,6 @@ objects:
   - statuette-of-a-woman
 ---
 
-# Elite Women, Their Clothing, and Fashion on the Silk Road
-
 The Silk Road, while not a set route across Asia and the Middle East, was significantly influential throughout the countries it connected. One such influence that came from the Silk Road was silk itself. Silk traveled in many forms, but the most common was as bolts of raw silk. However, that silk could eventually become garments. All along the Silk Road, there were many upper-class families, and the women in the families would work with silk and more often than not, wear the garments. Every country had their own patterns embroidered in the silk, and the beauty of the Silk Road is how those motifs traveled.
 
 

@@ -1,5 +1,4 @@
 {% assign essay = include.essay %}
-{% assign number = include.number %}
 
 {% if essay and essay.title and essay.thumbnail %}
 <article class="essay-entry">
@@ -8,7 +7,6 @@
   </a>
   <div class="essay-entry__body">
     <div class="essay-entry__meta">
-      <span>{{ number | prepend: '00' | slice: -2, 2 }}</span>
       {% if essay.author %}
         <span>{{ essay.author }}</span>
       {% else %}

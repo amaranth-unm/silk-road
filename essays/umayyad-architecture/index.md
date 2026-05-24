@@ -12,8 +12,6 @@ objects:
   - five-kings
 ---
 
-# Umayyad Architecture: an Evolution of Past Traditions
-
 Umayyad architecture is very heavily influenced by the preexisting traditions of the areas they expanded into. The two main influences come from the Byzantine and Sasanian empires. Small changes, however, are introduced and this is what serves as a reflection of their early ruling practices.
 
 Largely, when the Umayyads expanded into a new area they kept the ruling structure the same and only replaced the top officials. This meant that the majority of the population of their newly conquered areas didn't feel much of a change in the earlier years.[^sharmuta] Eventually, the Umayyads made changes from the top-down but for the first couple of years everything functioned similarly. When changes were made, they were done by making the language of the government, like their written documents, etc, in Arabic. Gradually, this change in language caused the government officials to either learn Arabic or be left behind as their surroundings continued to evolve around them. 
