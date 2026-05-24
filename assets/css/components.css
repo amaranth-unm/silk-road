@@ -507,6 +507,14 @@ Reusable map container and popup card styling.
   margin: 0 !important;
 }
 
+.leaflet-popup a,
+.leaflet-popup a:visited,
+.leaflet-popup a:hover,
+.leaflet-popup a:focus {
+  text-decoration: none;
+  border-bottom: 0;
+}
+
 .popup-wrapper {
   display: flex;
   flex-direction: row;

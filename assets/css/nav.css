@@ -304,18 +304,21 @@ footer.site-footer {
   color: var(--warm-white);
   font-weight: 700;
   text-decoration: none;
-  border-bottom: 1px solid rgba(245, 243, 240, 0.34);
-  transition: color var(--transition-fast), border-color var(--transition-fast);
+  border-bottom: 0;
+  transition: color var(--transition-fast);
 }
 
 .site-footer__credit a:hover {
   color: var(--amaranth-accent, #e52b50);
-  border-bottom-color: var(--amaranth-accent, #e52b50);
 }
 
 .site-footer__credit .site-footer__amaranth {
   color: var(--amaranth-accent, #e52b50);
-  border-bottom-color: rgba(229, 43, 80, 0.55);
+  border-bottom: 0;
+}
+
+.site-footer__credit .site-footer__amaranth:hover {
+  color: var(--amaranth-magenta, #c7357f);
 }
 
 
