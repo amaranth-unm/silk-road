@@ -2,8 +2,8 @@
 author: Seth Matteucci
 title: "ashmolean ivory rook"
 layout: base
-header-image: images/islam-chess-pieces.png
-thumbnail: images/last-image-thank-the-lord.png
+header-image: images/islam-chess-pieces.jpg
+thumbnail: images/last-image-thank-the-lord.jpg
 summary: Discusses the origins and meaning of the word rukh.
 geo: [51.77493, -1.28031]
 placename: Oxford

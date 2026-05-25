@@ -3,7 +3,7 @@ author: B Vigil
 title: "Upper Class Women's Clothing"
 layout: base
 header-image: images/tang-dynasty-women.jpg
-thumbnail: images/byz-dress.png
+thumbnail: images/byz-dress.jpg
 summary: The Silk Road offered an influence over Upper Class women's dress and style.
 objects:
   - glass-bowl-base

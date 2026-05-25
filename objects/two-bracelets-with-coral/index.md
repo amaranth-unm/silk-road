@@ -2,7 +2,7 @@
 author: Rebecca Brach
 title: "Two Bracelets with Coral"
 layout: base
-header-image: images/thematic-essay-thumbnail.png
+header-image: images/thematic-essay-thumbnail.jpg
 thumbnail: images/two-bracelets-thumbnail.png
 summary: Two elaborate bracelets of coral and other materials.
 geo: [44.123, 79.874]
@@ -24,7 +24,7 @@ Two similarly designed bracelets with coral and carnelian were found during the 
 class="right"
 width="60%"
 caption="The two bracelets reconstructed based on the location of the beads in situ. [Source](https://www.exploration-eurasia.com/inhalt_english/frameset_projekt_aC.html)"
-image-path="images/two-bracelets-reconstructed-2019.png"
+image-path="images/two-bracelets-reconstructed-2019.jpg"
 %}
 
 This was one of the richest graves found at the necropolis of Ilibalyk. A pair of earrings each with a small bunch of pearls was largely preserved. Three intact rings and an additional fragmented one were found, including one made of gold with a set turquoise. Two silver bracelets were worn alongside the beaded set. The fine line work of the silver bracelets and rings still convey intricacy and beauty in spite of more than 500 years spent in the ground. The design itself is particularly noteworthy, as is their apparent function as a matching set. This could indicate these objects were crafted specifically for this woman, having been commissioned with a design and material particular to her preferences.

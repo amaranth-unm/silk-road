@@ -2,7 +2,7 @@
 author: Rebecca Brach
 title: "Coral and Carnelian Adornment at Ilibalyk, Kazakhstan"
 layout: base
-header-image: images/thematic-essay-thumbnail.png
+header-image: images/thematic-essay-thumbnail.jpg
 thumbnail: images/one-bracelet.png
 summary: Frequently found in association with each other, coral and carnelian are eye-catching materials of adornment.
 objects:
@@ -21,7 +21,7 @@ The medieval city of Ilibalyk in modern day Kazakhstan was occupied from the 10t
 The necropolis offers a window into the lives, beliefs, and culture of the occupants of the site. In particular, the majority of burials investigated thus far have cultural and stylistic markers of the Christian Church of the East, or Nestorian Christianity. Thus, the graveyard and associated finds offer a unique window into the relationship between religion and cultural identity within the wider empire. While the necropolis is limited to a subset of the population, the nearby Shahristan and city wall offer a broader view of the site’s usage and role within the region. All of this cannot be disconnected from the city's position within the Mongol Empire and along a known trade route. The movement of peoples and goods brought by the Silk Roads would certainly have greatly impacted the lives and understandings of the more permanent inhabitants of Ilibalyk.
 
 {% include scrollybox/bg.html
-  image-path="images/coral-horde.png"
+  image-path="images/coral-horde.jpg"
   above-box-space = "100vh"
   below-box-space = "80vh"
   box-content=' As a firmly landlocked region, the presence of coral and other exotic goods evidence far-reaching trade relationships.'
@@ -77,7 +77,7 @@ image-path="images/carnelian-necklace.png"
 class="left"
 width="48%"
 caption="Another carnelian necklace. [Source](https://www.exploration-eurasia.com/inhalt_english/frameset_projekt_aC.html)"
-image-path="images/carnelian-beads.png"
+image-path="images/carnelian-beads.jpg"
 %}
 
 The shahristan is certainly representative of a different realm of identity and existence for the people living at Ilibalyk than the cemetery. Nevertheles, the similarty in materials found here with those in the necropolis demonstrates the integration of religious and cultural identity. The burial styles are Christian: all individuals are buried facing the east, the rising sun. Many of them are buried with religious symbols such as the four-petal rosette, or cross-engraved gravestones not discussed here. They are also buried with culturally identifying artifacts such as scissors, or boqta headdresses briefly discussed under 'Bracelet with Coral and Carnelian'. The people of Ilibalyk lived at a point of integration between their cultural and religious practices, alongside exotic and beautiful goods made available to them through the globalized network of trade which connected them to the rest of the Empire.

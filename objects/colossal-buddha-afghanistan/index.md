@@ -2,8 +2,8 @@
 author: Emily Schiller
 title: Colossal Buddha from Afghanistan
 layout: base
-header-image: images/image.png
-thumbnail:  images/image.png
+header-image: images/image.jpg
+thumbnail:  images/image.jpg
 summary: These colossal Buddhas are very cultural impactful
 geo: [34.419, 66.710]
 placename: Afghanistan

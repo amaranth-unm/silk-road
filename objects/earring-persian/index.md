@@ -2,8 +2,8 @@
 author: victor martinez
 title: "Parthian Gold Earrings"
 layout: base
-header-image: images/persian.png
-thumbnail: images/persian.png
+header-image: images/persian.jpg
+thumbnail: images/persian.jpg
 summary: These earrings come from a major Silk Road trade hub that highlights the movement of luxery materials.
 geo: [34.802, 48.514]
 placename: Iran
@@ -25,7 +25,7 @@ The Parthian Empire maintained and used a strategic position between East and We
 class="right"
 width="48%"
 caption="This is an image of some beautiful parthian earrings from present day Uzbekistan. [Source](https://www.metmuseum.org/art/collection/search/444686)"
-image-path="images/persian.png"
+image-path="images/persian.jpg"
 %}
 
 
@@ -47,7 +47,7 @@ Due to their control over the trade networks, parthian elites could incorporate 
 This was very important for the creation of many forms of art with mixed influences from other parts of the world. Jewelry like this shows this phenomenon well.
 
 ## Material Symbolism
-{% include images/figure.html class="right" width="60%" caption="Medium: SIlver, coral, glass, turquoise, pearls.[Source](https://www.metmuseum.org/art/collection/search/444686)" image-path="images/persian.png"
+{% include images/figure.html class="right" width="60%" caption="Medium: SIlver, coral, glass, turquoise, pearls.[Source](https://www.metmuseum.org/art/collection/search/444686)" image-path="images/persian.jpg"
  %}
 
 The image to the right shows  some amazing parthian that were "worn as part of an ensemble of jewels" The amount of different gemstones on these earrings showcases just how much goods they had in Bukhara. 

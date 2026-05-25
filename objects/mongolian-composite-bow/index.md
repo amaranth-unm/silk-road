@@ -59,7 +59,7 @@ The mere presence of a Mongol archer was sufficient to deter any bandits from at
 
 
 ## Common Tactics
-{% include images/figure.html class="right" width="60%" caption="An example of the feigned retreat. [Source](https://www.thecollector.com/horse-archers/)" image-path="images/mongolia-acher.png" %}
+{% include images/figure.html class="right" width="60%" caption="An example of the feigned retreat. [Source](https://www.thecollector.com/horse-archers/)" image-path="images/mongolia-acher.jpg" %}
 
 TThe famous ‘retreat’ or ‘fake retreat’ of the Mongol archers: They would fight their enemies for a short time and then retreat in apparent disarray. The enemy would pursue the apparent retreat in disarray. The pursuers would become more and more tired, their horses worn out. Then the Mongols would turn around to face their enemies in apparent disarray. They could also deliver the famous ‘Parthian shot’. While riding back down the line of their victims the Mongol archer would fire his bow backwards while riding at full gallop with all four hooves in the air.
 

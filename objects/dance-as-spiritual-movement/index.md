@@ -2,8 +2,8 @@
 author: Kayla Johns
 title: "Dance as Spiritual Movement Along the Silk Road"
 layout: base
-header-image: images/dunhuang-dancers-long.png
-thumbnail: images/dunhuang-dancers-thumb.png
+header-image: images/dunhuang-dancers-long.jpg
+thumbnail: images/dunhuang-dancers-thumb.jpg
 summary: Flying apsaras from the Mogao Caves in Dunhuang, Gansu Province, China. These figures show movement flowing silk and the connection between dance and spirituality along the Silk Road
 geo: [40.0422, 94.8046]
 placename: Mogao Caves in Dunhuang, Gansu Province, China
@@ -24,7 +24,7 @@ class="right"
 width="40%"
 caption="Dunhuang apsaras (celestial dancers) with flowing ribbons and silk garments, representing spiritual movement and cultural exchange along the Silk Road. [Source](https://www.metmuseum.org/art/collection/)"
 alt-text="Dunhuang mural showing apsaras floating with flowing ribbons and silk garments"
-image-path="images/dunhuang-dancers-thumb.png"
+image-path="images/dunhuang-dancers-thumb.jpg"
 %}
 
 In this painting, women are the main figure in dance. However, their role here goes beyond performance. These female figures represent ideal beauty, grace, and spiritual presences. Showing howing how women were associated with artistic and cultural expression during this era. Their movements are smooth and continuous and their bodies are shown in curved flowing positions that emphasize control and elegance.

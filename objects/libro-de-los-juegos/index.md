@@ -3,7 +3,7 @@ author: Seth Matteucci
 title: "libro de los juegos"
 layout: base
 header-image: images/spain-flag.png
-thumbnail: images/spain-chess-piece.png
+thumbnail: images/spain-chess-piece.jpg
 summary: Discusses the playing of a chess match in the 13th century muslim spain.
 geo: [40.58936, -4.14850]
 placename: Spain
@@ -17,7 +17,7 @@ tags:
 ## libro de los juegos
 
 {% include images/figure.html class="right" width="60%" caption=" The game of Kings"
-image-path="images/libro-object.png" %}
+image-path="images/libro-object.jpg" %}
 
 This object is a page from the 1282 Libro de los Juegos, or Book of Games, created under the rule of Alfonso X of Castile. The image shows two turbaned players seated across from each other at a chessboard. One player appears to be making or considering a move, while the other sits opposite him. The visual focus is the chessboard itself, but the people, clothing, and setting are just as important. The scene shows chess as a social and intellectual activity connected to courtly culture, learned play, and cross-cultural exchange.
 This page is important for understanding chess across the Silk Road because it represents a western end point of a much larger process of movement. By the time this manuscript was made in 13th-century Spain, chess had already traveled through several cultural zones. The game was shaped by South Asian, Persian, Islamic, North African, and European traditions. The page can be read as evidence that chess in 13th-century Spain was transitioning from styles played in the Middle East and North Africa into what later became modern European chess. That makes the image especially useful because it captures chess during a period of transformation rather than after its rules and visual culture had become standardized.

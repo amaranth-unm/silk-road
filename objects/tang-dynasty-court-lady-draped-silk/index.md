@@ -2,8 +2,8 @@
 author: Kayla Johns
 title: "Tang Dynasty Court Lady with Draped Silk Garments"
 layout: base
-header-image: images/tang-attire-long.png
-thumbnail: images/tang-attire-thumb.png
+header-image: images/tang-attire-long.jpg
+thumbnail: images/tang-attire-thumb.jpg
 summary: TA Tang Dynasty painting highlighting women’s layered silk attire and how clothing contributed to dance, performance, and cultural identity along the Silk Road.
 geo: [34.341, 108.939]
 placename: Chang’an (Xi’an), China

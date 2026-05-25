@@ -2,8 +2,8 @@
 author: Rebecca Brach
 title: "Bracelet with Coral and Carnelian"
 layout: base
-header-image: images/coral-carnelian-bracelet-2024.png
-thumbnail: images/coral-carnelian-bracelet-2024.png
+header-image: images/coral-carnelian-bracelet-2024.jpg
+thumbnail: images/coral-carnelian-bracelet-2024.jpg
 summary: Bracelet fragment of coral and carnelian.
 geo: [44.123, 79.874]
 placename: Ilibalyk, Necropolis
@@ -20,7 +20,7 @@ tags:
 class="right"
 width="48%"
 caption="Pieces of the bracelet in a laboratory setting. [Source](https://www.exploration-eurasia.com/inhalt_english/frameset_projekt_aC.html)"
-image-path="images/coral-carnelian-bracelet-2024.png"
+image-path="images/coral-carnelian-bracelet-2024.jpg"
 %}
 
 Although fragmented, this bracelet found during the 2024 excavation season demonstrates a combination of many material types. Bleached pieces of coral, a carnelian bead, a tiny shell, and a small glass bead all comprised this bracelet. [^SEE] Though far fewer beads have been preserved when compared to the other coral bracelet at Ilibalyk, this one is noteworthy for its diversity of materials, and in particular the presence of other maritime materials as well as the carnelian and its shape.
@@ -40,7 +40,7 @@ Metal can be notoriously difficult to preserve, depending on the context. At Ili
 class="left"
 wideth="80%"
 caption="Metal scissors picture in situ with centimeter scale. [Source](https://www.exploration-eurasia.com/inhalt_english/frameset_projekt_aC.html)"
-image-path="images/scissors.png"
+image-path="images/scissors.jpg"
 %}
 
 This is far from the first pair of scissors to be found at Ilibalyk. As of 2025, scissors have been found in the graves of five women. Of these, four were also buried with a boqta, a Mongolian headdress worn by married women of status.[^SEE2025] This seems to indicate a strong cultural identity alongside religious identity for those buried at Ilibalyk, and likely cultural symbolism associated with scissors. A pair of scissors found in a different grave in 2024 were likely buried in a pouch and had fragments of gold thread on the blades. [^SEE] The scissors, therefore, may have also been a used and carried tool for these women.

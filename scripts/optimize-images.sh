@@ -204,6 +204,9 @@ optimize_file() {
 
     if [ "$extension_lc" = "png" ] && [ "$CONVERT_PNG" = true ] && ! has_transparency "$img"; then
         local jpg_file="${img%.*}.jpg"
+        if [ -e "$jpg_file" ]; then
+            jpg_file="${img%.*}-from-png.jpg"
+        fi
         local jpg_rel
         jpg_rel=$(relative_path "$jpg_file")
 

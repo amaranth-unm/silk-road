@@ -2,7 +2,7 @@
 author: victor martinez
 title: "Tang Dynasty Earrings and Silk Road Exchange"
 layout: base
-header-image: images/chinaheading.png
+header-image: images/chinaheading.jpg
 thumbnail: images/china.jpg
 position: 4
 summary: Tang Dynasty jewelry reflects the cultural exchange and global connection.

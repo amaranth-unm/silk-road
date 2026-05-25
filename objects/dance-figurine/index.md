@@ -2,7 +2,7 @@
 author: Kayla Johns
 title: "The Tang Sancai Pottery Figurines"
 layout: base
-header-image: images/tang-dancers-long.png
+header-image: images/tang-dancers-long.jpg
 thumbnail: images/tang-dancers-thumb.jpeg
 summary: This image is of the Han coin, not an altarpiece from a monastery.
 geo: [34.278, 108.9324] 
@@ -24,7 +24,7 @@ class="right"
 width="40%"
 caption="Tang Dynasty female dancing figurine. These figures were often placed in tombs and reflected court entertainment and cultural life during the Silk Road period. [Source](https://www.metmuseum.org/art/collection/)"
 alt-text="Tang dynasty female dancer figurine with long flowing sleeves and raised arms"
-image-path="images/tang-dancer.png"
+image-path="images/tang-dancer.jpg"
 %}
 
 Tang Sancai pottery is known for its three-color glaze, usually green, yellow, and white. The figurines are often detailed and lifelike, showing different movements, clothing, and social roles. Many of the figurines found in Luoyang include dancers, musicians, and servants. This shows how important performance and entertainment were during this era.

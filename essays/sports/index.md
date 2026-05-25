@@ -3,7 +3,7 @@ author: Caden Williams
 title: "Sports on the Silk Road"
 layout: base
 header-image: images/Chui wan painting 2.jpg
-thumbnail: images/thematic-essay-thumbnail.png
+thumbnail: images/thematic-essay-thumbnail.jpg
 summary: This essay connects four sports objects from the Silk Road to show how activities like chui wan, falconry, wrestling, and polo were about more than simple entertainment.
 objects:
   - chui-wan-painting
@@ -21,7 +21,7 @@ Looking across these four objects together, what stands out most is how consiste
 class="right"
 width="40%"
 caption="Both sides of the wrestler’s weight, with Herakles and the Nemean Lion on one side and a wrestling scene with handgrips on the reverse. [Source](https://www.metmuseum.org/art/collection/search/38635)"
-image-path="images/weight-combination.png" %}
+image-path="images/weight-combination.jpg" %}
 One of the clearest patterns across these objects is that sports were structured activities, even when they might look simple at first. Chui wan is probably the clearest example because the game had specific rules, equipment, and expectations for how it should be played. Players used different clubs, followed an order of play, and aimed toward holes, which shows that the game had already developed beyond casual recreation.[^1] The wrestler’s weight shows the same idea from a different angle. Instead of showing a game in progress, it points to the training that happened before competition. Di Castro explains that the handles identify these objects as wrestler’s weights because they were designed for gripping and lifting.[^2] When these objects are placed together, they show that sports along the Silk Road were not only about the final match or performance. They also involved practice, equipment, rules, and preparation. 
 
 [^1]: Gui Yan, Zhang Tianju, and Han Liebao, “The Study of Chui Wan, a Golf-like Game in the Song, Yuan, and Ming Dynasties of Ancient China,” *Journal of Sport History* 39, no. 2 (2012): 292–293.

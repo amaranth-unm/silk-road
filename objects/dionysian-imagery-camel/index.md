@@ -52,7 +52,7 @@ The Greek mythological links on this object would demonstrate the passing of myt
   width="40%"
   caption="A more enhanced image showing the image on the side of the object. [Source](https://www.metmuseum.org/art/collection/search/53630)"
   alt-text="Image of the camel model found in a Northern Chinese tomb"
-  image-path="images/dionysian-camel-zoom.png"
+  image-path="images/dionysian-camel-zoom.jpg"
 %}
 
 Christian links on this object would present us with evidence of religious influence spreading across Eurasia, with a depiction of such an important event in Christianity potentially being shown on the object. This also demonstrates interest of foreign cultures in others' religious practices and attempts at recreation of events that had been described to them. 

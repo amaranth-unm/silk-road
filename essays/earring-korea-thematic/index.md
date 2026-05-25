@@ -2,7 +2,7 @@
 author: victor martinez
 title: "Korean Cultural Exchange and the Silla Kingdom"
 layout: base
-header-image: images/koreaheading.png
+header-image: images/koreaheading.jpg
 thumbnail: images/Korean.jpg
 summary: The Silla Kingdom was key to gold moving along the Silk Road.
 objects:
@@ -64,7 +64,7 @@ For instance, in Korea, a culture can be found with symbols related to the conce
 
 
 {% assign images =
-"images/SIlla2.png,
+"images/SIlla2.jpg,
 images/silla1.png" | split: ','
 %}
 

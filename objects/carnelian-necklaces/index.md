@@ -2,7 +2,7 @@
 author: Rebecca Brach
 title: "Carnelian Necklaces"
 layout: base
-header-image: images/carnelian-header.png
+header-image: images/carnelian-header.jpg
 thumbnail: images/carnelian-necklace.png
 summary: Dramatic carnelian necklaces found in a treasure trove.
 geo: [44.119, 79.885]
@@ -37,7 +37,7 @@ In the second necklace, too, the design of the beads is clear, with the addition
 class="left"
 width="48%"
 caption="Flat carnelian beads. [Source](https://www.exploration-eurasia.com/inhalt/Ilanbalyk_2018.pdf)"
-image-path="images/carnelian-beads.png"
+image-path="images/carnelian-beads.jpg"
 %}
 
 As many of these items were designed to be worn as adornment, it is apparent that the people of Ilibalyk were not afraid to make a bold, colorful statement with their dress [^2018]. Carnelian has since been found in several burials in the necropolis, although the color has tended to be brighter and orangier. [^2024]
@@ -48,8 +48,8 @@ As many of these items were designed to be worn as adornment, it is apparent tha
 {% assign images =
 "images/earring-horde.png,
 images/jade-pendant.png,
-images/silver-bracelets-horde.png,
-images/pearl-horde.png" | split: ','
+images/silver-bracelets-horde.jpg,
+images/pearl-horde.jpg" | split: ','
 %}
 
 {% include images/carousel.html

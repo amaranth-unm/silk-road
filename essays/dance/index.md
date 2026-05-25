@@ -2,7 +2,7 @@
 author: Kayla Johns
 title: "Women, Dance, and Cultural Exchange Along the Silk Road"
 layout: base
-header-image: images/dunhuang-dancers.png
+header-image: images/dunhuang-dancers.jpg
 thumbnail: images/dunhuang-dancers.jpg
 summary: This thematic essay explores how women, dance, clothing, and spirituality reflected cultural exchange along the Silk Road during the Tang Dynasty.
 tags:
@@ -30,7 +30,7 @@ class="right"
 width="40%"
 caption="Apsaras mural from the Mogao Caves in Dunhuang showing flowing movement and Silk Road Buddhist artistic traditions. [Source](https://www.e-dunhuang.com/)"
 alt-text="Dunhuang apsaras mural with flowing ribbons and silk garments"
-image-path="images/mogao-cave-painting.png"
+image-path="images/mogao-cave-painting.jpg"
 %}
 
 The second and third objects, the apsaras murals from the Mogao Caves in Dunhuang, shift the focus from court entertainment to spirituality and religion. Unlike the Tang Sancai figurines, these celestial dancers are shown floating through space with flowing ribbons and silk garments. The apsaras are connected to Buddhist traditions that originally came from India and later spread into China through Silk Road interaction.
@@ -44,7 +44,7 @@ class="left"
 width="40%"
 caption="Tang Dynasty dancers represented movement, tradition, and cultural exchange through performance traditions connected to the Silk Road. [Source](https://idp.bl.uk/events/a-silk-road-oasis-life-in-ancient-dunhuang-at-the-british-library/)"
 alt-text="Tang Dynasty dancers with flowing sleeves and musicians"
-image-path="images/tang-dancer-detail.png"
+image-path="images/tang-dancer-detail.jpg"
 %}
 
 The structured movement and mirrored posture shown in the murals also suggest that dance during this period involved training, repetition, and discipline rather than spontaneous motion. Women dancers were represented as skilled performers who mastered controlled movement.

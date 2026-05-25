@@ -2,8 +2,8 @@
 author: victor martinez
 title: "Parthian Trade, Identity, and Cultual Influence"
 layout: base
-header-image: images/parthianheading.png
-thumbnail: images/Persia.png
+header-image: images/parthianheading.jpg
+thumbnail: images/Persia.jpg
 summary: In the premodern era, Persia was an important part of the Silk Road Trade Network.
 objects:
   - earring-persian
@@ -19,7 +19,7 @@ Through researching many pieces of jewelry on the Silk Road we see how they show
 class="right"
 width="48%"
 caption="These are an example of how they would see the earring. [Source](https://www.jstor.org/stable/4241695?seq=1)"
-image-path="images/statue1.png"
+image-path="images/statue1.jpg"
 %}
 
 The first major problem with trying to research any kind of jewelry from Parthia or Palmyra is hard because there were not many pieces that survived. Although this was a challenge, there is a huge amount of stone sculptures that show busts with depictions of elaborate embellishments. These sculptures are not that important but serve as a visual representation of the jewelry and kind of earrings they wore at that time.
@@ -50,7 +50,7 @@ This quote you see implies that jewelry of this civilization used many elements 
 
 
 {% include images/figure.html class="right" width="60%" caption="This image shows a statue and gives a great example on how we studied some artifacts.  [Source](https://www.jstor.org/stable/4241695?seq=1)"
-image-path="images/statue2.png" %}
+image-path="images/statue2.jpg" %}
 
 
 
