@@ -145,7 +145,7 @@ p {
 
   /* Typography */
   line-height: 1.6em;
-  text-align: justify;
+  text-align: left;
 }
 
 .container > p,
@@ -205,22 +205,34 @@ a {
   /* Typography */
   text-decoration: none;
   color: var(--accent-primary);
-
-  /* Visual */
-  border-bottom: 1px dotted var(--accent-primary);
+  border-bottom: 0;
 }
 
 a:visited {
   /* Typography */
   color: var(--accent-primary);
-
-  /* Visual */
-  border-bottom: 1px dotted var(--accent-primary);
+  border-bottom: 0;
 }
 
 a:hover {
   /* Typography */
   text-decoration: none;
+}
+
+.container > p a,
+.container > ul a,
+.container > ol a,
+.container > blockquote a,
+.container > figcaption a {
+  border-bottom: 1px dotted var(--accent-primary);
+}
+
+.container > p a:hover,
+.container > ul a:hover,
+.container > ol a:hover,
+.container > blockquote a:hover,
+.container > figcaption a:hover {
+  border-bottom-style: solid;
 }
 
 .map-card {
@@ -232,8 +244,41 @@ a:hover {
   font-weight: normal;
   font-size: 0.9rem;
   line-height: 1.2rem;
-  text-align: justify;
+  text-align: left;
   color: var(--text-body);
+}
+
+/*****************************************************
+FIGURES AND IMAGE POSITIONING
+*****************************************************/
+
+figure {
+  margin: 0 0 var(--spacing-md);
+  clear: none;
+}
+
+.right {
+  float: right;
+  margin-left: var(--spacing-lg);
+  margin-right: 0;
+  margin-bottom: var(--spacing-md);
+  text-align: left;
+}
+
+.left {
+  float: left;
+  margin-left: 0;
+  margin-right: 1rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.center {
+  display: block;
+  clear: both;
+  margin-right: auto;
+  margin-bottom: var(--spacing-md);
+  margin-left: auto;
+  text-align: center;
 }
 
 /*****************************************************
@@ -249,7 +294,7 @@ figcaption {
   font-family: var(--font-body);
   font-size: 0.8rem;
   line-height: 1.1rem;
-  text-align: justify;
+  text-align: left;
 }
 
 figcaption p {

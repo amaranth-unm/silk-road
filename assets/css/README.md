@@ -4,9 +4,9 @@ This folder separates the site's visual system into a few teaching-friendly laye
 
 ## Core Brand Files
 
-- `base.css`: brand tokens, font imports, layout primitives, shared utilities, image positioning, and Bootstrap color overrides.
-- `typography.css`: global prose typography, links, captions, code blocks, pullquotes, asides, and mobile text rules.
-- `components.css`: reusable display components, such as buttons, feature blocks, galleries, map embeds, carousels, and legacy hero/jumbotron patterns.
+- `base.css`: brand tokens, font imports, layout primitives, shared utilities, and site-wide responsive layout rules.
+- `typography.css`: prose typography, prose links, image positioning, captions, code blocks, pullquotes, asides, and mobile text rules.
+- `components.css`: reusable display components, such as buttons, alerts, feature blocks, galleries, map embeds, carousels, and legacy hero/jumbotron patterns.
 - `nav.css`: the institutional microbar, main navigation, footer, breadcrumbs, and navigation-adjacent styles.
 
 ## Page-Specific Files
@@ -23,6 +23,7 @@ These files should stay small. They compose reusable components into page layout
 These are not loaded everywhere.
 
 - `cards.css`: documentation/demo card components. Loaded for pages in `docs/`.
+- `docs.css`: documentation and workshop helpers. Loaded for pages in `docs/`.
 - `nav-left.css`: sidebar navigation demo layout. Loaded only by `layout: nav-left`.
 - `nav-profile.css`: profile sidebar demo layout. Loaded only by `layout: nav-profile`.
 Scrollybox and cinematic background patterns are part of `backgrounds.css`, so pages using `layout: scrollstory` keep the same core typography as regular essays.
@@ -38,3 +39,5 @@ These are retained as examples for teaching, but they are not part of the active
 ## Rule of Thumb
 
 Put reusable display patterns in `components.css`. Put page-specific arrangement in the page CSS file. Avoid fixing a component by adding one-off overrides to a page file unless the page truly needs a special variant.
+
+Keep prose rules scoped to content areas whenever possible. Global rules such as link underlines, paragraph alignment, or list spacing quickly create override noise in navigation, cards, maps, and other components.

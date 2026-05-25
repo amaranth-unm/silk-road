@@ -20,6 +20,7 @@ All essay content should be written in Markdown or use established Xanthan frame
 - Remove duplicate blank lines or inconsistent whitespace.
 - Standardize image includes, captions, and nearby spacing when the intended image/caption is clear.
 - Add a neutral opening `##` section heading when an essay starts directly with body text after the page header.
+- Add one pullquote when a page has none, using a short, interesting phrase or sentence from the student's existing essay text.
 - Preserve front matter unless a formatting error prevents the page from working.
 
 ## Common Student Formatting Issues To Fix
@@ -37,6 +38,7 @@ All essay content should be written in Markdown or use established Xanthan frame
 - Captions should be kept close to the image they describe and formatted consistently.
 - URLs in image captions should be encapsulated as a `[source](URL)` link in the caption.
 - Images should not appear immediately before a heading; move the image to after the heading so the section title introduces the visual material.
+- If an essay has no pullquote, look for a concise, visually interesting phrase or sentence already written by the student and place it with the pullquote component. Do not invent a new line or rewrite the student's prose for the pullquote.
 - Pullquotes should not be the first thing after a heading. Keep at least two sentences of body text between a heading and a pullquote so the section has enough typographic breathing room.
 - Footnotes should use the site's Littlefoot-compatible Markdown footnote format, with an inline marker such as `[^1]` and a matching footnote definition such as `[^1]: Source text`.
 - Footnote markers should stay attached to the paragraph or sentence they support, not sit alone on a separate line.
@@ -76,6 +78,7 @@ When in doubt, preserve the original text and leave a note or ask for direction.
 - Heading levels are consistent.
 - The essay begins with an `##` heading after the page header.
 - Images and captions are formatted consistently.
+- Each essay has a pullquote when the existing prose offers a suitable short phrase or sentence.
 - Pullquotes are introduced by at least two sentences after a heading.
 - Footnotes, citations, and bibliography sections are readable and consistent.
 - Footnotes use the site's Littlefoot-compatible Markdown footnote format.

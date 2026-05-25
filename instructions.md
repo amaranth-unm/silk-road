@@ -5,7 +5,7 @@ layout: base
 
 # Getting Started with Your Class Project Site
 
-**Welcome!** This page guides you through setting up your own project folder in the repository you have copied as a clone of the Silk Road repository made by Amaranth. Once you've created your folder and added your first page, **you can delete this file**—it's just here to help you get started.
+**Welcome!** This page guides you through setting up your own project folder in the repository you have copied as a clone of the Silk Road repository. Once you've created your folder and added your first page, **you can delete this file**—it's just here to help you get started.
 
 ## What You Have
 

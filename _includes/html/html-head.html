@@ -38,6 +38,10 @@
   <link href="{{site.baseurl}}/assets/css/nav.css" rel="stylesheet">
 
   <!-- Documentation/demo components load only where they are used. -->
+  {% if page.path contains 'docs/' or page.workshop_mode %}
+  <link href="{{site.baseurl}}/assets/css/docs.css" rel="stylesheet">
+  {% endif %}
+
   {% if page.path contains 'docs/' %}
   <link href="{{site.baseurl}}/assets/css/cards.css" rel="stylesheet">
   {% endif %}

@@ -1,7 +1,3 @@
-.full-width-main {
-  width: 100%;
-}
-
 .essays-hero,
 .essays-toc {
   width: min(100%, 82rem);
