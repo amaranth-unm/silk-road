@@ -2,3 +2,5 @@ _site
 .DS_Store
 .claude
 _config.yml
+scripts/image-backups/
+scripts/png_to_jpg_conversions.txt
