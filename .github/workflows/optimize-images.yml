@@ -1,0 +1,161 @@
+name: Optimize Images
+
+# Run from the Actions tab — no command line needed.
+#   Actions → Optimize Images → Run workflow
+#
+# Defaults to a dry run, so the first click only reports what it would do.
+# Read the summary, then run it again with "Actually change the files" ticked.
+
+on:
+  workflow_dispatch:
+    inputs:
+      folder:
+        description: 'Folder to process, relative to the repo root. Use . for the whole site'
+        required: true
+        default: 'assets/images'
+      max_edge:
+        description: 'Longest edge in pixels. 1600 suits full-width images; 2400 for anything meant to be viewed large'
+        required: true
+        default: '1600'
+      quality:
+        description: 'JPEG quality, 1-100. 85 is a good default; below 70 starts to show'
+        required: true
+        default: '85'
+      apply:
+        description: 'Actually change the files. Leave unticked to preview first.'
+        type: boolean
+        required: true
+        default: false
+
+permissions:
+  contents: write   # commit the smaller images
+  actions: write    # start the site's deploy workflow, if it has one (below)
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    # Inputs reach the steps through env, not pasted into their commands:
+    # ${{ }} inside run: is substituted before bash parses it, so a folder
+    # name containing quotes or $(...) would run as code.
+    env:
+      FOLDER: ${{ inputs.folder }}
+      MAX_EDGE: ${{ inputs.max_edge }}
+      QUALITY: ${{ inputs.quality }}
+      APPLY: ${{ inputs.apply }}
+    steps:
+      - name: Check out the site
+        uses: actions/checkout@v4
+
+      - name: Install ImageMagick
+        run: |
+          if ! command -v convert >/dev/null 2>&1 && ! command -v magick >/dev/null 2>&1; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq imagemagick
+          fi
+          convert --version | head -1
+
+      - name: Check the folder exists
+        run: |
+          if [ ! -d "$FOLDER" ]; then
+            echo "::error::No folder called '$FOLDER' in this repository."
+            echo "Look in the file list for the folder your images are in, and use that path."
+            exit 1
+          fi
+
+      - name: Optimize
+        id: optimize
+        run: |
+          # --recursive so images sitting directly in the folder are included,
+          # not just those in subfolders; it never descends into _site/.
+          # --no-backup because git already holds the originals.
+          ARGS=(--recursive --no-backup
+                --base-dir "$FOLDER"
+                --max-edge "$MAX_EDGE"
+                --quality "$QUALITY")
+          if [ "$APPLY" != "true" ]; then
+            ARGS+=(--preview)
+          fi
+
+          bash scripts/optimize-images.sh "${ARGS[@]}" 2>&1 | tee /tmp/out.txt
+          # strip the terminal colour codes before this goes in the summary
+          sed -i 's/\x1b\[[0-9;]*m//g' /tmp/out.txt
+
+      - name: Update image references after any PNG to JPG conversions
+        if: inputs.apply
+        run: |
+          # The script removes the log once it has applied it
+          if [ -f png_to_jpg_conversions.txt ]; then
+            bash scripts/update-image-refs.sh | tee /tmp/refs.txt
+          else
+            echo "No PNGs were converted, so no page references needed changing."
+          fi
+
+      - name: Report
+        run: |
+          {
+            echo "## Image optimization"
+            echo ""
+            if [ "$APPLY" != "true" ]; then
+              echo "**Preview only — nothing was changed.**"
+              echo ""
+              echo "If the numbers below look right, run this again with"
+              echo "**Actually change the files** ticked."
+            else
+              echo "Folder: \`$FOLDER\` · longest edge ${MAX_EDGE}px · quality $QUALITY"
+            fi
+            echo ""
+            changes=$(grep -c '⚙' /tmp/out.txt || true)
+            unchanged=$(grep -cE 'Already (optimized|well compressed)' /tmp/out.txt || true)
+            echo "**$changes image(s) to change, $unchanged already fine.**"
+            echo ""
+            # Only what changes (or needs a look); a big site would otherwise
+            # bury it under hundreds of "Already optimized" lines
+            echo '```'
+            grep -E '^Processing|⚙|⚠|✗' /tmp/out.txt | head -n 500
+            echo '```'
+            if [ -f /tmp/refs.txt ]; then
+              echo ""
+              echo "### Updated references to converted PNGs"
+              echo '```'
+              cat /tmp/refs.txt
+              echo '```'
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit the smaller images
+        if: inputs.apply
+        run: |
+          git config user.name  "Xanthan Image Bot"
+          git config user.email "actions@github.com"
+
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Every image was already optimized — nothing to commit."
+            exit 0
+          fi
+
+          git add -A
+          git commit -m "Optimize images in $FOLDER
+
+          Longest edge ${MAX_EDGE}px, quality $QUALITY.
+          Run from the Actions tab."
+          # No [skip ci]: a push made with GITHUB_TOKEN can't start other
+          # workflows anyway, and the tag risks skipping the Pages rebuild
+          git push
+          echo "Committed. Your site will rebuild in a minute or two."
+
+      - name: Rebuild a site that deploys through its own workflow
+        if: inputs.apply
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Sites on GitHub's own Pages builder rebuild on the push above. A
+          # site that deploys through a workflow (actions/deploy-pages) would
+          # not: a push made with GITHUB_TOKEN never starts other workflows.
+          # workflow_dispatch is the exception, so start the deploy that way.
+          for wf in .github/workflows/*.yml .github/workflows/*.yaml; do
+            [ -f "$wf" ] || continue
+            if grep -q 'actions/deploy-pages' "$wf" && grep -q 'workflow_dispatch' "$wf"; then
+              gh workflow run "$(basename "$wf")" --ref "$GITHUB_REF_NAME" \
+                && echo "Started $(basename "$wf") to publish the smaller images."
+            fi
+          done

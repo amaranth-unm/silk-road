@@ -18,6 +18,19 @@ This kind of project asks students to think beyond the traditional paper. Writin
 - `_data/`: structured data used by navigation and shared components
 - `docs/`: optional Xanthan documentation and examples retained for reference
 
+## Images
+
+Student images, often phone photos and museum downloads, should be shrunk before
+each semester's work is published. Use the **Optimize Images** job in the Actions
+tab: set *Folder* to `.` for the whole site and *Longest edge* to `1800` (or `2200`
+for `objects/` pages where close inspection matters), run once to preview, then
+again with *Actually change the files* ticked. It converts PNGs without
+transparency to JPG and updates the references to them.
+
+The scripts behind it (`scripts/`) are shared, unmodified, with Xanthan and its
+other sites; `scripts/README.md` covers running them locally. Don't edit them
+here — copy newer versions from xanthan-web.
+
 ## Framework
 
 The site uses the Xanthan web framework, a Jekyll-based framework for digital scholarship, teaching projects, and visual essays.

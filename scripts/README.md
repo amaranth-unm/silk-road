@@ -1,77 +1,215 @@
-# Silk Road Image Optimization
+# Image Optimization Guide
 
-This folder contains a simple image workflow adapted from the more generic Xanthan scripts. It is meant for course iterations where students add new object and essay images in Markdown folders.
+This guide helps you optimize images for your Xanthan site to improve loading times.
 
-## Why Optimize
+**No command line needed:** every Xanthan site has an **Optimize Images** job in its
+GitHub **Actions** tab that runs these same scripts and commits the result. See
+[Making your images smaller](https://xanthan-web.github.io/docs/reference/images#making-your-images-smaller).
+This guide is for running them on your own computer.
 
-Student projects often accumulate large phone photos, screenshots, and downloaded images. Optimizing them keeps the site faster, makes GitHub Pages easier to work with, and reduces the size of the repository for future classes.
+**These files are shared.** `scripts/optimize-images.sh`, `scripts/update-image-refs.sh`
+and `.github/workflows/optimize-images.yml` are identical in Xanthan core, every
+starter template, and the sites made from them — don't customize your copy. To
+update an older site, copy those three files from
+[xanthan-web](https://github.com/xanthan-web/xanthan-web.github.io). Put anything
+specific to your site (which folders, what sizes) in your own notes instead.
 
-## Recommended Workflow
+## Why Optimize Images?
 
-Install ImageMagick if it is not already available:
+Large image files (5–6MB) significantly slow down page loading. Optimized images:
+- Load 10–20x faster
+- Use less bandwidth
+- Improve user experience on mobile devices
+- Improve SEO rankings
 
+## Installation
+
+### Install ImageMagick
+
+**macOS:**
 ```bash
 brew install imagemagick
 ```
 
-Always preview first:
+**macOS 12 (Monterey) — If you encounter libraw checksum errors:**
+```bash
+# Install ImageMagick from pre-built binary instead
+curl -O https://imagemagick.org/archive/binaries/ImageMagick-arm64-apple-darwin20.1.0.tar.gz
+sudo tar xzf ImageMagick-arm64-apple-darwin20.1.0.tar.gz -C /opt/
+export PATH="/opt/ImageMagick-7.1.1/bin:$PATH"
+# Add to ~/.bash_profile or ~/.zshrc to make permanent
+```
+
+**Windows:**
+1. Download from [imagemagick.org/script/download.php](https://imagemagick.org/script/download.php)
+2. Run the installer
+3. Use Git Bash or WSL to run the script
+
+Verify installation:
+```bash
+convert --version
+```
+
+## Using the Optimization Script
+
+### Step 1: Preview First (Recommended)
+
+From the project root directory, always preview changes first:
 
 ```bash
 bash scripts/optimize-images.sh --preview
 ```
 
-If the preview looks reasonable, run the optimizer:
+This shows what would be optimized **without modifying any files**. It really processes each image (into a temporary folder), so the sizes it reports are the actual before and after.
+
+### Step 2: Run the Optimization
+
+Once you're confident about the changes:
 
 ```bash
 bash scripts/optimize-images.sh
 ```
 
-The default scan includes `essays/`, `objects/`, and `assets/images/` recursively. The default settings resize images so the longest edge is no more than `1800px`, use image quality `85`, and skip files smaller than `250 KB` unless they are oversized. Original files are copied into `scripts/image-backups/` before changes are made.
+The script will:
+- Process all image subfolders under `assets/images/` in-place (by default)
+- Copy each original it changes into `.image-backups/TIMESTAMP/` first (skip with `--no-backup`)
+- Convert PNG → JPG when the PNG has no transparency — unless a JPG of the same name already exists
+- Turn phone photos the right way up before removing their metadata
+- Skip images that are already small and within the size limit, and keep any original that re-compressing wouldn't make at least 10% smaller — so running it again never degrades an image
+- Show before/after file sizes
 
-## PNG to JPG Conversion
+**Specifying image directories**
 
-By default, PNG files keep their filenames. This avoids breaking Markdown references.
-
-If the site contains many large PNG files that do not need transparency, you can convert non-transparent PNGs to JPG:
+By default the script looks in `assets/images/`. Use `--base-dir` to target a different location — or multiple locations, which is useful for class project sites where each student has their own image folder:
 
 ```bash
-bash scripts/optimize-images.sh --convert-png
+# Process a different directory
+bash scripts/optimize-images.sh --base-dir assets/photos
+
+# Process multiple student directories explicitly
+bash scripts/optimize-images.sh \
+  --base-dir students/alice/images \
+  --base-dir students/bob/images \
+  --base-dir students/carol/images
 ```
 
-Then update references:
+**Recursive search**
+
+For class project sites where images are scattered across many student folders, use `--recursive` to find every image-containing directory within a base path automatically:
+
+```bash
+# Finds essays/essay1/images/, essays/essay2/images/, etc.
+bash scripts/optimize-images.sh --base-dir essays/ --recursive
+
+# Or scan the whole project
+bash scripts/optimize-images.sh --base-dir . --recursive
+```
+
+`--recursive` discovers any directory containing image files at any depth within the base dir, regardless of what the folder is named. It never descends into the generated `_site/` folder (which holds copies of every image), `.git`, `.jekyll-cache`, `node_modules`, `vendor`, or earlier backup folders.
+
+To process only one subfolder within a base directory:
+```bash
+bash scripts/optimize-images.sh --folder backgrounds
+bash scripts/optimize-images.sh --base-dir students/alice/images --folder portraits
+```
+
+### Step 3: Verify Results
+
+Review the output summary showing how much space was saved. The script displays:
+- Files that were optimized (with size reduction)
+- Files that were already optimized and skipped
+
+### Step 4: Test Your Site
+
+```bash
+bundle exec jekyll serve
+```
+
+Visit http://localhost:4000 and verify all images display correctly.
+
+### Step 5: Keep or Delete Backup
+
+The originals of every changed file are in `.image-backups/TIMESTAMP/`, in the same
+folder layout as your site. The folder ignores itself, so it never gets committed,
+and Jekyll doesn't publish it. Delete it once you're happy: `rm -rf .image-backups`
+
+Your originals are in git history too: `git checkout -- path/to/image.jpg`
+restores one before you commit.
+
+## Quick Reference
+
+### Image Size Guidelines
+
+| Image Type | Max Width | Quality | Use Case |
+|------------|-----------|---------|----------|
+| Hero/Header images | 2000px | 85% | Full-width background images |
+| General content | 1600px | 85% | Page images, project images |
+| Portraits/thumbnails | 1200px | 85% | Team photos, small thumbnails |
+
+### Common Commands
+
+**Check image dimensions:**
+```bash
+identify -format "%wx%h %f\n" assets/images/*/*.png
+```
+
+**Check file sizes:**
+```bash
+du -sh assets/images/*
+```
+
+**Manually resize a single image:**
+```bash
+convert input.png -resize '1200x>' -quality 85 output.jpg
+```
+
+**Process with custom settings:**
+```bash
+bash scripts/optimize-images.sh --max-edge 1200 --quality 80
+bash scripts/optimize-images.sh --folder backgrounds --max-edge 2000
+bash scripts/optimize-images.sh --base-dir students/alice/images --folder photos --width 800
+```
+
+## Updating References After PNG → JPG Conversion
+
+If the script converts any PNG files to JPG, it logs the conversions to `png_to_jpg_conversions.txt`. Run the companion script to point every reference at the new `.jpg` — in pages (`.md`, `.html`), data files (`.yml`, `.json`), and styles and scripts (`.css`, `.scss`, `.js`):
 
 ```bash
 bash scripts/update-image-refs.sh
 ```
 
-After that, review changes carefully:
+It matches by filename, so if a different PNG with the same name still exists elsewhere in the site, it skips that one and tells you to update it by hand rather than guess. Review changes with `git diff` before committing.
 
-```bash
-git diff
-```
+## Troubleshooting
 
-## Course Maintenance Checklist
+**"convert: command not found"**
+- ImageMagick is not installed. Follow installation instructions above.
 
-1. Add or revise student content in `essays/` and `objects/`.
-2. Run the preview command.
-3. Run the optimizer.
-4. If you used `--convert-png`, run `scripts/update-image-refs.sh`.
-5. Preview the site locally and spot-check image-heavy pages.
-6. Commit the optimized images and any updated references.
-7. Delete old backup folders in `scripts/image-backups/` once the site is confirmed.
+**I want to test the script without modifying files**
+- Use preview mode: `bash scripts/optimize-images.sh --preview`
 
-## When to Change Settings
+**Images look blurry after optimization**
+- Restore the original: `cp .image-backups/TIMESTAMP/path/to/image.jpg path/to/image.jpg`, or `git checkout -- path/to/image.jpg`
+- Re-run with higher quality: `bash scripts/optimize-images.sh --quality 90`
 
-Use a larger max edge for images where zooming or close visual inspection matters:
+**Script skipped my images**
+- Images under ~300KB that already fit the size limit are skipped
+- "Already well compressed" means re-compressing would save less than 10%, so the original was kept
+- Images sitting directly in a base folder are only found with `--recursive`
 
-```bash
-bash scripts/optimize-images.sh --base-dir objects --recursive --max-edge 2200
-```
+**I need to restore original images**
+- From the backup: `.image-backups/TIMESTAMP/` mirrors your site's folders
+- From git: `git checkout -- path/to/image.jpg` (or `git checkout HEAD~1 -- ...` after committing)
 
-Use a smaller max edge for purely decorative images:
+**Script fails on Windows**
+- Use Git Bash or Windows Subsystem for Linux (WSL)
 
-```bash
-bash scripts/optimize-images.sh --base-dir assets/images --recursive --max-edge 1400
-```
+## Best Practices
 
-Keep the process simple for students: Markdown and Xanthan site files should remain the source of truth, and generated backups should not become part of the course content.
+1. **Always preview before optimizing** — run `--preview` first, then optimize
+2. **Crop before uploading** — don't upload 4000px images if they display at 800px
+3. **Use the right format:**
+   - JPG: Photos, complex images (smaller file size)
+   - PNG: Graphics, logos, images requiring transparency
+   - SVG: Icons, simple graphics (scalable, tiny file size)
+4. **Run quarterly** — newly-added images will be processed; already-optimized ones are skipped
