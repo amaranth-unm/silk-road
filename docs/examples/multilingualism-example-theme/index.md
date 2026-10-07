@@ -3,7 +3,7 @@ author: student name
 title: "Multilingualism: The Invented Tradition"
 layout: base
 header-image: images/ota-gate-khiva2.jpg
-thumbnail: images/ota-gate-demo-brown.png
+thumbnail: images/ota-gate-demo-brown.jpg
 summary: All along the Silk Road trade network multi-lingual contexts shaped the customs of exchange and travel.
 ---
 
@@ -39,8 +39,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium, nibh v
 Below you'll see a **juxtapose component**—an interactive slider that lets readers compare two images by dragging a handle left and right. Perfect for before/after, then/now, or any two related images.
 
 {% include images/juxtapose.html
-image1="images/ota-gate-demo-brown.png"
-image2="images/ota-gate-demo-gray.png"
+image1="images/ota-gate-demo-brown.jpg"
+image2="images/ota-gate-demo-gray.jpg"
 caption="Two shades of color on the Ota Gate."
 %}
 
@@ -105,7 +105,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec ante ligu
 ### BACKGROUND IMAGE SWITCHES HERE
 
 {% include scrollybox/bg-switch.html
-  image-path="images/ota-gate-demo-brown.png"
+  image-path="images/ota-gate-demo-brown.jpg"
   switch-id="switch1"
   bg-id="bg1"
 %}
@@ -149,9 +149,9 @@ Duis ut dui dolor. Integer eu lectus at tellus accumsan euismod eget a ligula. M
 All Sapling components work in Forest too. Here's a carousel for comparing multiple images:
 
 {% assign images =
-"images/ota-gate-demo-brown.png,
-images/ota-gate-demo-gray.png,
-images/ota-gate-demo-green.png" | split: ','
+"images/ota-gate-demo-brown.jpg,
+images/ota-gate-demo-gray.jpg,
+images/ota-gate-demo-green.jpg" | split: ','
 %}
 
 {% include images/carousel.html

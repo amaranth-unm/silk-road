@@ -3,7 +3,7 @@ author: student name
 title: "Monasteries on the Silk Road Trade Network"
 layout: base
 header-image: images/ota-gate-khiva2.jpg
-thumbnail: images/ota-gate-demo-green.png
+thumbnail: images/ota-gate-demo-green.jpg
 summary: Monasteries were key to the functioning of the Silk Road Trade Network.
 ---
 
@@ -70,9 +70,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat, lacus id
 Below you'll see an **image carousel**—multiple images you can click through. This is perfect when you want readers to compare several images without cluttering the page.
 
 {% assign images =
-"images/ota-gate-demo-brown.png,
-images/ota-gate-demo-gray.png,
-images/ota-gate-demo-green.png" | split: ','
+"images/ota-gate-demo-brown.jpg,
+images/ota-gate-demo-gray.jpg,
+images/ota-gate-demo-green.jpg" | split: ','
 %}
 
 {% include images/carousel.html
