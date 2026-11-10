@@ -51,7 +51,7 @@ reading_paths:
     text: Chess, polo, sport, and competition as evidence of cultural movement.
   - slug: coral-and-carnelian
     title: Adornment
-    image: images/carnelian-header.jpg
+    image: images/two-bracelets.jpg
     text: Jewelry, cosmetics, dress, and the materials that made identity visible.
   - slug: greco-buddhist-art
     title: "Faith & Transformation"
