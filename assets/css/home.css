@@ -363,6 +363,7 @@ count is an authoring decision rather than a CSS edit.
 .home-picks--feature .home-pick img {
   position: absolute;
   inset: 0;
+  height: 100%;
   opacity: 0.7;
 }
 
